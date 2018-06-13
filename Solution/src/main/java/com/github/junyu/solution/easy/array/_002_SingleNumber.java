@@ -1,4 +1,4 @@
-package com.github.junyu.solution.easy;
+package com.github.junyu.solution.easy.array;
 
 
 /**
@@ -18,18 +18,23 @@ public class _002_SingleNumber {
         Output: 1
      */
 
-    public static void main(String[] args) {
-//        int[] arr = {2,2,1};
-//        int[] arr = {1, 2, 2};
-        int[] arr = {4, 1, 2, 1, 2};
-        System.out.println(singleNumber(arr));
-    }
-
+    /**
+     * 使用最高效得位运算，如果存在独立得数，最后得结果就是其本身
+     * @param nums
+     * @return
+     */
     public static int singleNumber(int[] nums) {
         int result = 0;
         for (int num : nums) {
             result = result ^ num;
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+//        int[] arr = {2,2,1};
+//        int[] arr = {1, 2, 2};
+        int[] arr = {4, 1, 2, 1, 2};
+        System.out.println(singleNumber(arr));
     }
 }

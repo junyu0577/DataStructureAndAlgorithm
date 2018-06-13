@@ -1,4 +1,4 @@
-package com.github.junyu.solution.easy;
+package com.github.junyu.solution.easy.array;
 
 import java.util.Arrays;
 
@@ -29,12 +29,15 @@ public class _003_RotateArray {
     rotate 2 steps to the right: [3,99,-1,-100]
     */
 
-    public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7};
-//        int[] arr = {-1};
-        rotate(arr, 2);
-    }
-
+    /**
+     * 思路：首先取模处理skip得数大于数组长度得情况。
+     * 定义一个长度为skip得临时数组存放待旋转得所有元素。
+     * 从skip位置向前遍历，将元素赋值给（当前索引+skip得位置）。
+     * 最后遍历临时数组，将里面得值赋值给原数组
+     *
+     * @param nums
+     * @param k
+     */
     public static void rotate(int[] nums, int k) {
 
         k = k % nums.length;
@@ -55,6 +58,12 @@ public class _003_RotateArray {
 
 
         System.out.println(Arrays.toString(nums));
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7};
+//        int[] arr = {-1};
+        rotate(arr, 2);
     }
 
 }
