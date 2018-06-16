@@ -26,72 +26,50 @@ public class _001_MergeSortedArray {
 
 
     /**
-     * 首先将nums2数组合并到nums1数组，然后使用归并排序
+     * 思路：因为两个数组都是有序的，直接用归并排序的合并逻辑。
+     *
      * @param nums1 数组1
-     * @param m 数组1有效长度
+     * @param m     数组1有效长度
      * @param nums2 数组2
-     * @param n 数组2有效长度
+     * @param n     数组2有效长度
      */
     private static void merge(int[] nums1, int m, int[] nums2, int n) {
-        for (int i = 0; i < n; i++) {
-            nums1[m + i] = nums2[i];
-        }
-        sort(nums1, nums1.length);
-    }
-
-    private static int[] sort(int arr[], int length) {
-        int temp[] = new int[length];
-        return sortMerge(arr, 0, length - 1, temp);
-    }
-
-    private static int[] sortMerge(int arr[], int left, int right, int[] temp) {
-        if (left < right) {
-            int mid = (left + right) / 2;
-            sortMerge(arr, left, mid, temp);
-            sortMerge(arr, mid + 1, right, temp);
-            return finalMerge(arr, left, mid, right, temp);
-        }
-        return null;
-    }
-
-    private static int[] finalMerge(int[] arr, int left, int mid, int right, int[] temp) {
-
-        int i = left;
-        int j = mid + 1;
+        int i = 0;
+        int j = 0;
         int t = 0;
 
-        while (i <= mid && j <= right) {
-            if (arr[i] <= arr[j]) {
-                temp[t++] = arr[i++];
+        int temp[] = new int[m + n];
+
+        while (i < m && j < n) {
+            if (nums1[i] >= nums2[j]) {
+                temp[t++] = nums2[j++];
             } else {
-                temp[t++] = arr[j++];
+                temp[t++] = nums1[i++];
             }
         }
 
-        while (i <= mid) {
-            temp[t++] = arr[i++];
+        while (i < m) {
+            temp[t++] = nums1[i++];
         }
-
-        while (j <= right) {
-            temp[t++] = arr[j++];
+        while (j < n) {
+            temp[t++] = nums2[j++];
         }
 
         t = 0;
-
-        while (left <= right) {
-            arr[left++] = temp[t++];
+        while (t < nums1.length) {
+            nums1[t] = temp[t];
+            t++;
         }
-        return arr;
     }
 
     public static void main(String[] args) {
-        int m = 3,n =3;
-        int[] nums1 = {1, 2, 3, 0, 0, 0};
-        int[] nums2 = {2, 5, 6};
+//        int m = 3, n = 3;
+//        int[] nums1 = {1, 2, 3, 0, 0, 0};
+//        int[] nums2 = {2, 5, 6};
 
-//        int m =0,n =5;
-//        int[] nums1 = {0, 0, 0, 0, 0};
-//        int[] nums2 = {1, 2, 3, 4, 5};
+        int m =0,n =5;
+        int[] nums1 = {0, 0, 0, 0, 0};
+        int[] nums2 = {1, 2, 3, 4, 5};
 
         merge(nums1, m, nums2, n);
         System.out.println(Arrays.toString(nums1));
