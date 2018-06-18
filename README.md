@@ -31,6 +31,7 @@
 |  难度  | 问题 |
 |---|---|
 |  easy | [Merge Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/sort/_001_MergeSortedArray.java) |
+|  easy | [First Bad Version](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/sort/_002_FirstBadVersion.java) |
 
 
 
