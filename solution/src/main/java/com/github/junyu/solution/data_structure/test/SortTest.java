@@ -4,6 +4,8 @@ import com.github.junyu.solution.data_structure.sort.BubbleSort;
 import com.github.junyu.solution.data_structure.sort.InsertionSort;
 import com.github.junyu.solution.data_structure.sort.MergeSort;
 import com.github.junyu.solution.data_structure.sort.QuickSort;
+import com.github.junyu.solution.data_structure.sort.QuickSort2;
+import com.github.junyu.solution.data_structure.sort.QuickSort3;
 import com.github.junyu.solution.data_structure.sort.SelectionSort;
 
 import java.util.Arrays;
@@ -19,21 +21,26 @@ public class SortTest {
 
     public static void main(String[] args) {
 
-        int length = 11;
-        int[] arr = generateArr(length);
-//        int[] arr = generateRandomArr(length, 0, length);
-//        int [] arr1 = Arrays.copyOf(arr,arr.length);
+        int length = 100000;
+//        int[] arr = generateArr(length);
+        int[] arr = generateRandomArr(length, 0, 10);
+        int [] arr1 = Arrays.copyOf(arr,arr.length);
         System.out.println(Arrays.toString(arr));
 
         startAnalyse();
 //        System.out.println(Arrays.toString(InsertionSort.insertionSort(arr, arr.length)));
 //        System.out.println(Arrays.toString(SelectionSort.selectSort(arr, arr.length)));
 //        System.out.println(Arrays.toString(BubbleSort.bubbleSort(arr, arr.length)));
-
-        System.out.println(Arrays.toString(QuickSort.quickSort(arr, arr.length)));
-        costAnalyse();
-//        System.out.println(Arrays.toString(MergeSort.sort(arr, arr.length)));
+//        System.out.println(Arrays.toString(MergeSort.sort(arr1, arr1.length)));
 //        costAnalyse();
+        System.out.println(Arrays.toString(QuickSort3.quickSort(arr1, arr1.length)));
+        costAnalyse();
+        System.out.println(Arrays.toString(QuickSort2.quickSort(arr, arr.length)));
+        costAnalyse();
+//        System.out.println(Arrays.toString(QuickSort.quickSort(arr, arr.length)));
+//        costAnalyse();
+
+
 
     }
 
