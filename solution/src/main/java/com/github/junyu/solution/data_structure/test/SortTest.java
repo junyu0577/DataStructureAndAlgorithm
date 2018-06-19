@@ -13,29 +13,6 @@ public class SortTest {
     private static final boolean isShowLog = false;
     private static final String packageName = "com.github.junyu.solution.data_structure.sort.";
 
-    public static void main(String[] args) {
-
-        int length = 1000000;
-//        int[] arr = generateArr(length);
-        int[] arr = generateRandomArr(length, 0, length);
-        System.out.println(Arrays.toString(arr));
-        int[] arr1 = Arrays.copyOf(arr, arr.length);
-        int[] arr2 = Arrays.copyOf(arr, arr.length);
-        int[] arr3 = Arrays.copyOf(arr, arr.length);
-        int[] arr4 = Arrays.copyOf(arr, arr.length);
-        int[] arr5 = Arrays.copyOf(arr, arr.length);
-        int[] arr6 = Arrays.copyOf(arr, arr.length);
-
-//        testSort(packageName + "SelectionSort", arr);
-//        testSort(packageName + "BubbleSort", arr1);
-//        testSort(packageName + "InsertionSort", arr2);
-
-        testSort(packageName + "MergeSort", arr3);
-        testSort(packageName + "QuickSort", arr4);
-        testSort(packageName + "QuickSort2", arr5);
-        testSort(packageName + "QuickSort3", arr6);
-
-    }
 
     private static int[] generateArr(int length) {
         int[] arr = new int[length];
@@ -44,6 +21,11 @@ public class SortTest {
             length--;
         }
         return arr;
+    }
+
+    private static void printArr(int arr[]) {
+        if (isShowLog)
+            System.out.println(Arrays.toString(arr));
     }
 
     /**
@@ -74,19 +56,53 @@ public class SortTest {
         try {
             Class sortClass = Class.forName(className);
             Method sortMethod = sortClass.getMethod("sort", int[].class, int.class);
+
             long startTime = System.currentTimeMillis();
             sortMethod.invoke(null, arr, arr.length);
-            System.out.println(sortClass.getSimpleName() + " : " + (float) (System.currentTimeMillis() - startTime) / 1000 + "s");
+            long endTime = System.currentTimeMillis();
+
+            isSorted(arr,arr.length);
+
+            System.out.println(sortClass.getSimpleName() + " : " + (float) (endTime - startTime) / 1000 + "s");
             printArr(arr);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    private static void printArr(int arr[]) {
-        if (isShowLog)
-            System.out.println(Arrays.toString(arr));
+    private static void isSorted(int[] arr, int length) {
+        for (int i=0;i<length-1;i++){
+            if (arr[i]>arr[i+1]){
+                throw new RuntimeException("array is not sorted");
+            }
+        }
     }
+
+
+    public static void main(String[] args) {
+
+        int length = 1000000;
+//        int[] arr = generateArr(length);
+        int[] arr = generateRandomArr(length, 0, length);
+        System.out.println(Arrays.toString(arr));
+        int[] arr1 = Arrays.copyOf(arr, arr.length);
+        int[] arr2 = Arrays.copyOf(arr, arr.length);
+        int[] arr3 = Arrays.copyOf(arr, arr.length);
+        int[] arr4 = Arrays.copyOf(arr, arr.length);
+        int[] arr5 = Arrays.copyOf(arr, arr.length);
+        int[] arr6 = Arrays.copyOf(arr, arr.length);
+
+//        testSort(packageName + "SelectionSort", arr);
+//        testSort(packageName + "BubbleSort", arr1);
+//        testSort(packageName + "InsertionSort", arr2);
+
+        testSort(packageName + "MergeSort", arr3);
+        testSort(packageName + "QuickSort", arr4);
+        testSort(packageName + "QuickSort2", arr5);
+        testSort(packageName + "QuickSort3", arr6);
+
+    }
+
 
 
 }
