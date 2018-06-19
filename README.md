@@ -35,6 +35,11 @@
 |  easy | [Merge Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/sort/_001_MergeSortedArray.java) |
 |  easy | [First Bad Version](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/sort/_002_FirstBadVersion.java) |
 
+#### linkedList
+
+|  难度  | 问题 |
+|---|---|
+|  easy | [Delete Node In A Linked List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/linkedList/_001_DeleteNodeInALinkedList.java) |
 
 ### datastructure
 
@@ -52,6 +57,6 @@
 |  [归并排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/MergeSort.java) |  |
 |  [快速排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/QuickSort.java) |  |
 |  [快速排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/QuickSort2.java) | 针对近乎有序的数组，优化后提升稳定性 |
-|  [二路排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/QuickSort3.java) | 针对存在大量重复元素的数组，优化后提升稳定性 |
+|  [二路快速排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/QuickSort3.java) | 针对存在大量重复元素的数组，优化后提升稳定性 |
 
 
