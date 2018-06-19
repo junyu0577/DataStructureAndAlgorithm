@@ -1,13 +1,7 @@
 package com.github.junyu.solution.data_structure.test;
 
-import com.github.junyu.solution.data_structure.sort.BubbleSort;
-import com.github.junyu.solution.data_structure.sort.InsertionSort;
-import com.github.junyu.solution.data_structure.sort.MergeSort;
-import com.github.junyu.solution.data_structure.sort.QuickSort;
-import com.github.junyu.solution.data_structure.sort.QuickSort2;
-import com.github.junyu.solution.data_structure.sort.QuickSort3;
-import com.github.junyu.solution.data_structure.sort.SelectionSort;
 
+import java.lang.reflect.Method;
 import java.util.Arrays;
 
 /**
@@ -16,41 +10,31 @@ import java.util.Arrays;
  */
 public class SortTest {
 
-
-    private static long startTime;
+    private static final boolean isShowLog = false;
+    private static final String packageName = "com.github.junyu.solution.data_structure.sort.";
 
     public static void main(String[] args) {
 
-        int length = 100000;
+        int length = 1000000;
 //        int[] arr = generateArr(length);
-        int[] arr = generateRandomArr(length, 0, 10);
-        int [] arr1 = Arrays.copyOf(arr,arr.length);
+        int[] arr = generateRandomArr(length, 0, length);
         System.out.println(Arrays.toString(arr));
+        int[] arr1 = Arrays.copyOf(arr, arr.length);
+        int[] arr2 = Arrays.copyOf(arr, arr.length);
+        int[] arr3 = Arrays.copyOf(arr, arr.length);
+        int[] arr4 = Arrays.copyOf(arr, arr.length);
+        int[] arr5 = Arrays.copyOf(arr, arr.length);
+        int[] arr6 = Arrays.copyOf(arr, arr.length);
 
-        startAnalyse();
-//        System.out.println(Arrays.toString(InsertionSort.insertionSort(arr, arr.length)));
-//        System.out.println(Arrays.toString(SelectionSort.selectSort(arr, arr.length)));
-//        System.out.println(Arrays.toString(BubbleSort.bubbleSort(arr, arr.length)));
-//        System.out.println(Arrays.toString(MergeSort.sort(arr1, arr1.length)));
-//        costAnalyse();
-        System.out.println(Arrays.toString(QuickSort3.quickSort(arr1, arr1.length)));
-        costAnalyse();
-        System.out.println(Arrays.toString(QuickSort2.quickSort(arr, arr.length)));
-        costAnalyse();
-//        System.out.println(Arrays.toString(QuickSort.quickSort(arr, arr.length)));
-//        costAnalyse();
+//        testSort(packageName + "SelectionSort", arr);
+//        testSort(packageName + "BubbleSort", arr1);
+//        testSort(packageName + "InsertionSort", arr2);
 
+        testSort(packageName + "MergeSort", arr3);
+        testSort(packageName + "QuickSort", arr4);
+        testSort(packageName + "QuickSort2", arr5);
+        testSort(packageName + "QuickSort3", arr6);
 
-
-    }
-
-    private static void startAnalyse() {
-        startTime = System.currentTimeMillis();
-    }
-
-    private static void costAnalyse() {
-        System.err.println("\ncost:" + (float) (System.currentTimeMillis() - startTime) / 1000 + "s");
-        startAnalyse();
     }
 
     private static int[] generateArr(int length) {
@@ -62,7 +46,15 @@ public class SortTest {
         return arr;
     }
 
-    public static int[] generateRandomArr(int n, int min, int max) {
+    /**
+     * 生成随机内容的数组
+     *
+     * @param n   数组长度
+     * @param min 随机最小值
+     * @param max 随机最大值
+     * @return 随机内容的数组
+     */
+    private static int[] generateRandomArr(int n, int min, int max) {
 
         int[] arr = new int[n];
         for (int i = 0; i < n; ++i) {
@@ -70,6 +62,30 @@ public class SortTest {
         }
 
         return arr;
+    }
+
+    /**
+     * 利用反射调用待测试的排序类，并统计消耗的时长
+     *
+     * @param className 类名
+     * @param arr       待排序的数组
+     */
+    private static void testSort(String className, int[] arr) {
+        try {
+            Class sortClass = Class.forName(className);
+            Method sortMethod = sortClass.getMethod("sort", int[].class, int.class);
+            long startTime = System.currentTimeMillis();
+            sortMethod.invoke(null, arr, arr.length);
+            System.out.println(sortClass.getSimpleName() + " : " + (float) (System.currentTimeMillis() - startTime) / 1000 + "s");
+            printArr(arr);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void printArr(int arr[]) {
+        if (isShowLog)
+            System.out.println(Arrays.toString(arr));
     }
 
 

@@ -11,7 +11,7 @@ package com.github.junyu.solution.data_structure.sort;
 public class QuickSort2 {
 
 
-    public static int[] quickSort(int arr[], int n) {
+    public static int[] sort(int arr[], int n) {
         return quickSort(arr, 0, n - 1);
     }
 

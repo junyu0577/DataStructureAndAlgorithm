@@ -8,9 +8,9 @@ package com.github.junyu.solution.data_structure.sort;
  */
 public class SelectionSort {
 
-    public static int[] selectSort(int arr[], int n) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = i + 1; j < arr.length; j++) {
+    public static int[] sort(int arr[], int n) {
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = i + 1; j < n; j++) {
                 if (arr[i] > arr[j]) {
                     int temp = arr[i];
                     arr[i] = arr[j];

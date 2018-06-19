@@ -14,7 +14,7 @@ import java.util.Arrays;
 public class QuickSort3 {
 
 
-    public static int[] quickSort(int arr[], int n) {
+    public static int[] sort(int arr[], int n) {
         return quickSort(arr, 0, n - 1);
     }
 
