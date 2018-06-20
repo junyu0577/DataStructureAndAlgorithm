@@ -61,19 +61,21 @@ public class SortTest {
             sortMethod.invoke(null, arr, arr.length);
             long endTime = System.currentTimeMillis();
 
-            isSorted(arr,arr.length);
+            String sortName = sortClass.getSimpleName();
 
-            System.out.println(sortClass.getSimpleName() + " : " + (float) (endTime - startTime) / 1000 + "s");
+            isSorted(arr, arr.length, sortName);
+
+            System.out.println(sortName + " : " + (float) (endTime - startTime) / 1000 + "s");
             printArr(arr);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    private static void isSorted(int[] arr, int length) {
-        for (int i=0;i<length-1;i++){
-            if (arr[i]>arr[i+1]){
-                throw new RuntimeException("array is not sorted");
+    private static void isSorted(int[] arr, int length, String sortName) {
+        for (int i = 0; i < length - 1; i++) {
+            if (arr[i] > arr[i + 1]) {
+                throw new RuntimeException(sortName + " : " + "array is not sorted");
             }
         }
     }
@@ -81,7 +83,7 @@ public class SortTest {
 
     public static void main(String[] args) {
 
-        int length = 1000000;
+        int length = 60000;
 //        int[] arr = generateArr(length);
         int[] arr = generateRandomArr(length, 0, length);
         System.out.println(Arrays.toString(arr));
@@ -91,18 +93,18 @@ public class SortTest {
         int[] arr4 = Arrays.copyOf(arr, arr.length);
         int[] arr5 = Arrays.copyOf(arr, arr.length);
         int[] arr6 = Arrays.copyOf(arr, arr.length);
+        int[] arr7 = Arrays.copyOf(arr, arr.length);
 
-//        testSort(packageName + "SelectionSort", arr);
-//        testSort(packageName + "BubbleSort", arr1);
-//        testSort(packageName + "InsertionSort", arr2);
+        testSort(packageName + "InsertionSort", arr2);
+        testSort(packageName + "InsertionSort2", arr7);
+        testSort(packageName + "SelectionSort", arr);
+        testSort(packageName + "BubbleSort", arr1);
 
-        testSort(packageName + "MergeSort", arr3);
-        testSort(packageName + "QuickSort", arr4);
-        testSort(packageName + "QuickSort2", arr5);
-        testSort(packageName + "QuickSort3", arr6);
-
+//        testSort(packageName + "MergeSort", arr3);
+//        testSort(packageName + "QuickSort", arr4);
+//        testSort(packageName + "QuickSort2", arr5);
+//        testSort(packageName + "QuickSort3", arr6);
     }
-
 
 
 }

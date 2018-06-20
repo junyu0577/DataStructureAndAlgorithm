@@ -50,6 +50,7 @@
 |  [选择排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/SelectionSort.java) |  |
 |  [冒泡排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/BubbleSort.java) |  |
 |  [插入排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/InsertionSort.java) |  |
+|  [插入排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/InsertionSort2.java) | 通过减少交换的操作,提升效率 |
 
 ##### 1.2 高级排序
 |  名称  | 描述 |
