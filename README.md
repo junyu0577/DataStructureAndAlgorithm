@@ -55,6 +55,7 @@
 ##### 1.2 高级排序
 |  名称  | 描述 |
 |---|---|
+|  [希尔排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/ShellSort.java) | 强化版的插入排序 |
 |  [归并排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/MergeSort.java) |  |
 |  [快速排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/QuickSort.java) |  |
 |  [快速排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/QuickSort2.java) | 针对近乎有序的数组，优化后提升稳定性 |
