@@ -47,6 +47,26 @@ public class SortTest {
     }
 
     /**
+     * 生成几乎有序的数组
+     *
+     * @param n     数组长度
+     * @param count 数组中交换次数
+     * @return 数组
+     */
+    private static int[] generateNearlyArr(int n, int count) {
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = i;
+        }
+        for (int i = 0; i < count; i++) {
+            int left = (int) (Math.random() * n);
+            int right = (int) (Math.random() * n);
+            swap(arr, left, right);
+        }
+        return arr;
+    }
+
+    /**
      * 利用反射调用待测试的排序类，并统计消耗的时长
      *
      * @param className 类名
@@ -65,7 +85,7 @@ public class SortTest {
 
             isSorted(arr, arr.length, sortName);
 
-            System.out.println(sortName + " : " + (float) (endTime - startTime) / 1000 + "s");
+            System.out.println(sortName + " : " + (double) (endTime - startTime) / 1000 + "s");
             printArr(arr);
         } catch (Exception e) {
             e.printStackTrace();
@@ -80,12 +100,19 @@ public class SortTest {
         }
     }
 
+    private static void swap(int arr[], int left, int right) {
+        int temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
+    }
+
 
     public static void main(String[] args) {
 
-        int length = 2000000;
+        int length = 1000001;
 //        int[] arr = generateArr(length);
-        int[] arr = generateRandomArr(length, 0, length);
+//        int[] arr = generateRandomArr(length, 0, length);
+        int[] arr = generateNearlyArr(length, 1);
         System.out.println(Arrays.toString(arr));
         int[] arr1 = Arrays.copyOf(arr, arr.length);
         int[] arr2 = Arrays.copyOf(arr, arr.length);
@@ -95,17 +122,19 @@ public class SortTest {
         int[] arr6 = Arrays.copyOf(arr, arr.length);
         int[] arr7 = Arrays.copyOf(arr, arr.length);
         int[] arr8 = Arrays.copyOf(arr, arr.length);
+        int[] arr9 = Arrays.copyOf(arr, arr.length);
 
 //        testSort(packageName + "InsertionSort", arr2);
-//        testSort(packageName + "InsertionSort2", arr7);
+        testSort(packageName + "InsertionSort2", arr7);
 //        testSort(packageName + "SelectionSort", arr);
 //        testSort(packageName + "BubbleSort", arr1);
 
         testSort(packageName + "ShellSort", arr8);
         testSort(packageName + "MergeSort", arr3);
-        testSort(packageName + "QuickSort", arr4);
-        testSort(packageName + "QuickSort2", arr5);
-        testSort(packageName + "QuickSort3", arr6);
+        testSort(packageName + "MergeSort2", arr9);
+//        testSort(packageName + "QuickSort", arr4);
+//        testSort(packageName + "QuickSort2", arr5);
+//        testSort(packageName + "QuickSort3", arr6);
     }
 
 

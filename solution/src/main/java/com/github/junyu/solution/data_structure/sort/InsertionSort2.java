@@ -16,7 +16,7 @@ public class InsertionSort2 {
         for (int i = 0; i < n - 1; i++) {
             int value = arr[i + 1];
             int j = i + 1;
-            for (;j > 0 && value < arr[j - 1]; j--) {
+            for (; j > 0 && value < arr[j - 1]; j--) {
                 arr[j] = arr[j - 1];
             }
             arr[j] = value;
@@ -31,5 +31,26 @@ public class InsertionSort2 {
     }
 
     public static void main(String[] args) {
+    }
+
+
+    /**
+     * 对数组指定区域的元素进行插入排序
+     *
+     * @param arr
+     * @param left
+     * @param right
+     * @return
+     */
+    public static int[] sort(int arr[], int left, int right) {
+        for (int i = left; i <= right; i++) {
+            int value = arr[i + 1];
+            int j = i + 1;
+            for (; j > 0 && value < arr[j - 1]; j--) {
+                arr[j] = arr[j - 1];
+            }
+            arr[j] = value;
+        }
+        return arr;
     }
 }

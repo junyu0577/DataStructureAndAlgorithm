@@ -54,19 +54,21 @@ public class _010_RotateImage {
 
     public static void rotate(int[][] matrix) {
 // [3,0] [0,0] - [ 2,0][0,1] -  [1,0][0,2] -[0,0] [0,3]
-        int x, y;
+        int x;
         int size = matrix.length;
-
-        int arr [][] = new int[matrix.length][matrix.length];
+        int [][] arr = new int[size][size];
+        for (int i =0;i<matrix.length;i++){
+            for (int j = 0;j<matrix.length;j++){
+                arr[i][j] = matrix[i][j];
+            }
+        }
 
         for (int i = 0; i < size; i++) {
             x = size-1;
-            y = 0;
             for (int j = 0; j < size; j++) {
                 System.out.println(matrix[i][j]);
-                arr[i][j] = matrix[x][i];
+                matrix[i][j] = arr[x][i];
                 x--;
-                y++;
             }
         }
     }
