@@ -27,6 +27,8 @@
 |  easy | [Longest Common Prefix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/string/_005_LongestCommonPrefix.java) |
 |  easy | [Valid Palindrome](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/string/_006_ValidPalindrome.java) |
 |  easy | [String To Integer atoi](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/string/_007_StringToInteger_atoi.java) |
+|  easy | [Implement strStr](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/string/_008_Implement_strStr.java) |
+|  easy | [CountAndSay](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/string/_009_CountAndSay.java) |
 
 #### sort
 
