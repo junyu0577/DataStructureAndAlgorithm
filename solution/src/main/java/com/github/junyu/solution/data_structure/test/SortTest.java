@@ -112,7 +112,7 @@ public class SortTest {
         int length = 1000000;
 //        int[] arr = generateArr(length);
 //        int[] arr = generateRandomArr(length, 0, length);
-        int[] arr = generateNearlyArr(length, 1);
+        int[] arr = generateNearlyArr(length, 2);
         System.out.println(Arrays.toString(arr));
         int[] arr1 = Arrays.copyOf(arr, arr.length);
         int[] arr2 = Arrays.copyOf(arr, arr.length);
@@ -124,7 +124,7 @@ public class SortTest {
         int[] arr8 = Arrays.copyOf(arr, arr.length);
         int[] arr9 = Arrays.copyOf(arr, arr.length);
 
-//        testSort(packageName + "InsertionSort", arr2);
+        testSort(packageName + "InsertionSort", arr2);
         testSort(packageName + "InsertionSort2", arr7);
 //        testSort(packageName + "SelectionSort", arr);
 //        testSort(packageName + "BubbleSort", arr1);

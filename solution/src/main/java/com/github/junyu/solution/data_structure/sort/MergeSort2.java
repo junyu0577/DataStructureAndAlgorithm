@@ -20,13 +20,13 @@ public class MergeSort2 {
 
     private static int[] sort(int[] arr, int left, int right, int[] temp) {
 
-//        if (right - left <= 15) {
-//            return InsertionSort2.sort(arr, left, right);
-//        }
-
-        if (left >= right) {
-            return null;
+        if (right - left <= 15) {
+            return InsertionSort2.sort(arr, left, right);
         }
+
+//        if (left >= right) {
+//            return null;
+//        }
 
         int mid = (left + right) / 2;
         sort(arr, left, mid, temp);//拆分

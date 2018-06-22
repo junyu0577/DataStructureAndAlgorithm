@@ -46,7 +46,7 @@ public class InsertionSort2 {
         for (int i = left; i < right; i++) {
             int value = arr[i + 1];
             int j = i + 1;
-            for (; j > 0 && value < arr[j - 1]; j--) {
+            for (; j > left && value < arr[j - 1]; j--) {
                 arr[j] = arr[j - 1];
             }
             arr[j] = value;
