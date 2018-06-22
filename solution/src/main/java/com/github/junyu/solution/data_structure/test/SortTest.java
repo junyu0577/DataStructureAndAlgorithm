@@ -109,7 +109,7 @@ public class SortTest {
 
     public static void main(String[] args) {
 
-        int length = 1000001;
+        int length = 1000000;
 //        int[] arr = generateArr(length);
 //        int[] arr = generateRandomArr(length, 0, length);
         int[] arr = generateNearlyArr(length, 1);
@@ -129,12 +129,17 @@ public class SortTest {
 //        testSort(packageName + "SelectionSort", arr);
 //        testSort(packageName + "BubbleSort", arr1);
 
-        testSort(packageName + "ShellSort", arr8);
+
+
+
+//        testSort(packageName + "ShellSort", arr8);
         testSort(packageName + "MergeSort", arr3);
         testSort(packageName + "MergeSort2", arr9);
 //        testSort(packageName + "QuickSort", arr4);
 //        testSort(packageName + "QuickSort2", arr5);
 //        testSort(packageName + "QuickSort3", arr6);
+
+
     }
 
 

@@ -43,7 +43,7 @@ public class InsertionSort2 {
      * @return
      */
     public static int[] sort(int arr[], int left, int right) {
-        for (int i = left; i <= right; i++) {
+        for (int i = left; i < right; i++) {
             int value = arr[i + 1];
             int j = i + 1;
             for (; j > 0 && value < arr[j - 1]; j--) {
