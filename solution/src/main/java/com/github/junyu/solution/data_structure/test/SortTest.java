@@ -109,10 +109,10 @@ public class SortTest {
 
     public static void main(String[] args) {
 
-        int length = 1000000;
+        int length = 1000001;
 //        int[] arr = generateArr(length);
-//        int[] arr = generateRandomArr(length, 0, length);
-        int[] arr = generateNearlyArr(length, 2);
+        int[] arr = generateRandomArr(length, 0, length);
+//        int[] arr = generateNearlyArr(length, 10);
         System.out.println(Arrays.toString(arr));
         int[] arr1 = Arrays.copyOf(arr, arr.length);
         int[] arr2 = Arrays.copyOf(arr, arr.length);
@@ -123,9 +123,11 @@ public class SortTest {
         int[] arr7 = Arrays.copyOf(arr, arr.length);
         int[] arr8 = Arrays.copyOf(arr, arr.length);
         int[] arr9 = Arrays.copyOf(arr, arr.length);
+        int[] arr10 = Arrays.copyOf(arr, arr.length);
+        int[] arr11 = Arrays.copyOf(arr, arr.length);
 
-        testSort(packageName + "InsertionSort", arr2);
-        testSort(packageName + "InsertionSort2", arr7);
+//        testSort(packageName + "InsertionSort", arr2);
+//        testSort(packageName + "InsertionSort2", arr7);
 //        testSort(packageName + "SelectionSort", arr);
 //        testSort(packageName + "BubbleSort", arr1);
 
@@ -133,8 +135,10 @@ public class SortTest {
 
 
 //        testSort(packageName + "ShellSort", arr8);
-        testSort(packageName + "MergeSort", arr3);
+//        testSort(packageName + "MergeSort", arr3);
         testSort(packageName + "MergeSort2", arr9);
+        testSort(packageName + "MergeSortBU", arr10);
+        testSort(packageName + "HeapSort", arr11);
 //        testSort(packageName + "QuickSort", arr4);
 //        testSort(packageName + "QuickSort2", arr5);
 //        testSort(packageName + "QuickSort3", arr6);

@@ -60,8 +60,14 @@
 |  [希尔排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/ShellSort.java) | 强化版的插入排序 |
 |  [归并排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/MergeSort.java) |  |
 |  [归并排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/MergeSort2.java) | 针对近乎有序的数组，通过减少merge操作以及当元素的数量少于等于16个时使用插入排序 |
+|  [归并排序BU](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/MergeSortBU.java) | 改递归为遍历，自底向上进行归并 |
 |  [快速排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/QuickSort.java) |  |
 |  [快速排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/QuickSort2.java) | 针对近乎有序的数组，优化后提升稳定性 |
 |  [二路快速排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/QuickSort3.java) | 针对存在大量重复元素的数组，优化后提升稳定性 |
+|  [堆排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/HeapSort.java) |  |
 
+#### 2.堆
+|  名称  | 描述 |
+|---|---|
+|  [最大堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/heap/MaxHeap.java) |  |
 
