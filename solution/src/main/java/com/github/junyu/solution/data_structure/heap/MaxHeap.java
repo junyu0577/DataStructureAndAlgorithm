@@ -18,6 +18,25 @@ public class MaxHeap {
         count = 0;
     }
 
+    /**
+     * 数组建堆,通过shiftDown保证完全二叉的的特性
+     *
+     * @param arr
+     * @param length
+     */
+    public MaxHeap(int arr[], int length) {
+        data = new int[length + 1];
+
+        for (int i = 0; i < length; i++) {
+            data[i + 1] = arr[i];
+        }
+        count = length;
+
+        for (int i = count / 2; i >= 1; i--) {
+            shiftDown(i);
+        }
+    }
+
     public int size() {
         return count;
     }
