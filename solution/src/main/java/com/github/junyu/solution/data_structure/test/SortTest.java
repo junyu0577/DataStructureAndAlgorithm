@@ -111,7 +111,7 @@ public class SortTest {
 
     public static void main(String[] args) {
 
-        int length = 100009;
+        int length = 100008;
 //        int[] arr = generateArr(length);
         int[] arr = generateRandomArr(length, 0, 10);
 //        int[] arr = generateNearlyArr(length, 10);
@@ -140,13 +140,13 @@ public class SortTest {
 //        testSort(packageName + "MergeSort", arr3);
 //        testSort(packageName + "MergeSort2", arr9);
 //        testSort(packageName + "MergeSortBU", arr10);
-//        testSort(packageName + "HeapSort", arr11);
-//        testSort(packageName + "HeapSort2", arr12);
-//        testSort(packageName + "HeapSort3", arr13);
+        testSort(packageName + "HeapSort", arr11);
+        testSort(packageName + "HeapSort2", arr12);
+        testSort(packageName + "HeapSort3", arr13);
 //        testSort(packageName + "QuickSort", arr4);
-        testSort(packageName + "QuickSort2", arr5);
-        testSort(packageName + "QuickSort3", arr6);
-        testSort(packageName + "QuickSort4", arr14);
+//        testSort(packageName + "QuickSort2", arr5);
+//        testSort(packageName + "QuickSort3", arr6);
+//        testSort(packageName + "QuickSort4", arr14);
 
 
     }

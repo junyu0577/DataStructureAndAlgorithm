@@ -73,4 +73,5 @@
 |  名称  | 描述 |
 |---|---|
 |  [最大堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/heap/MaxHeap.java) |  |
+|  [最大索引堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/heap/MaxIndexHeap.java) | 通过增加索引数组，避免直接对数据进行交换操作 |
 

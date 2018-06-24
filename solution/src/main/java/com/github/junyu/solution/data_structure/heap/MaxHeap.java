@@ -94,8 +94,8 @@ public class MaxHeap {
 
         int value = data[1];
         data[1] = data[count];
-        shiftDown(1);
         count--;
+        shiftDown(1);
 
         return value;
 
