@@ -79,6 +79,7 @@
 |  名称  | 描述 |
 |  [二分查找](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/Binary_Search.java) |  |
 |  [二分搜索树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/BST.java) |  |
+|  [二分搜索树遍历](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/BST_Order.java) | 深度优先（前中后序遍历）、广度优先(层序遍历) |
 
 
 
