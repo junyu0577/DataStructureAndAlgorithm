@@ -176,51 +176,6 @@ public class BST_Order {
         }
     }
 
-    /**
-     * 删除最大值
-     *
-     * @return
-     */
-    public void removeMaximum() {
-        if (root != null) {
-            root = removeMaximum(root);
-        }
-    }
-
-    /**
-     * 删除最小值
-     *
-     * @return
-     */
-    public void removeMinimum() {
-        if (root != null) {
-            root = removeMinimum(root);
-        }
-    }
-
-    private Node removeMinimum(Node node) {
-        if (node.leftChild == null) {
-            Node rightNode = node.rightChild;
-            node.rightChild = null;
-            count--;
-            return rightNode;
-        }
-        node.leftChild = removeMinimum(node.leftChild);
-        return node;
-    }
-
-    private Node removeMaximum(Node node) {
-        if (node.rightChild == null) {
-            Node leftNode = node.leftChild;
-            node.leftChild = null;
-            count--;
-            return leftNode;
-        }
-        node.rightChild = removeMaximum(node.rightChild);
-        return node;
-    }
-
-
     public static void main(String[] args) {
         BST_Order bst = new BST_Order();
 //        for (int i = 0; i < 10; i++) {
@@ -233,36 +188,9 @@ public class BST_Order {
         bst.insert(6, String.valueOf("6"));
         bst.insert(100, String.valueOf("100"));
 
-
 //        bst.destroy();
-
-//        testRemoveMaxNode(bst);
-        testRemoveMinNode(bst);
+        bst.levelOrder();
 
         System.out.println("size:" + bst.size());
-    }
-
-    /**
-     * 测试删除最大的节点
-     *
-     * @param bst
-     */
-    private static void testRemoveMaxNode(BST_Order bst) {
-        bst.levelOrder();
-        bst.removeMaximum();
-        System.out.println("---------");
-        bst.levelOrder();
-    }
-
-    /**
-     * 测试删除最小的节点
-     *
-     * @param bst
-     */
-    private static void testRemoveMinNode(BST_Order bst) {
-        bst.levelOrder();
-        bst.removeMinimum();
-        System.out.println("---------");
-        bst.levelOrder();
     }
 }
