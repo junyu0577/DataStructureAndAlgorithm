@@ -6,10 +6,11 @@ import java.util.Queue;
 /**
  * 二分搜索树节点的删除
  * 删除最大值、最小值以及任意节点（Hibbard Deletion）
+ * 时间复杂度为0(logn)
  *
  * @author ShaoJunyu
  * @version $Id$
- * @since 2018-06-28 22:01
+ * @since 2018年7月13日 17点04分
  */
 public class BST_Delete {
 
@@ -241,6 +242,7 @@ public class BST_Delete {
     public void removeNode(int key) {
         if (root != null) {
             root = removeNode(root, key);
+//            root = removeNodeByFindMaximum(root, key);
         }
     }
 
@@ -266,6 +268,13 @@ public class BST_Delete {
         return node;
     }
 
+    /**
+     * 从右子树中寻找最小值去代替要删除的节点
+     *
+     * @param node
+     * @param key
+     * @return
+     */
     private Node removeNode(Node node, int key) {
 
         if (node == null) {
@@ -296,6 +305,46 @@ public class BST_Delete {
                 minNode.rightChild = removeMinimum(node.rightChild);
                 node.leftChild = node.rightChild = null;
                 return minNode;
+            }
+        }
+    }
+
+    /**
+     * 从左子树中找到 最大的节点去替代要删除的节点
+     * @param node
+     * @param key
+     * @return
+     */
+    private Node removeNodeByFindMaximum(Node node, int key) {
+
+        if (node == null) {
+            return null;
+        }
+
+        if (key > node.key) {
+            node.rightChild = removeNodeByFindMaximum(node.rightChild, key);
+            return node;
+        } else if (key < node.key) {
+            node.leftChild = removeNodeByFindMaximum(node.leftChild, key);
+            return node;
+        } else {
+            if (node.leftChild == null) {
+                Node right = node.rightChild;
+                node.rightChild = null;
+                count--;
+                return right;
+            } else if (node.rightChild == null) {
+                Node left = node.leftChild;
+                node.leftChild = null;
+                count--;
+                return left;
+            } else {
+                //从左子树中找到 最大的节点去替代要删除的节点
+                Node maxNode = new Node(maximum(node.leftChild));
+                maxNode.leftChild = removeMaximum(node.leftChild);
+                maxNode.rightChild = node.rightChild;
+                node.leftChild = node.rightChild = null;
+                return maxNode;
             }
         }
     }
