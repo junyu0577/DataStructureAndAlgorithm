@@ -83,5 +83,7 @@
 |  [二分搜索树遍历](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/BST_Order.java) | 深度优先（前中后序遍历）、广度优先(层序遍历) |
 |  [二分搜索树删除](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/BST_Delete.java) | Hibbard Deletion |
 
-
-
+#### 4.并查集
+|  名称  | 描述 |
+|---|---|
+|  [并查集](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/union_find/UnionFind.java) | 基础版，union和isConnected时间复杂度分别为0(n) 和 O(1) |
