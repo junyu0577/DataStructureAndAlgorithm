@@ -86,4 +86,5 @@
 #### 4.并查集
 |  名称  | 描述 |
 |---|---|
-|  [并查集](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/union_find/UnionFind.java) | 基础版，union和isConnected时间复杂度分别为0(n) 和 O(1) |
+|  [并查集](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/union_find/UnionFind.java) | QUICK FIND，union和isConnected时间复杂度分别为0(n) 和 O(1) |
+|  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/union_find/UnionFind2.java) | QUICK UNION，提升union过程的效率 |
