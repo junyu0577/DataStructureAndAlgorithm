@@ -60,7 +60,9 @@ public class UnionFindTest {
         int N = 1000000;
 //        testUnionFind(PACKAGENAME + "UnionFind",  N );
 //        testUnionFind(PACKAGENAME + "UnionFind2",  N );
-        testUnionFind(PACKAGENAME + "UnionFind3",  N );
-        testUnionFind(PACKAGENAME + "UnionFind4",  N );
+//        testUnionFind(PACKAGENAME + "UnionFind3",  N );
+//        testUnionFind(PACKAGENAME + "UnionFind4",  N );
+        testUnionFind(PACKAGENAME + "UnionFind5",  N );
+        testUnionFind(PACKAGENAME + "UnionFind6",  N );
     }
 }

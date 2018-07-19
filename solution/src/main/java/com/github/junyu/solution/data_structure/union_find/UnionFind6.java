@@ -1,17 +1,17 @@
 package com.github.junyu.solution.data_structure.union_find;
 
 /**
- * 并查集,基于rank优化，定义一个ranks数组，ranks[i]存放的是根节点为1的树的高度
- * 每次union前先判断一下哪边的树的高度比较低，然后将高度比较高的一方指向高度低的一方
+ * 并查集,路径压缩，find时通过递归将遍历过的元素都指向根节点，使树的深度
+ * 更低
  *
  * @author ShaoJunyu
  */
-public class UnionFind4 {
+public class UnionFind6 {
     private int parents[];
     private int ranks[];
     private int count;
 
-    public UnionFind4(int size) {
+    public UnionFind6(int size) {
         count = size;
         parents = new int[size];
         ranks = new int[size];
@@ -30,10 +30,11 @@ public class UnionFind4 {
     public int find(int p) {
         if (p < 0 || p > count)
             throw new RuntimeException("IndexOutOfBoundsException");
-        while (p != parents[p]) {
-            p = parents[p];
+
+        if (p != parents[p]) {
+            parents[p] = find(parents[p]);
         }
-        return p;
+        return parents[p];
     }
 
     /**
@@ -57,11 +58,11 @@ public class UnionFind4 {
 
         if (ranks[rootP] > ranks[rootQ]) {
             parents[rootQ] = rootP;
-        } else if(ranks[rootP] < ranks[rootQ]){
+        } else if (ranks[rootP] < ranks[rootQ]) {
             parents[rootP] = rootQ;
         } else {
             parents[rootP] = rootQ;
-            ranks[rootQ] ++;
+            ranks[rootQ]++;
         }
 
 
