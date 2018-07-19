@@ -57,9 +57,10 @@ public class UnionFindTest {
 
 
     public static void main(String[] args) {
-        int N = 100000;
-        testUnionFind(PACKAGENAME + "UnionFind",  N );
-        testUnionFind(PACKAGENAME + "UnionFind2",  N );
+        int N = 1000000;
+//        testUnionFind(PACKAGENAME + "UnionFind",  N );
+//        testUnionFind(PACKAGENAME + "UnionFind2",  N );
         testUnionFind(PACKAGENAME + "UnionFind3",  N );
+        testUnionFind(PACKAGENAME + "UnionFind4",  N );
     }
 }

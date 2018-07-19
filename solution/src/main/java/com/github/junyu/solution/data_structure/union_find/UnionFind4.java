@@ -1,24 +1,23 @@
 package com.github.junyu.solution.data_structure.union_find;
 
-
 /**
- * 并查集,基于size的优化，定义一个sizes数组，sizes[i]存放的是以i为根的元素的个数
- * 每次union前先判断一下哪边的元素个数越少，然后将个数少的一方指向个数多的一方的根
+ * 并查集,基于rank优化，定义一个ranks数组，ranks[i]存放的是根节点为1的树的高度
+ * 每次union前先判断一下哪边的树的高度比较低，然后将个数少的一方指向个数多的一方的根
  *
  * @author ShaoJunyu
  */
-public class UnionFind3 {
+public class UnionFind4 {
     private int parents[];
-    private int sizes[];
+    private int ranks[];
     private int count;
 
-    public UnionFind3(int size) {
+    public UnionFind4(int size) {
         count = size;
         parents = new int[size];
-        sizes = new int[size];
+        ranks = new int[size];
         for (int i = 0; i < size; i++) {
             parents[i] = i;
-            sizes[i] = 1;
+            ranks[i] = 1;
         }
     }
 
@@ -56,12 +55,13 @@ public class UnionFind3 {
         if (rootP == rootQ)
             return;
 
-        if (sizes[rootP] > sizes[rootQ]) {
+        if (ranks[rootP] > ranks[rootQ]) {
             parents[rootQ] = rootP;
-            sizes[rootP] += sizes[rootQ];
+        } else if(ranks[rootP] < ranks[rootQ]){
+            parents[rootP] = rootQ;
         } else {
             parents[rootP] = rootQ;
-            sizes[rootQ] += sizes[rootP];
+            ranks[rootQ] ++;
         }
 
 
