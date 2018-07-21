@@ -17,8 +17,8 @@ public class GraphTest {
     public static void main(String[] args) {
         int N = 10;
         int M = 10;
-        testDenseGraph(N,M);
-//        testSparseGraph(N, M);
+//        testDenseGraph(N,M);
+        testSparseGraph(N, M);
 
     }
 
@@ -32,6 +32,7 @@ public class GraphTest {
         }
         loop(sparseGraph, n);
         System.out.println("edges:" + sparseGraph.edges());
+        sparseGraph.show();
     }
 
     private static void loop(SparseGraph sparseGraph, int n) {
@@ -53,6 +54,7 @@ public class GraphTest {
             denseGraph.addEdge(a, b);
         }
         loop(denseGraph, n);
+        denseGraph.show();
     }
 
     private static void loop(DenseGraph denseGraph, int n) {

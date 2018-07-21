@@ -68,9 +68,20 @@ public class SparseGraph {
 
     /**
      * 返回图中x顶点所有的邻边
+     *
      * @return
      */
     public Iterable<Integer> adj(int x) {
         return graph[x];
+    }
+
+    public void show() {
+        for (int i = 0; i < n; i++) {
+            System.out.print(i + ":\t");
+            for (int j = 0; j < graph[i].size(); j++) {
+                System.out.print(graph[i].elementAt(j) + "\t");
+            }
+            System.out.println();
+        }
     }
 }
