@@ -66,7 +66,11 @@ public class SparseGraph {
         return false;
     }
 
-    public Vector<Integer>[] getGraph() {
-        return graph;
+    /**
+     * 返回图中x顶点所有的邻边
+     * @return
+     */
+    public Iterable<Integer> adj(int x) {
+        return graph[x];
     }
 }

@@ -1,6 +1,8 @@
 package com.github.junyu.solution.data_structure.graph;
 
 
+import java.util.Vector;
+
 /**
  * 稠密图-邻接矩阵
  *
@@ -62,8 +64,17 @@ public class DenseGraph {
         return graph[x][y];
     }
 
-    public boolean [][] getGraph(){
-        return graph;
+    /**
+     * 返回图中x顶点所有的邻边
+     * @return
+     */
+    public Iterable<Integer> adj(int x){
+        Vector<Integer> vector = new Vector<>();
+        for (int i=0;i<n;i++){
+            if (graph[x][i])
+                vector.add(i);
+        }
+        return vector;
     }
 
 }
