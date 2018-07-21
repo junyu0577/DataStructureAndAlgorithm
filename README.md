@@ -105,3 +105,4 @@
 |  名称  | 描述 |
 |---|---|
 |  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/DenseGraph.java) | 邻接矩阵 |
+|  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/SparseGraph.java) | 邻接表 |

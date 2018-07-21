@@ -1,26 +1,30 @@
 package com.github.junyu.solution.data_structure.graph;
 
+import java.util.Vector;
 
 /**
- * 稠密图-邻接矩阵
+ * 稀疏图-邻接表
  *
  * @author ShaoJunyu
  * @version $Id$
- * @since 2018/7/21 20:18
+ * @since 2018/7/21 20:47
  */
-public class DenseGraph {
+public class SparseGraph {
     private int n;//节点数
     private int m; //边数
     private boolean directed;//是否具有方向
 
-    private boolean[][] graph;
+    private Vector<Integer>[] graph;
 
-    public DenseGraph(int n, boolean directed) {
+    public SparseGraph(int n, boolean directed) {
         this.n = n;
         this.m = 0;
         this.directed = directed;
 
-        graph = new boolean[n][n];
+        graph = (Vector<Integer>[]) new Vector[n];
+        for (int i = 0; i < graph.length; i++) {
+            graph[i] = new Vector<>();
+        }
     }
 
     /**
@@ -46,26 +50,23 @@ public class DenseGraph {
             throw new RuntimeException("IndexOutOfBoundsException");
         }
 
-        if (hasEdge(x, y))
-            return;
-
-        graph[x][y] = true;
-        if (!directed) {
-            graph[y][x] = true;
-        }
+        graph[x].add(y);
+        if (!directed && x != y)//如果是自环边就不需要再添加
+            graph[y].add(x);
 
         m++;
     }
 
     //验证是否含有从x到y的边
     private boolean hasEdge(int x, int y) {
-        return graph[x][y];
+        for (int i = 0; i < graph[x].size(); i++) {
+            if (graph[x].elementAt(i) == y)
+                return true;
+        }
+        return false;
     }
 
-    public boolean [][] getGraph(){
+    public Vector<Integer>[] getGraph() {
         return graph;
     }
-
 }
-
-
