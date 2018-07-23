@@ -8,11 +8,12 @@
   * [Sort](#sort)
   * [LinkedList](#linkedlist)
 * [DataStructure](#datastructure)
- 
-<br>
-
-
-
+   * [基础排序](#基础排序)
+   * [高级排序](#高级排序)
+   * [堆](#堆)
+   * [二分搜索树](#二分搜索树)
+   * [并查集](#并查集)
+   * [图](#图)
 
 
 ### LeetCode
@@ -61,7 +62,7 @@
 ### datastructure
 
 #### 1.排序
-##### 1.1 基础排序
+##### 基础排序
 |  名称  | 描述 |
 |---|---|
 |  [选择排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/SelectionSort.java) |  |
@@ -69,7 +70,7 @@
 |  [插入排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/InsertionSort.java) |  |
 |  [插入排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/InsertionSort2.java) | 通过减少交换的操作,提升效率 |
 
-##### 1.2 高级排序
+##### 高级排序
 |  名称  | 描述 |
 |---|---|
 |  [希尔排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/ShellSort.java) | 强化版的插入排序 |
@@ -84,13 +85,13 @@
 |  [堆排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/HeapSort2.java) | 通过Heapify数组建堆代替原先的insert逐个插入 |
 |  [原地堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/HeapSort3.java) | 没有开辟新的数组空间，直接在原来的数组上进行堆排 |
 
-#### 2.堆
+#### 堆
 |  名称  | 描述 |
 |---|---|
 |  [最大堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/heap/MaxHeap.java) |  |
 |  [最大索引堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/heap/MaxIndexHeap.java) | 通过增加索引数组，避免直接对数据进行交换操作 |
 
-#### 3.二分搜索树
+#### 二分搜索树
 |  名称  | 描述 |
 |---|---|
 |  [二分查找](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/Binary_Search.java) |  |
@@ -98,7 +99,7 @@
 |  [二分搜索树遍历](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/BST_Order.java) | 深度优先（前中后序遍历）、广度优先(层序遍历) |
 |  [二分搜索树删除](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/BST_Delete.java) | Hibbard Deletion |
 
-#### 4.并查集
+#### 并查集
 |  名称  | 描述 |
 |---|---|
 |  [并查集](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/union_find/UnionFind.java) | QUICK FIND，union和isConnected时间复杂度分别为O(n) 和 O(1) |
@@ -108,7 +109,7 @@
 |  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/union_find/UnionFind5.java) | 路径压缩 (Path Compression) |
 |  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/union_find/UnionFind6.java) | 路径压缩 (Path Compression) 递归方式|
 
-#### 5.图
+#### 图
 |  名称  | 描述 |
 |---|---|
 |  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/DenseGraph.java) | 邻接矩阵 |
