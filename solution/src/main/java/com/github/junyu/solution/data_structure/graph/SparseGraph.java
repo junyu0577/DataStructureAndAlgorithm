@@ -9,7 +9,7 @@ import java.util.Vector;
  * @version $Id$
  * @since 2018/7/21 20:47
  */
-public class SparseGraph {
+public class SparseGraph implements Graph{
     private int n;//节点数
     private int m; //边数
     private boolean directed;//是否具有方向
@@ -58,7 +58,7 @@ public class SparseGraph {
     }
 
     //验证是否含有从x到y的边
-    private boolean hasEdge(int x, int y) {
+    public boolean hasEdge(int x, int y) {
         for (int i = 0; i < graph[x].size(); i++) {
             if (graph[x].elementAt(i) == y)
                 return true;

@@ -1,6 +1,7 @@
 package com.github.junyu.solution.data_structure.test;
 
 import com.github.junyu.solution.data_structure.graph.DenseGraph;
+import com.github.junyu.solution.data_structure.graph.ReadGraph;
 import com.github.junyu.solution.data_structure.graph.SparseGraph;
 
 import java.util.Iterator;
@@ -18,8 +19,31 @@ public class GraphTest {
         int N = 10;
         int M = 10;
 //        testDenseGraph(N,M);
-        testSparseGraph(N, M);
+//        testSparseGraph(N, M);
 
+        String filename = gePath("testG1.txt");
+        System.out.println();
+
+        System.out.println("denseGraph:");
+        DenseGraph denseGraph = new DenseGraph(13, false);
+        ReadGraph.readGraph(denseGraph, filename);
+        denseGraph.show();
+
+        System.out.println();
+
+        System.out.println("denseGraph:");
+        SparseGraph sparseGraph = new SparseGraph(13, false);
+        ReadGraph.readGraph(sparseGraph, filename);
+        sparseGraph.show();
+
+
+    }
+
+    private static String gePath(String fileName) {
+        String mainPath = Class.class.getClass().getResource("/").getPath();
+        mainPath = mainPath.substring(0, mainPath.indexOf("/build"));
+        mainPath = mainPath + "/src/main/java/com/github/junyu/solution/data_structure/graph/data/" + fileName;
+        return mainPath;
     }
 
     private static void testSparseGraph(int n, int m) {
@@ -37,16 +61,16 @@ public class GraphTest {
 
     private static void loop(SparseGraph sparseGraph, int n) {
         for (int i = 0; i < n; i++) {
-            System.out.print(i + ":");
+            System.out.print(i + ":" + "\t");
             Iterator<Integer> graph = sparseGraph.adj(i).iterator();
             while (graph.hasNext()) {
-                System.out.print(" " + graph.next());
+                System.out.print(graph.next() + "\t");
             }
             System.out.println();
         }
     }
 
-    private static void testDenseGraph(int n,int m) {
+    private static void testDenseGraph(int n, int m) {
         DenseGraph denseGraph = new DenseGraph(n, false);
         for (int i = 0; i < m; i++) {
             int a = (int) (Math.random() * n);

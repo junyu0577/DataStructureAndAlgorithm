@@ -10,7 +10,7 @@ import java.util.Vector;
  * @version $Id$
  * @since 2018/7/21 20:18
  */
-public class DenseGraph {
+public class DenseGraph implements Graph {
     private int n;//节点数
     private int m; //边数
     private boolean directed;//是否具有方向
@@ -60,27 +60,28 @@ public class DenseGraph {
     }
 
     //验证是否含有从x到y的边
-    private boolean hasEdge(int x, int y) {
+    public boolean hasEdge(int x, int y) {
         return graph[x][y];
     }
 
     /**
      * 返回图中x顶点所有的邻边
+     *
      * @return
      */
-    public Iterable<Integer> adj(int x){
+    public Iterable<Integer> adj(int x) {
         Vector<Integer> vector = new Vector<>();
-        for (int i=0;i<n;i++){
+        for (int i = 0; i < n; i++) {
             if (graph[x][i])
                 vector.add(i);
         }
         return vector;
     }
 
-    public void show(){
-        for (int i=0;i<n;i++){
-            for (int j=0;j<n;j++){
-                System.out.print(graph[i][j]+"\t");
+    public void show() {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(graph[i][j] + "\t");
             }
             System.out.println();
         }
