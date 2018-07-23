@@ -1,5 +1,6 @@
 package com.github.junyu.solution.data_structure.test;
 
+import com.github.junyu.solution.data_structure.graph.Component;
 import com.github.junyu.solution.data_structure.graph.DenseGraph;
 import com.github.junyu.solution.data_structure.graph.ReadGraph;
 import com.github.junyu.solution.data_structure.graph.SparseGraph;
@@ -27,14 +28,20 @@ public class GraphTest {
         System.out.println("denseGraph:");
         DenseGraph denseGraph = new DenseGraph(13, false);
         ReadGraph.readGraph(denseGraph, filename);
+        Component component1 = new Component(denseGraph);
         denseGraph.show();
-
+        System.out.println("component count: "+component1.count());
         System.out.println();
 
+        String filename2 = gePath("testG2.txt");
         System.out.println("denseGraph:");
-        SparseGraph sparseGraph = new SparseGraph(13, false);
-        ReadGraph.readGraph(sparseGraph, filename);
+        SparseGraph sparseGraph = new SparseGraph(7, false);
+        ReadGraph.readGraph(sparseGraph, filename2);
+        Component component2 = new Component(sparseGraph);
         sparseGraph.show();
+        System.out.println("component count: "+component2.count());
+
+
 
 
     }
