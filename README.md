@@ -2,10 +2,17 @@
 
 ### 目录
 
- * [LeetCode](#LeetCode)
- * [DataStructure](#datastructure)
-
+* [LeetCode](#LeetCode)
+  * [Array](#array)
+  * [String](#string)
+  * [Sort](#sort)
+  * [LinkedList](#linkedlist)
+* [DataStructure](#datastructure)
+ 
 <br>
+
+
+
 
 
 ### LeetCode
@@ -45,7 +52,7 @@
 |  easy | [Merge Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/sort/_001_MergeSortedArray.java) |
 |  easy | [First Bad Version](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/sort/_002_FirstBadVersion.java) |
 
-#### linkedList
+#### linkedlist
 
 |  难度  | 问题 |
 |---|---|
@@ -106,3 +113,4 @@
 |---|---|
 |  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/DenseGraph.java) | 邻接矩阵 |
 |  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/SparseGraph.java) | 邻接表 |
+|  [图文件读取](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/ReadGraph.java) | 用于测试图 |
