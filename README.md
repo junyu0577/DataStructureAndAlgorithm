@@ -7,7 +7,8 @@
   * [String](#string)
   * [Sort](#sort)
   * [LinkedList](#linkedlist)
-  
+  * [tree](#tree)
+
 * [DataStructure](#datastructure)
    * [基础排序](#基础排序)
    * [高级排序](#高级排序)
@@ -60,6 +61,14 @@
 |  难度  | 问题 |
 |---|---|
 |  easy | [Delete Node In A Linked List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/linkedList/_001_DeleteNodeInALinkedList.java) |
+
+#### tree
+
+|  难度  | 问题 |
+|---|---|
+|  easy | [Binary Tree Level Order Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/tree/_001Binary_Tree_Level_Order_Traversal.java) |
+
+
 
 ### datastructure
 
