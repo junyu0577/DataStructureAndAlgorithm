@@ -10,12 +10,15 @@
   * [tree](#tree)
 
 * [DataStructure](#datastructure)
-   * [基础排序](#基础排序)
-   * [高级排序](#高级排序)
+   * [排序](#排序)
+       * [基础排序](#基础排序)
+       * [高级排序](#高级排序)
    * [堆](#堆)
    * [二分搜索树](#二分搜索树)
    * [并查集](#并查集)
    * [图](#图)
+       * [无权图](#无权图)
+       * [带权图](#带权图)
 
 
 ### LeetCode
@@ -72,7 +75,7 @@
 
 ### datastructure
 
-#### 1.排序
+#### 排序
 ##### 基础排序
 |  名称  | 描述 |
 |---|---|
@@ -121,9 +124,16 @@
 |  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/union_find/UnionFind6.java) | 路径压缩 (Path Compression) 递归方式|
 
 #### 图
+##### 无权图
 |  名称  | 描述 |
 |---|---|
 |  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/DenseGraph.java) | 邻接矩阵 |
 |  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/SparseGraph.java) | 邻接表 |
 |  [图文件读取](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/ReadGraph.java) | 用于测试图 |
 |  [DFS求连通分量](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/Component.java) |  |
+
+##### 带权图
+|  名称  | 描述 |
+|---|---|
+|  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/DenseWeightGraph.java) | 邻接矩阵 |
+|  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/SparseWeightGraph.java) | 邻接表 |

@@ -1,5 +1,8 @@
 package com.github.junyu.solution.data_structure.graph;
 
+import com.github.junyu.solution.data_structure.graph.weight.Edge;
+import com.github.junyu.solution.data_structure.graph.weight.WeightGraph;
+
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -41,6 +44,34 @@ public class ReadGraph {
                 int x = scanner.nextInt();
                 int y = scanner.nextInt();
                 graph.addEdge(x, y);
+            }
+        } catch (InputMismatchException e) {
+            String token = scanner.next();
+            throw new InputMismatchException("attempts to read an 'int' value from input stream, but the next token is \"" + token + "\"");
+        } catch (NoSuchElementException e) {
+            throw new NoSuchElementException("attemps to read an 'int' value from input stream, but there are no more tokens available");
+        }
+    }
+
+    public static void readWeightGraph(WeightGraph graph, String filename) {
+        readFile(filename);
+
+        try {
+            int vertices = scanner.nextInt();
+            if (vertices < 0) {
+                throw new IllegalArgumentException("number of vertices in a graph must be larger or equals than 0");
+            }
+
+            int edges = scanner.nextInt();
+            if (edges < 0) {
+                throw new IllegalArgumentException("number of edges in a graph must be  must be larger or equals than 0");
+            }
+
+            for (int i = 0; i < edges; i++) {
+                int x = scanner.nextInt();
+                int y = scanner.nextInt();
+                double weight = scanner.nextDouble();
+                graph.addEdge(new Edge<>(x,y,weight));
             }
         } catch (InputMismatchException e) {
             String token = scanner.next();

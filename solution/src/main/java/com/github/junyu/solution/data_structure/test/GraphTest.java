@@ -4,6 +4,8 @@ import com.github.junyu.solution.data_structure.graph.Component;
 import com.github.junyu.solution.data_structure.graph.DenseGraph;
 import com.github.junyu.solution.data_structure.graph.ReadGraph;
 import com.github.junyu.solution.data_structure.graph.SparseGraph;
+import com.github.junyu.solution.data_structure.graph.weight.DenseWeightGraph;
+import com.github.junyu.solution.data_structure.graph.weight.SparseWeightGraph;
 
 import java.util.Iterator;
 
@@ -22,6 +24,28 @@ public class GraphTest {
 //        testDenseGraph(N,M);
 //        testSparseGraph(N, M);
 
+//        testNonWeightGraph();
+
+        testWeightGraph();
+
+    }
+
+    private static void testWeightGraph() {
+        String filename = gePath("testG3.txt");
+        System.out.println();
+
+        System.out.println("DenseWeightGraph:");
+        DenseWeightGraph denseWeightGraph = new DenseWeightGraph(8,false);
+        ReadGraph.readWeightGraph(denseWeightGraph, filename);
+        denseWeightGraph.show();
+
+        System.out.println("SparseWeightGraph:");
+        SparseWeightGraph sparseWeightGraph = new SparseWeightGraph(8,false);
+        ReadGraph.readWeightGraph(sparseWeightGraph, filename);
+        sparseWeightGraph.show();
+    }
+
+    private static void testNonWeightGraph() {
         String filename = gePath("testG1.txt");
         System.out.println();
 
@@ -30,7 +54,7 @@ public class GraphTest {
         ReadGraph.readGraph(denseGraph, filename);
         Component component1 = new Component(denseGraph);
         denseGraph.show();
-        System.out.println("component count: "+component1.count());
+        System.out.println("component count: " + component1.count());
         System.out.println();
 
         String filename2 = gePath("testG2.txt");
@@ -39,11 +63,7 @@ public class GraphTest {
         ReadGraph.readGraph(sparseGraph, filename2);
         Component component2 = new Component(sparseGraph);
         sparseGraph.show();
-        System.out.println("component count: "+component2.count());
-
-
-
-
+        System.out.println("component count: " + component2.count());
     }
 
     private static String gePath(String fileName) {
