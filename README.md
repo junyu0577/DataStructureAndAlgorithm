@@ -32,6 +32,7 @@
 |  easy | [Intersection Of Two Arrays II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/array/_007_IntersectionOfTwoArrays_II.java) |
 |  easy | [Plus One](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/array/_008_PlusOne.java) |
 |  easy | [Best Time To Buy And Sell Stock II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/array/_009_BestTimeToBuyAndSellStockII.java) |
+|  easy | [Rotate Image](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/easy/array/_010_RotateImage.java) |
 
 #### string
 
