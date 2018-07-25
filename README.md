@@ -80,6 +80,7 @@
 |  难度  | 问题 |
 |---|---|
 |  easy | [Count_Primes](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/math/_001_Count_Primes.java) |
+|  easy | [Power_of_Three](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/math/_002_Power_of_Three.java) |
 
 <br/>
 
