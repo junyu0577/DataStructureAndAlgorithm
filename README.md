@@ -8,6 +8,7 @@
   * [Sort](#sort)
   * [LinkedList](#linkedlist)
   * [tree](#tree)
+  * [math](#tree)
 
 * [DataStructure](#datastructure)
    * [排序](#排序)
@@ -73,7 +74,13 @@
 |  easy | [Maximum_Depth_of_Binary_Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/tree/_002_Maximum_Depth_of_Binary_Tree.java) |
 |  easy | [Validate_Binary_Search_Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/tree/_003_Validate_Binary_Search_Tree.java) |
 
+#### math
 
+|  难度  | 问题 |
+|---|---|
+|  easy | [Count_Primes](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/math/_001_Count_Primes.java) |
+
+<br/>
 
 ### datastructure
 
