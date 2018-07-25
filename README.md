@@ -7,8 +7,8 @@
   * [String](#string)
   * [Sort](#sort)
   * [LinkedList](#linkedlist)
-  * [tree](#tree)
-  * [math](#tree)
+  * [Tree](#tree)
+  * [Math](#tree)
 
 * [DataStructure](#datastructure)
    * [排序](#排序)
@@ -20,6 +20,7 @@
    * [图](#图)
        * [无权图](#无权图)
        * [带权图](#带权图)
+       * [最小生成树](#最小生成树)
 
 
 ### LeetCode
@@ -147,3 +148,9 @@
 |---|---|
 |  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/DenseWeightGraph.java) | 邻接矩阵 |
 |  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/SparseWeightGraph.java) | 邻接表 |
+|  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/SparseWeightGraph.java) | 邻接表 |
+
+##### 最小生成树
+|  名称  | 描述 |
+|---|---|
+|  [Lazy Prim](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/LazyPrimMST.java) |  |

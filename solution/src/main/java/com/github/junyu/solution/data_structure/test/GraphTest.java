@@ -5,9 +5,12 @@ import com.github.junyu.solution.data_structure.graph.DenseGraph;
 import com.github.junyu.solution.data_structure.graph.ReadGraph;
 import com.github.junyu.solution.data_structure.graph.SparseGraph;
 import com.github.junyu.solution.data_structure.graph.weight.DenseWeightGraph;
+import com.github.junyu.solution.data_structure.graph.weight.Edge;
+import com.github.junyu.solution.data_structure.graph.weight.LazyPrimMST;
 import com.github.junyu.solution.data_structure.graph.weight.SparseWeightGraph;
 
 import java.util.Iterator;
+import java.util.Vector;
 
 /**
  * 用于测试图的正确性
@@ -26,21 +29,35 @@ public class GraphTest {
 
 //        testNonWeightGraph();
 
-        testWeightGraph();
+//        testWeightGraph();
 
+        testLazyPrim();
+    }
+
+    private static void testLazyPrim() {
+        String filename = gePath("testG4.txt");
+
+        System.out.println("LazyPrim:");
+        SparseWeightGraph sparseWeightGraph = new SparseWeightGraph(8, false);
+        ReadGraph.readWeightGraph(sparseWeightGraph, filename);
+        LazyPrimMST lazyPrimMST = new LazyPrimMST(sparseWeightGraph);
+        System.out.println(lazyPrimMST.getWeight());
+        Vector<Edge> edges = lazyPrimMST.getEdges();
+        for (int i = 0; i < edges.size(); i++) {
+            System.out.println(edges.get(i).getX() + "-" + edges.get(i).getY() + " weight: " + edges.get(i).getWeight());
+        }
     }
 
     private static void testWeightGraph() {
         String filename = gePath("testG3.txt");
-        System.out.println();
 
         System.out.println("DenseWeightGraph:");
-        DenseWeightGraph denseWeightGraph = new DenseWeightGraph(8,false);
+        DenseWeightGraph denseWeightGraph = new DenseWeightGraph(8, false);
         ReadGraph.readWeightGraph(denseWeightGraph, filename);
         denseWeightGraph.show();
 
         System.out.println("SparseWeightGraph:");
-        SparseWeightGraph sparseWeightGraph = new SparseWeightGraph(8,false);
+        SparseWeightGraph sparseWeightGraph = new SparseWeightGraph(8, false);
         ReadGraph.readWeightGraph(sparseWeightGraph, filename);
         sparseWeightGraph.show();
     }
