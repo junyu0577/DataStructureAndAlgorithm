@@ -1,4 +1,4 @@
-package com.github.junyu.solution.easy.string;
+package com.github.junyu.solution.leetCode.easy.string;
 
 /**
  * @author ShaoJunyu

@@ -60,7 +60,7 @@ public class MinHeap<T extends Comparable> {
 
 
     /**
-     * 下移，防止出现左右孩子大于父结点
+     * 下移，防止出现左右孩子小于父结点
      *
      * @param index
      */

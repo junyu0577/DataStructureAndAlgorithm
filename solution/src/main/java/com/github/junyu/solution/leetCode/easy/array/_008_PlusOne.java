@@ -1,4 +1,4 @@
-package com.github.junyu.solution.easy.array;
+package com.github.junyu.solution.leetCode.easy.array;
 
 import java.util.Arrays;
 

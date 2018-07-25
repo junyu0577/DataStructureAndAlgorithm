@@ -1,4 +1,4 @@
-package com.github.junyu.solution.easy.sort;
+package com.github.junyu.solution.leetCode.easy.sort;
 
 /**
  * @author ShaoJunyu

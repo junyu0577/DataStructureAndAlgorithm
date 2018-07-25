@@ -1,6 +1,4 @@
-package com.github.junyu.solution.easy.string;
-
-import java.util.Arrays;
+package com.github.junyu.solution.leetCode.easy.string;
 
 /**
  * @author ShaoJunyu

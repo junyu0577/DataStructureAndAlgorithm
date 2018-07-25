@@ -1,4 +1,4 @@
-package com.github.junyu.solution.easy.linkedList;
+package com.github.junyu.solution.leetCode.easy.linkedList;
 
 
 /**
