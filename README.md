@@ -70,6 +70,7 @@
 |  难度  | 问题 |
 |---|---|
 |  easy | [Binary Tree Level Order Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/tree/_001Binary_Tree_Level_Order_Traversal.java) |
+|  easy | [Maximum_Depth_of_Binary_Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/tree/_002_Maximum_Depth_of_Binary_Tree.java) |
 
 
 

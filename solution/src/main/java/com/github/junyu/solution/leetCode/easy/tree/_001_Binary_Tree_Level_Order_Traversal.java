@@ -10,7 +10,7 @@ import java.util.Queue;
  * @version $Id$
  * @since 2018/7/24 19:45
  */
-public class _001Binary_Tree_Level_Order_Traversal {
+public class _001_Binary_Tree_Level_Order_Traversal {
 
   /*  Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
 
