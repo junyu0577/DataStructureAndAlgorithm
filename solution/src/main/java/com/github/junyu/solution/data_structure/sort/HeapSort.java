@@ -2,6 +2,7 @@ package com.github.junyu.solution.data_structure.sort;
 
 import com.github.junyu.solution.data_structure.heap.MaxHeap;
 import com.github.junyu.solution.data_structure.heap.MaxIndexHeap;
+import com.github.junyu.solution.data_structure.heap.MaxIndexHeap2;
 import com.github.junyu.solution.data_structure.heap.MinIndexHeap;
 
 import java.util.Arrays;
@@ -37,23 +38,23 @@ public class HeapSort {
 //        return arr;
 //    }
 
-    /**
-     * 最大索引堆
-     * @param arr
-     * @param n
-     * @return
-     */
-    public static int[] sort(int arr[], int n) {
-
-        MaxIndexHeap maxIndexHeap = new MaxIndexHeap(arr,n);
-
-        int j = n - 1;
-        while (j >= 0) {
-            arr[j] = maxIndexHeap.remove();
-            j--;
-        }
-        return arr;
-    }
+//    /**
+//     * 最大索引堆
+//     * @param arr
+//     * @param n
+//     * @return
+//     */
+//    public static int[] sort(int arr[], int n) {
+//
+//        MaxIndexHeap maxIndexHeap = new MaxIndexHeap(arr,n);
+//
+//        int j = n - 1;
+//        while (j >= 0) {
+//            arr[j] = maxIndexHeap.remove();
+//            j--;
+//        }
+//        return arr;
+//    }
 
 //    /**
 //     * 最小索引堆
@@ -76,4 +77,22 @@ public class HeapSort {
 //
 //    public static void main(String[] args) {
 //    }
+
+    /**
+     * 最大索引堆优化版
+     * @param arr
+     * @param n
+     * @return
+     */
+    public static int[] sort(int arr[], int n) {
+
+        MaxIndexHeap2 maxIndexHeap = new MaxIndexHeap2(arr,n);
+
+        int j = n - 1;
+        while (j >= 0) {
+            arr[j] = maxIndexHeap.remove();
+            j--;
+        }
+        return arr;
+    }
 }

@@ -34,9 +34,12 @@ public class MaxIndexHeap2 {
      */
     public MaxIndexHeap2(int arr[], int length) {
         data = new int[length + 1];
-
+        indexes = new int[length + 1];
+        reverse = new int[length + 1];
         for (int i = 0; i < length; i++) {
             data[i + 1] = arr[i];
+            indexes[i + 1] = i + 1;
+            reverse[i] = 0;
         }
         count = length;
 
@@ -98,9 +101,9 @@ public class MaxIndexHeap2 {
             throw new RuntimeException(i + " is out of index");
         }
         i += 1;
+        data[i] = value;
         indexes[count + 1] = i;
         reverse[i] = count + 1;
-        data[i] = value;
         count++;
         shiftUp(count);
     }
@@ -137,9 +140,9 @@ public class MaxIndexHeap2 {
         }
 
         int index = indexes[1] - 1;
+        indexes[1] = indexes[count];
         reverse[indexes[1]] = 1;
         reverse[indexes[count]] = 0;
-        indexes[1] = indexes[count];
         count--;
         shiftDown(1);
 
@@ -195,10 +198,14 @@ public class MaxIndexHeap2 {
     }
 
     public static void main(String[] args) {
-        int length = 100000;
+        int length = 7;
         MaxIndexHeap2 maxIndexHeap = new MaxIndexHeap2(length);
         for (int i = 0; i < length; i++) {
-            maxIndexHeap.insert(i, (int) (Math.random() * length));
+            maxIndexHeap.insert(i, (int) (Math.random() * 100));
         }
+        for (int i = 0; i < length; i++) {
+            System.out.print(maxIndexHeap.remove() + " ");
+        }
+
     }
 }
