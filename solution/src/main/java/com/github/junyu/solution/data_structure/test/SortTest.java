@@ -12,7 +12,7 @@ import java.util.Arrays;
  */
 public class SortTest {
 
-    private static final boolean isShowLog = false;
+    private static final boolean isShowLog = true;
     private static final String packageName = "com.github.junyu.solution.data_structure.sort.";
 
 
@@ -111,7 +111,7 @@ public class SortTest {
 
     public static void main(String[] args) {
 
-        int length = 100008;
+        int length = 10;
 //        int[] arr = generateArr(length);
         int[] arr = generateRandomArr(length, 0, 10);
 //        int[] arr = generateNearlyArr(length, 10);
@@ -139,10 +139,10 @@ public class SortTest {
 //        testSort(packageName + "ShellSort", arr8);
 //        testSort(packageName + "MergeSort", arr3);
 //        testSort(packageName + "MergeSort2", arr9);
-//        testSort(packageName + "MergeSortBU", arr10);
+        testSort(packageName + "MergeSortBU", arr10);
         testSort(packageName + "HeapSort", arr11);
-        testSort(packageName + "HeapSort2", arr12);
-        testSort(packageName + "HeapSort3", arr13);
+//        testSort(packageName + "HeapSort2", arr12);
+//        testSort(packageName + "HeapSort3", arr13);
 //        testSort(packageName + "QuickSort", arr4);
 //        testSort(packageName + "QuickSort2", arr5);
 //        testSort(packageName + "QuickSort3", arr6);

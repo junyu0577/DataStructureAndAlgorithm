@@ -3,18 +3,18 @@ package com.github.junyu.solution.data_structure.heap;
 import java.util.Arrays;
 
 /**
- * 最大索引堆，通过增加索引数组，避免直接对数据进行交换操作
+ * 最小索引堆，通过增加索引数组，避免直接对数据进行交换操作
  *
  * @author ShaoJunyu
  * @version $Id$
  * @since 2018-06-24 20:32
  */
-public class MaxIndexHeap {
+public class MinIndexHeap {
     private int[] data;
     private int count;
     private int[] indexes;
 
-    public MaxIndexHeap(int length) {
+    public MinIndexHeap(int length) {
         data = new int[length + 1];
         indexes = new int[length + 1];
         count = 0;
@@ -26,12 +26,12 @@ public class MaxIndexHeap {
      * @param arr
      * @param length
      */
-    public MaxIndexHeap(int arr[], int length) {
+    public MinIndexHeap(int arr[], int length) {
         data = new int[length + 1];
         indexes = new int[length + 1];
         for (int i = 0; i < length; i++) {
             data[i + 1] = arr[i];
-            indexes[i + 1] = i+1;
+            indexes[i + 1] = i + 1;
         }
         count = length;
 
@@ -54,7 +54,7 @@ public class MaxIndexHeap {
      * @param index
      */
     private void shiftUp(int index) {
-        while (index > 1 && data[indexes[index / 2]] < data[indexes[index]]) {
+        while (index > 1 && data[indexes[index / 2]] > data[indexes[index]]) {
             swap(indexes, index / 2, index);
             index = index / 2;
         }
@@ -62,7 +62,7 @@ public class MaxIndexHeap {
 
 
     /**
-     * 下移，防止出现左右孩子大于父结点
+     * 下移，防止出现左右孩子小于父结点
      *
      * @param index
      */
@@ -70,10 +70,10 @@ public class MaxIndexHeap {
 
         while (2 * index <= count) {//有左孩子的情况下
             int leftChild = 2 * index;
-            if (leftChild + 1 <= count && data[indexes[leftChild + 1]] > data[indexes[leftChild]]) {//有右孩子并且值大于左孩子
+            if (leftChild + 1 <= count && data[indexes[leftChild + 1]] < data[indexes[leftChild]]) {//有右孩子并且值小于左孩子
                 leftChild += 1;
             }
-            if (data[indexes[index]] >= data[indexes[leftChild]]) {//大于左右子结点
+            if (data[indexes[index]] <= data[indexes[leftChild]]) {//小于左右子结点
                 break;
             }
             swap(indexes, index, leftChild);
@@ -175,13 +175,14 @@ public class MaxIndexHeap {
 
     public static void main(String[] args) {
         int length = 8;
-        MaxIndexHeap maxIndexHeap = new MaxIndexHeap(length);
-        for (int i = 0; i < length; i++) {
-            maxIndexHeap.insert(i, (int) (Math.random() * 5));
-        }
-        maxIndexHeap.printHeap();
+        MinIndexHeap minIndexHeap = new MinIndexHeap(length);
         for (int i = 0; i < 8; i++) {
-            System.out.println("remove:" + maxIndexHeap.remove());
+            minIndexHeap.insert(i, (int) (Math.random() * 100));
+        }
+        minIndexHeap.printHeap();
+        for (int i = 0; i < 8; i++) {
+            System.out.println("remove:" + minIndexHeap.remove());
         }
     }
+
 }

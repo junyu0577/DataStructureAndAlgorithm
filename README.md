@@ -116,6 +116,7 @@
 |  [最大堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/heap/MaxHeap.java) |  |
 |  [最小堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/heap/MinHeap.java) |  |
 |  [最大索引堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/heap/MaxIndexHeap.java) | 通过增加索引数组，避免直接对数据进行交换操作 |
+|  [最小索引堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/heap/MinIndexHeap.java) | 同上 |
 
 #### 二分搜索树
 |  名称  | 描述 |
@@ -148,7 +149,6 @@
 |  名称  | 描述 |
 |---|---|
 |  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/DenseWeightGraph.java) | 邻接矩阵 |
-|  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/SparseWeightGraph.java) | 邻接表 |
 |  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/SparseWeightGraph.java) | 邻接表 |
 
 ##### 最小生成树
