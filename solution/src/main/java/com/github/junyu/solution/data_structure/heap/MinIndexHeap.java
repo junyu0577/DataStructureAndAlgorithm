@@ -9,13 +9,13 @@ import java.util.Arrays;
  * @version $Id$
  * @since 2018-06-24 20:32
  */
-public class MinIndexHeap {
-    private int[] data;
+public class MinIndexHeap<T extends Comparable> {
+    private T[] data;
     private int count;
     private int[] indexes;
 
     public MinIndexHeap(int length) {
-        data = new int[length + 1];
+        data = (T[]) new Comparable[length + 1];
         indexes = new int[length + 1];
         count = 0;
     }
@@ -26,8 +26,8 @@ public class MinIndexHeap {
      * @param arr
      * @param length
      */
-    public MinIndexHeap(int arr[], int length) {
-        data = new int[length + 1];
+    public MinIndexHeap(T arr[], int length) {
+        data = (T[]) new Comparable[length + 1];
         indexes = new int[length + 1];
         for (int i = 0; i < length; i++) {
             data[i + 1] = arr[i];
@@ -54,7 +54,7 @@ public class MinIndexHeap {
      * @param index
      */
     private void shiftUp(int index) {
-        while (index > 1 && data[indexes[index / 2]] > data[indexes[index]]) {
+        while (index > 1 && data[indexes[index / 2]].compareTo(data[indexes[index]])>0) {
             swap(indexes, index / 2, index);
             index = index / 2;
         }
@@ -70,10 +70,10 @@ public class MinIndexHeap {
 
         while (2 * index <= count) {//有左孩子的情况下
             int leftChild = 2 * index;
-            if (leftChild + 1 <= count && data[indexes[leftChild + 1]] < data[indexes[leftChild]]) {//有右孩子并且值小于左孩子
+            if (leftChild + 1 <= count && data[indexes[leftChild + 1]].compareTo(data[indexes[leftChild]])<0) {//有右孩子并且值小于左孩子
                 leftChild += 1;
             }
-            if (data[indexes[index]] <= data[indexes[leftChild]]) {//小于左右子结点
+            if (data[indexes[index]].compareTo(data[indexes[leftChild]])<=0) {//小于左右子结点
                 break;
             }
             swap(indexes, index, leftChild);
@@ -81,7 +81,7 @@ public class MinIndexHeap {
         }
     }
 
-    public void insert(int i, int value) {
+    public void insert(int i, T value) {
         if (count == data.length - 1) {
             throw new RuntimeException("heap is full");
         }
@@ -100,12 +100,12 @@ public class MinIndexHeap {
      *
      * @return 返回被删除的值
      */
-    public int remove() {
+    public T remove() {
         if (isEmpty()) {
             throw new RuntimeException("heap is empty");
         }
 
-        int value = data[indexes[1]];
+        T value = data[indexes[1]];
         indexes[1] = indexes[count];
         count--;
         shiftDown(1);
@@ -139,7 +139,7 @@ public class MinIndexHeap {
      * @param i
      * @return
      */
-    public int getItem(int i) {
+    public T getItem(int i) {
         return data[i + 1];
     }
 
@@ -147,7 +147,7 @@ public class MinIndexHeap {
     /**
      * 修改指定索引位置的元素
      */
-    public void changeItem(int i, int value) {
+    public void changeItem(int i, T value) {
 
         i += 1;
         data[i] = value;
@@ -174,15 +174,35 @@ public class MinIndexHeap {
     }
 
     public static void main(String[] args) {
-        int length = 8;
-        MinIndexHeap minIndexHeap = new MinIndexHeap(length);
-        for (int i = 0; i < 8; i++) {
-            minIndexHeap.insert(i, (int) (Math.random() * 100));
+        int length = 9;
+//        MinIndexHeap minIndexHeap = new MinIndexHeap(length);
+//        for (int i = 0; i < length; i++) {
+//            minIndexHeap.insert(i, (int) (Math.random() * 100));
+//        }
+//        minIndexHeap.printHeap();
+//        for (int i = 0; i < length; i++) {
+//            System.out.println("remove:" + minIndexHeap.remove());
+//        }
+
+        Comparable  [] arr = generateRandomArr(length,0,100);
+        System.out.println(Arrays.toString(arr));
+        MinIndexHeap minIndexHeap = new MinIndexHeap(arr,length);
+        for (int i=0;i<length;i++){
+            System.out.print(minIndexHeap.remove()+" ");
         }
-        minIndexHeap.printHeap();
-        for (int i = 0; i < 8; i++) {
-            System.out.println("remove:" + minIndexHeap.remove());
-        }
+
     }
+
+
+    private static Comparable[] generateRandomArr(int n, int min, int max) {
+
+        Comparable[] arr = new Comparable[n];
+        for (int i = 0; i < n; ++i) {
+            arr[i] = (int) (Math.random() * (max - min + 1) + min);
+        }
+
+        return arr;
+    }
+
 
 }

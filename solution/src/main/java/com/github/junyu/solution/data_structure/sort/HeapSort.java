@@ -37,43 +37,43 @@ public class HeapSort {
 //        return arr;
 //    }
 
-//    /**
-//     * 最大索引堆
-//     * @param arr
-//     * @param n
-//     * @return
-//     */
-//    public static int[] sort(int arr[], int n) {
-//
-//        MaxIndexHeap maxIndexHeap = new MaxIndexHeap(arr,n);
-//
-//        int j = n - 1;
-//        while (j >= 0) {
-//            arr[j] = maxIndexHeap.remove();
-//            j--;
-//        }
-//        return arr;
-//    }
-
     /**
-     * 最小索引堆
-     *
+     * 最大索引堆
      * @param arr
      * @param n
      * @return
      */
     public static int[] sort(int arr[], int n) {
 
-        MinIndexHeap minIndexHeap = new MinIndexHeap(arr, n);
+        MaxIndexHeap maxIndexHeap = new MaxIndexHeap(arr,n);
 
-        int j = 0;
-        while (j < n ) {
-            arr[j] = minIndexHeap.remove();
-            j++;
+        int j = n - 1;
+        while (j >= 0) {
+            arr[j] = maxIndexHeap.remove();
+            j--;
         }
         return arr;
     }
 
-    public static void main(String[] args) {
-    }
+//    /**
+//     * 最小索引堆
+//     *
+//     * @param arr
+//     * @param n
+//     * @return
+//     */
+//    public static int[] sort(int arr[], int n) {
+//
+//        MinIndexHeap minIndexHeap = new MinIndexHeap(arr, n);
+//
+//        int j = 0;
+//        while (j < n ) {
+//            arr[j] = minIndexHeap.remove();
+//            j++;
+//        }
+//        return arr;
+//    }
+//
+//    public static void main(String[] args) {
+//    }
 }
