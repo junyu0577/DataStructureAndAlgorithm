@@ -7,6 +7,7 @@ import com.github.junyu.solution.data_structure.graph.SparseGraph;
 import com.github.junyu.solution.data_structure.graph.weight.DenseWeightGraph;
 import com.github.junyu.solution.data_structure.graph.weight.Edge;
 import com.github.junyu.solution.data_structure.graph.weight.LazyPrimMST;
+import com.github.junyu.solution.data_structure.graph.weight.PrimMST;
 import com.github.junyu.solution.data_structure.graph.weight.SparseWeightGraph;
 
 import java.util.Iterator;
@@ -45,6 +46,16 @@ public class GraphTest {
         Vector<Edge> edges = lazyPrimMST.getEdges();
         for (int i = 0; i < edges.size(); i++) {
             System.out.println(edges.get(i).getX() + "-" + edges.get(i).getY() + " weight: " + edges.get(i).getWeight());
+        }
+
+        System.out.println("Prim:");
+        SparseWeightGraph sparseWeightGraph2 = new SparseWeightGraph(8, false);
+        ReadGraph.readWeightGraph(sparseWeightGraph2, filename);
+        PrimMST primMST = new PrimMST(sparseWeightGraph2);
+        System.out.println(primMST.getWeight());
+        Vector<Edge> edges2 = primMST.getEdges();
+        for (int i = 0; i < edges2.size(); i++) {
+            System.out.println(edges2.get(i).getX() + "-" + edges2.get(i).getY() + " weight: " + edges2.get(i).getWeight());
         }
     }
 

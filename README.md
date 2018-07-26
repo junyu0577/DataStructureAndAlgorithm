@@ -154,4 +154,5 @@
 ##### 最小生成树
 |  名称  | 描述 |
 |---|---|
-|  [Lazy Prim](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/LazyPrimMST.java) |  |
+|  [Prim算法](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/LazyPrimMST.java) | (Lazy Prim) |
+|  [Prim算法优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/PrimMST.java) |  |
