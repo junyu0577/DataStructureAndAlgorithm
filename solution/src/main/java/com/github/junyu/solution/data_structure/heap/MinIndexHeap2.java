@@ -3,21 +3,21 @@ package com.github.junyu.solution.data_structure.heap;
 import java.util.Arrays;
 
 /**
- * 最大索引堆，通过增加索引数组，避免直接对数据进行交换操作
+ * 最小索引堆，通过增加索引数组，避免直接对数据进行交换操作
  * 新增的reverse数组提升了change时的效率，将查找的时间复杂度从o(n)优化到o(1)
  *
  * @author ShaoJunyu
  * @version $Id$
  * @since 2018-06-24 20:32
  */
-public class MaxIndexHeap2 {
-    private int[] data;
+public class MinIndexHeap2<T extends Comparable> {
+    private T[] data;
     private int count;
     private int[] indexes;
     private int[] reverse;
 
-    public MaxIndexHeap2(int length) {
-        data = new int[length + 1];
+    public MinIndexHeap2(int length) {
+        data = (T[]) new Comparable[length + 1];
         indexes = new int[length + 1];
         reverse = new int[length + 1];
         for (int i = 0; i <= length; i++) {
@@ -32,8 +32,8 @@ public class MaxIndexHeap2 {
      * @param arr
      * @param length
      */
-    public MaxIndexHeap2(int arr[], int length) {
-        data = new int[length + 1];
+    public MinIndexHeap2(T arr[], int length) {
+        data = (T[]) new Comparable[length + 1];
         indexes = new int[length + 1];
         reverse = new int[length + 1];
         for (int i = 0; i < length; i++) {
@@ -62,7 +62,7 @@ public class MaxIndexHeap2 {
      * @param index
      */
     private void shiftUp(int index) {
-        while (index > 1 && data[indexes[index / 2]] < data[indexes[index]]) {
+        while (index > 1 && data[indexes[index / 2]].compareTo(data[indexes[index]]) > 0) {
             swap(indexes, index / 2, index);
             reverse[indexes[index / 2]] = index / 2;
             reverse[indexes[index]] = index;
@@ -80,10 +80,10 @@ public class MaxIndexHeap2 {
 
         while (2 * index <= count) {//有左孩子的情况下
             int leftChild = 2 * index;
-            if (leftChild + 1 <= count && data[indexes[leftChild + 1]] > data[indexes[leftChild]]) {//有右孩子并且值大于左孩子
+            if (leftChild + 1 <= count && data[indexes[leftChild + 1]].compareTo(data[indexes[leftChild]])<0) {//有右孩子并且值小于左孩子
                 leftChild += 1;
             }
-            if (data[indexes[index]] >= data[indexes[leftChild]]) {//大于左右子结点
+            if (data[indexes[index]].compareTo(data[indexes[leftChild]]) <= 0) {//小于左右子结点
                 break;
             }
             swap(indexes, index, leftChild);
@@ -93,7 +93,7 @@ public class MaxIndexHeap2 {
         }
     }
 
-    public void insert(int i, int value) {
+    public void insert(int i, T value) {
         if (count == data.length - 1) {
             throw new RuntimeException("heap is full");
         }
@@ -113,12 +113,12 @@ public class MaxIndexHeap2 {
      *
      * @return 返回被删除的值
      */
-    public int remove() {
+    public T remove() {
         if (isEmpty()) {
             throw new RuntimeException("heap is empty");
         }
 
-        int value = data[indexes[1]];
+        T value = data[indexes[1]];
         indexes[1] = indexes[count];
         reverse[indexes[1]] = 1;
         reverse[indexes[count]] = 0;
@@ -156,7 +156,7 @@ public class MaxIndexHeap2 {
      * @param i
      * @return
      */
-    public int getItem(int i) {
+    public T getItem(int i) {
         if (!contain(i)) {
             throw new RuntimeException(i + "is not in heap");
         }
@@ -173,7 +173,7 @@ public class MaxIndexHeap2 {
     /**
      * 修改指定索引位置的元素
      */
-    public void changeItem(int i, int value) {
+    public void changeItem(int i, T value) {
         if (!contain(i)) {
             throw new RuntimeException(i + "is not in heap");
         }
@@ -199,13 +199,30 @@ public class MaxIndexHeap2 {
 
     public static void main(String[] args) {
         int length = 7;
-        MaxIndexHeap2 maxIndexHeap = new MaxIndexHeap2(length);
-        for (int i = 0; i < length; i++) {
-            maxIndexHeap.insert(i, (int) (Math.random() * 100));
-        }
-        for (int i = 0; i < length; i++) {
-            System.out.print(maxIndexHeap.remove() + " ");
+//        MinIndexHeap2 minIndexHeap2 = new MinIndexHeap2(length);
+//        for (int i = 0; i < length; i++) {
+//            minIndexHeap2.insert(i, (int) (Math.random() * 100));
+//        }
+//        for (int i = 0; i < length; i++) {
+//            System.out.print(minIndexHeap2.remove() + " ");
+//        }
+
+        Comparable  [] arr = generateRandomArr(length,0,100);
+        System.out.println(Arrays.toString(arr));
+        MinIndexHeap2 minIndexHeap2 = new MinIndexHeap2(arr,length);
+        for (int i=0;i<length;i++){
+            System.out.print(minIndexHeap2.remove()+" ");
         }
 
+    }
+
+    private static Comparable[] generateRandomArr(int n, int min, int max) {
+
+        Comparable[] arr = new Comparable[n];
+        for (int i = 0; i < n; ++i) {
+            arr[i] = (int) (Math.random() * (max - min + 1) + min);
+        }
+
+        return arr;
     }
 }
