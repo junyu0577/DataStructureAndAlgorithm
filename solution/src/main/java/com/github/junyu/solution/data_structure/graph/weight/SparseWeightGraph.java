@@ -54,7 +54,7 @@ public class SparseWeightGraph implements WeightGraph {
 
         graph[edge.getX()].add(edge);
         if (!directed && edge.getX() != edge.getY())//如果是自环边就不需要再添加
-            graph[edge.getY()].add(edge);
+            graph[edge.getY()].add(new Edge(edge.getY(), edge.getX(), edge.getWeight()));
 
         m++;
     }

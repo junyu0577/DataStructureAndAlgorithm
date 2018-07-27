@@ -6,6 +6,7 @@ import com.github.junyu.solution.data_structure.graph.ReadGraph;
 import com.github.junyu.solution.data_structure.graph.SparseGraph;
 import com.github.junyu.solution.data_structure.graph.weight.DenseWeightGraph;
 import com.github.junyu.solution.data_structure.graph.weight.Edge;
+import com.github.junyu.solution.data_structure.graph.weight.KruskalMST;
 import com.github.junyu.solution.data_structure.graph.weight.LazyPrimMST;
 import com.github.junyu.solution.data_structure.graph.weight.PrimMST;
 import com.github.junyu.solution.data_structure.graph.weight.SparseWeightGraph;
@@ -36,7 +37,7 @@ public class GraphTest {
     }
 
     private static void testLazyPrim() {
-        String filename = gePath("testG4.txt");
+        String filename = gePath("testG3.txt");
 
         System.out.println("LazyPrim:");
         SparseWeightGraph sparseWeightGraph = new SparseWeightGraph(8, false);
@@ -56,6 +57,16 @@ public class GraphTest {
         Vector<Edge> edges2 = primMST.getEdges();
         for (int i = 0; i < edges2.size(); i++) {
             System.out.println(edges2.get(i).getX() + "-" + edges2.get(i).getY() + " weight: " + edges2.get(i).getWeight());
+        }
+
+        System.out.println("Kruskal:");
+        SparseWeightGraph sparseWeightGraph3 = new SparseWeightGraph(8, false);
+        ReadGraph.readWeightGraph(sparseWeightGraph3, filename);
+        KruskalMST kruskalMST = new KruskalMST(sparseWeightGraph3);
+        System.out.println(kruskalMST.getWeight());
+        Vector<Edge> edges3 = kruskalMST.getEdges();
+        for (int i = 0; i < edges3.size(); i++) {
+            System.out.println(edges3.get(i).getX() + "-" + edges3.get(i).getY() + " weight:" + edges3.get(i).getWeight());
         }
     }
 
