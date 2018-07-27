@@ -1,6 +1,5 @@
 package com.github.junyu.solution.data_structure.graph.weight;
 
-import com.github.junyu.solution.data_structure.heap.MinHeap;
 import com.github.junyu.solution.data_structure.heap.MinIndexHeap2;
 
 import java.util.Vector;
@@ -21,7 +20,7 @@ public class PrimMST<T extends Number & Comparable> {
     private Number weight;//最小生成树的权重总值
     private boolean[] marked;//标记所有的节点，false为未加入的节点
     private Vector<Edge<T>> mst;
-    private Edge<T>[] edgeTo;//存放最短的横切边
+    private Edge<T>[] edgeTo;//存放与节点相连接的最短的横切边
 
     public PrimMST(WeightGraph graph) {
         this.graph = graph;
@@ -34,10 +33,10 @@ public class PrimMST<T extends Number & Comparable> {
         //算法开始
         visit(0);
         while (!pq.isEmpty()){
-           int i = pq.removeIndex();
-           Edge e = edgeTo[i];
-           mst.add(e);
-           visit(i);
+            int i = pq.removeIndex();//取出权值最小的边的索引
+            Edge e = edgeTo[i];//得到最小的边
+            mst.add(e);
+            visit(i);
         }
 
         weight = mst.get(0).getWeight();
@@ -48,15 +47,15 @@ public class PrimMST<T extends Number & Comparable> {
 
     private void visit(int i) {
         marked[i] = true;
-        for (Edge e : graph.adj(i)) {
+        for (Edge<T> e : graph.adj(i)){
             int j = e.other(i);
-            if (!marked[j]){
-                if (edgeTo[j]==null){
+            if (!marked[j]) {//节点未被访问过
+                if (edgeTo[j] == null) {//未存放节点对应的最短横切边
+                    pq.insert(j,  e.getWeight());
                     edgeTo[j] = e;
-                    pq.insert(j,(T)e.getWeight());
-                } else if (edgeTo[j].getWeight().compareTo(e.getWeight())>0){
+                } else if (edgeTo[j].getWeight().compareTo(e.getWeight())>0){//已经存有横切边 并且遍历到的边小于已存放的
+                    pq.changeItem(j,  e.getWeight());
                     edgeTo[j] = e;
-                    pq.changeItem(j,(T)e.getWeight());
                 }
             }
         }
