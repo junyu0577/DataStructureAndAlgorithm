@@ -9,6 +9,7 @@ import java.util.Vector;
 /**
  * dijkstra 单源最短路径算法
  * 前提图中不能有负权边
+ * 对有向图和无向图均有效
  * 时间复杂度O(ElogV)
  *
  * @author ShaoJunyu

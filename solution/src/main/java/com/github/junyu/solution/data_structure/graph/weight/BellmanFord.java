@@ -6,7 +6,8 @@ import java.util.Vector;
 /**
  * BellmanFord算法求单源最短路径
  * 解决带有负权边的图的问题
- * 前提是图中不能有负权环,通常处理的是有向图,对于无向图很有可能形成负权环
+ * 前提是图中不能有负权环
+ * 针对有向图
  * 时间复杂度O(EV)
  *
  * @author ShaoJunyu

@@ -15,7 +15,9 @@
        * [基础排序](#基础排序)
        * [高级排序](#高级排序)
    * [堆](#堆)
-   * [二分搜索树](#二分搜索树)
+   * [树](#树)
+        * [二分搜索树](#二分搜索树)
+        * [AVL树](AVL树)
    * [并查集](#并查集)
    * [图](#图)
        * [无权图](#无权图)
@@ -119,13 +121,19 @@
 |  [最大索引堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/heap/MaxIndexHeap.java) | 通过增加索引数组，避免直接对数据进行交换操作 |
 |  [最小索引堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/heap/MinIndexHeap.java) | 同上 |
 
-#### 二分搜索树
+#### 树
+##### 二分搜索树
 |  名称  | 描述 |
 |---|---|
 |  [二分查找](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/Binary_Search.java) |  |
 |  [二分搜索树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/BST.java) |  |
 |  [二分搜索树遍历](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/BST_Order.java) | 深度优先（前中后序遍历）、广度优先(层序遍历) |
 |  [二分搜索树删除](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/BST_Delete.java) | Hibbard Deletion |
+
+##### AVL树
+|  名称  | 描述 |
+|---|---|
+|  [AVL树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/avl/AVLTree.java) | 平衡树 |
 
 #### 并查集
 |  名称  | 描述 |
@@ -163,4 +171,4 @@
 |  名称  | 描述 |
 |---|---|
 |  [Dijkstra算法](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/Dijkstra.java) | 针对没有负权边的图 |
-|  [Bellman Ford](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/BellmanFord.java) | 针对有负权边而没有负权环的图 |
+|  [Bellman Ford算法](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/graph/weight/BellmanFord.java) | 针对有负权边而没有负权环的图 |
