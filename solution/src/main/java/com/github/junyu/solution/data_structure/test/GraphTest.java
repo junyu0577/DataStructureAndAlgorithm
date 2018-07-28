@@ -4,6 +4,7 @@ import com.github.junyu.solution.data_structure.graph.Component;
 import com.github.junyu.solution.data_structure.graph.DenseGraph;
 import com.github.junyu.solution.data_structure.graph.ReadGraph;
 import com.github.junyu.solution.data_structure.graph.SparseGraph;
+import com.github.junyu.solution.data_structure.graph.weight.BellmanFord;
 import com.github.junyu.solution.data_structure.graph.weight.DenseWeightGraph;
 import com.github.junyu.solution.data_structure.graph.weight.Dijkstra;
 import com.github.junyu.solution.data_structure.graph.weight.Edge;
@@ -36,7 +37,27 @@ public class GraphTest {
 
 //        testMST();
 
-        testShortPath();
+//        testShortPath();
+
+        testBellmanFord();
+    }
+
+    private static void testBellmanFord() {
+        String filename = gePath("testG5.txt");
+
+        System.out.println("BellmanFord:");
+        SparseWeightGraph sparseWeightGraph = new SparseWeightGraph(5, true);
+        ReadGraph.readWeightGraph(sparseWeightGraph, filename);
+        BellmanFord bellmanFord = new BellmanFord(sparseWeightGraph,0);
+        if (bellmanFord.isNegativeCycle()){
+            System.out.println("the graph contain negative cycle.");
+            return;
+        }
+        for (int i=1;i<sparseWeightGraph.count();i++){
+            System.out.println("to " + i + " the shortest path is "+ bellmanFord.shortestPathTo(i));
+            bellmanFord.showPath(i);
+            System.out.println();
+        }
     }
 
     private static void testShortPath() {
