@@ -5,6 +5,7 @@ import com.github.junyu.solution.data_structure.graph.DenseGraph;
 import com.github.junyu.solution.data_structure.graph.ReadGraph;
 import com.github.junyu.solution.data_structure.graph.SparseGraph;
 import com.github.junyu.solution.data_structure.graph.weight.DenseWeightGraph;
+import com.github.junyu.solution.data_structure.graph.weight.Dijkstra;
 import com.github.junyu.solution.data_structure.graph.weight.Edge;
 import com.github.junyu.solution.data_structure.graph.weight.KruskalMST;
 import com.github.junyu.solution.data_structure.graph.weight.LazyPrimMST;
@@ -33,10 +34,27 @@ public class GraphTest {
 
 //        testWeightGraph();
 
-        testLazyPrim();
+//        testMST();
+
+        testShortPath();
     }
 
-    private static void testLazyPrim() {
+    private static void testShortPath() {
+        String filename = gePath("testG4.txt");
+
+        System.out.println("Dijkstra:");
+        SparseWeightGraph sparseWeightGraph = new SparseWeightGraph(5, true);
+        ReadGraph.readWeightGraph(sparseWeightGraph, filename);
+        Dijkstra dijkstra = new Dijkstra(sparseWeightGraph,0);
+        for (int i=1;i<sparseWeightGraph.count();i++){
+            System.out.println("to " + i + " the shortest path is "+ dijkstra.shortestPathTo(i));
+            dijkstra.showPath(i);
+            System.out.println();
+        }
+
+    }
+
+    private static void testMST() {
         String filename = gePath("testG3.txt");
 
         System.out.println("LazyPrim:");
@@ -45,7 +63,7 @@ public class GraphTest {
         LazyPrimMST lazyPrimMST = new LazyPrimMST(sparseWeightGraph);
         System.out.println(lazyPrimMST.getWeight());
         Vector<Edge> edges = lazyPrimMST.getEdges();
-        for (int i = 0; i < edges.size(); i++) {
+        for (int i = 0; i < edges.size()-1; i++) {
             System.out.println(edges.get(i).getX() + "-" + edges.get(i).getY() + " weight: " + edges.get(i).getWeight());
         }
 

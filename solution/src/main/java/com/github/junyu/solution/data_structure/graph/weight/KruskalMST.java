@@ -8,7 +8,7 @@ import java.util.Vector;
 /**
  * kruskal算法求最小生成树
  * 和prim算法一样同属于贪心算法
- *
+ * 时间复杂度O(ElogE)
  * @author ShaoJunyu
  * @since 2018/7/27 13:02
  */

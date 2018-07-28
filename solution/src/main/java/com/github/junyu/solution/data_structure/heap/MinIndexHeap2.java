@@ -163,7 +163,7 @@ public class MinIndexHeap2<T extends Comparable> {
         return data[i + 1];
     }
 
-    private boolean contain(int i) {
+    public boolean contain(int i) {
         if (i + 1 < 1 || i + 1 > data.length - 1) {
             throw new RuntimeException(i + " is out of index");
         }
