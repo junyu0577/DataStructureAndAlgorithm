@@ -18,6 +18,7 @@
    * [树](#树)
         * [二分搜索树](#二分搜索树)
         * [AVL树](#avl树)
+        * [线段树](#线段树)
    * [并查集](#并查集)
    * [图](#图)
        * [无权图](#无权图)
@@ -136,6 +137,12 @@
 |  名称  | 描述 |
 |---|---|
 |  [AVL树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/avl/AVLTree.java) | 通过LL/RR/LR/RL 操作维护平衡因子，达到自平衡 |
+
+
+##### 线段树
+|  名称  | 描述 |
+|---|---|
+|  [AVL树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/segment_tree/SegmentTree.java) | 存放给定区间内对应的信息 |
 
 
 #### 并查集
