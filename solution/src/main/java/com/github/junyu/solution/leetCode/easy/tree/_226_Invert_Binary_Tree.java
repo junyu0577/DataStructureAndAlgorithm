@@ -5,7 +5,7 @@ package com.github.junyu.solution.leetCode.easy.tree;
  * @version $Id$
  * @since 2018/7/29 20:35
  */
-public class _Invert_Binary_Tree {
+public class _226_Invert_Binary_Tree {
 
   /*  Invert a binary tree.
 
