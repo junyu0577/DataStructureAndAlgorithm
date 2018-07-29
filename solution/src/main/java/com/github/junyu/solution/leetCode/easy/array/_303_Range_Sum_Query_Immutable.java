@@ -57,6 +57,7 @@ public class _303_Range_Sum_Query_Immutable {
     private int sums[];
 
     /**
+     * 基于数组内容不可更改
      * 建立sums数组 第i个位置存储nums数组[0,...,i]的总和
      * @param nums
      */
