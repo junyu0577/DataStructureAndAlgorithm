@@ -1,5 +1,7 @@
 package com.github.junyu.solution.data_structure.binary_search_tree.avl;
 
+
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -9,30 +11,35 @@ import java.util.Queue;
  * 平衡的二叉搜索树
  * 节点大于左孩子，小于右孩子
  * 左右子树高度差不能超过1
- *
+ * <p>
  * 时间复杂度O(logN)
  *
  * @author ShaoJunyu
  * @version $Id$
  * @since 2018/6/28 20:37
  */
-public class AVLTree {
+public class AVLTree<Key extends Comparable, Value> {
 
     private class Node {
 
         private Node leftChild;
         private Node rightChild;
-        private int key;
-        private String value;
+        private Key key;
+        private Value value;
         private int height;
 
-        public Node(int key, String value) {
+        public Node(Key key, Value value) {
             this.key = key;
             this.value = value;
             this.height = 1;
         }
 
-
+        public Node(Node node) {
+            this.key = node.key;
+            this.value = node.value;
+            this.leftChild = node.leftChild;
+            this.rightChild = node.rightChild;
+        }
     }
 
     private Node root;
@@ -96,11 +103,11 @@ public class AVLTree {
      * @return
      */
     private boolean isBST() {
-        List<Integer> list = new ArrayList();
+        List<Key> list = new ArrayList();
         inOrder(root, list);
 
         for (int i = 1; i < list.size(); i++) {
-            if (list.get(i - 1) > list.get(i))
+            if (list.get(i - 1).compareTo(list.get(i)) > 0)
                 return false;
         }
 
@@ -117,11 +124,11 @@ public class AVLTree {
         inOrder(node.rightChild, list);
     }
 
-    public void insert(int key, String value) {
+    public void insert(Key key, Value value) {
         root = insert(key, value, root);
     }
 
-    private Node insert(int key, String value, Node node) {
+    private Node insert(Key key, Value value, Node node) {
         if (node == null) {
             count++;
             return new Node(key, value);
@@ -129,36 +136,36 @@ public class AVLTree {
 
         if (node.key == key) {
             node.value = value;
-        } else if (node.key < key) {
+        } else if (node.key.compareTo(key) < 0) {
             node.rightChild = insert(key, value, node.rightChild);
         } else {
             node.leftChild = insert(key, value, node.leftChild);
         }
 
         //修正字数深度
-        node.height = Math.max(getHeight(node.leftChild),getHeight(node.rightChild))+1;
+        node.height = Math.max(getHeight(node.leftChild), getHeight(node.rightChild)) + 1;
 
         //balance
         int balanceFactor = getBalanceFactor(node);
 
         //LL
-        if (balanceFactor>1 && getBalanceFactor(node.leftChild)>=0){
+        if (balanceFactor > 1 && getBalanceFactor(node.leftChild) >= 0) {
             return rightRotate(node);
         }
 
         //RR
-        if (balanceFactor<-1 && getBalanceFactor(node.rightChild)<=0){
+        if (balanceFactor < -1 && getBalanceFactor(node.rightChild) <= 0) {
             return leftRotate(node);
         }
 
         //LR
-        if (balanceFactor>1 && getBalanceFactor(node.leftChild)<0){
+        if (balanceFactor > 1 && getBalanceFactor(node.leftChild) < 0) {
             node.leftChild = leftRotate(node.leftChild);
             return rightRotate(node);
         }
 
         //RL
-        if (balanceFactor<-1 && getBalanceFactor(node.rightChild)>0){
+        if (balanceFactor < -1 && getBalanceFactor(node.rightChild) > 0) {
             node.rightChild = rightRotate(node.rightChild);
             return leftRotate(node);
         }
@@ -167,16 +174,116 @@ public class AVLTree {
     }
 
     /**
+     * 删除某一个节点
+     *
+     * @param key 节点的键
+     */
+    public void removeNode(Key key) {
+        if (root != null) {
+            root = removeNode(root, key);
+//            root = removeNodeByFindMaximum(root, key);
+        }
+    }
+
+    /**
+     * 从右子树中寻找最小值去代替要删除的节点
+     *
+     * @param node
+     * @param key
+     * @return
+     */
+    private Node removeNode(Node node, Key key) {
+
+        if (node == null) {
+            return null;
+        }
+        Node retNode;
+        if (key.compareTo(node.key)>0) {
+            node.rightChild = removeNode(node.rightChild, key);
+            retNode =  node;
+        } else if (key.compareTo(node.key)<0) {
+            node.leftChild = removeNode(node.leftChild, key);
+            retNode =  node;
+        } else {//找到了要删除的节点
+            if (node.rightChild == null) {//右孩子为空
+                Node leftChild = node.leftChild;
+                node.leftChild = null;
+                count--;
+                retNode =  leftChild;
+            } else if (node.leftChild == null) {//左孩子为空
+                Node rightChild = node.rightChild;
+                node.rightChild = null;
+                count--;
+                retNode =  rightChild;
+            } else {//含有左右子节点
+                //minNode节点用来代替要删除的节点
+                //如果不通过new的方式获取最小节点，会导致在删除最小值时造成错乱
+                Node minNode = new Node(minimum(node.rightChild));
+                minNode.leftChild = node.leftChild;
+                minNode.rightChild = removeNode(node.rightChild,minNode.key);
+                node.leftChild = node.rightChild = null;
+                retNode =  minNode;
+            }
+        }
+        if (retNode==null)
+            return null;
+
+        //修正字数深度
+        retNode.height = Math.max(getHeight(retNode.leftChild), getHeight(retNode.rightChild)) + 1;
+
+        //balance
+        int balanceFactor = getBalanceFactor(retNode);
+
+        //LL
+        if (balanceFactor > 1 && getBalanceFactor(retNode.leftChild) >= 0) {
+            return rightRotate(retNode);
+        }
+
+        //RR
+        if (balanceFactor < -1 && getBalanceFactor(retNode.rightChild) <= 0) {
+            return leftRotate(retNode);
+        }
+
+        //LR
+        if (balanceFactor > 1 && getBalanceFactor(retNode.leftChild) < 0) {
+            retNode.leftChild = leftRotate(retNode.leftChild);
+            return rightRotate(retNode);
+        }
+
+        //RL
+        if (balanceFactor < -1 && getBalanceFactor(retNode.rightChild) > 0) {
+            retNode.rightChild = rightRotate(retNode.rightChild);
+            return leftRotate(retNode);
+        }
+
+        return retNode;
+    }
+
+    /**
+     * 返回最小的节点
+     *
+     * @param node
+     * @return
+     */
+    public Node minimum(Node node) {
+        if (node.leftChild == null) {
+            return node;
+        } else {
+            return minimum(node.leftChild);
+        }
+    }
+
+    /**
      * 右旋转
      * 发生在元素被插入在左侧的左侧 破坏了平衡因子
-     *
-     *            y                        x
-     *          /   \                    /  \
-     *         x    T4                 z      y
-     *       /  \                     / \    / \
-     *      z  T3         ----->    T1  T2  T3  T4
-     *     /    \
-     *    T1    T2
+     * <p>
+     * y                        x
+     * /   \                    /  \
+     * x    T4                 z      y
+     * /  \                     / \    / \
+     * z  T3         ----->    T1  T2  T3  T4
+     * /    \
+     * T1    T2
      *
      * @param y
      * @return
@@ -188,8 +295,8 @@ public class AVLTree {
         x.rightChild = y;
         y.leftChild = T3;
 
-        y.height = Math.max(getHeight(y.leftChild),getHeight(y.rightChild))+1;
-        y.height = Math.max(getHeight(x.leftChild),getHeight(x.rightChild))+1;
+        y.height = Math.max(getHeight(y.leftChild), getHeight(y.rightChild)) + 1;
+        x.height = Math.max(getHeight(x.leftChild), getHeight(x.rightChild)) + 1;
 
         return x;
     }
@@ -197,29 +304,29 @@ public class AVLTree {
     /**
      * 左旋转
      * 发生在元素被插入在右侧的右侧 破坏了平衡因子
-     *
-     *           y                        x
-     *         /   \                    /  \
-     *        T1     x                y      z
-     *              / \              / \    / \
-     *            T2   z   ----->   T1  T2  T3  T4
-     *           / \
-     *          T3  T4
+     * <p>
+     * y                        x
+     * /   \                    /  \
+     * T1     x                y      z
+     * / \              / \    / \
+     * T2   z   ----->   T1  T2  T3  T4
+     * / \
+     * T3  T4
      *
      * @param y
      * @return
      */
     private Node leftRotate(Node y) {
-       Node x = y.rightChild;
-       Node T2 = x.leftChild;
+        Node x = y.rightChild;
+        Node T2 = x.leftChild;
 
-       x.leftChild = y;
-       y.rightChild = T2;
+        x.leftChild = y;
+        y.rightChild = T2;
 
-       y.height = Math.max(getHeight(y.leftChild),getHeight(y.rightChild))+1;
-       x.height = Math.max(getHeight(x.leftChild),getHeight(x.rightChild))+1;
+        y.height = Math.max(getHeight(y.leftChild), getHeight(y.rightChild)) + 1;
+        x.height = Math.max(getHeight(x.leftChild), getHeight(x.rightChild)) + 1;
 
-       return x;
+        return x;
     }
 
     public boolean contain(int key) {
@@ -230,26 +337,26 @@ public class AVLTree {
         if (node == null) {
             return false;
         }
-        if (node.key == key) {
+        if (node.key.compareTo(key) == 0) {
             return true;
-        } else if (node.key < key) {
+        } else if (node.key.compareTo(key) < 0) {
             return contain(key, node.rightChild);
         } else {
             return contain(key, node.leftChild);
         }
     }
 
-    public String value(int key) {
+    public Value value(int key) {
         return value(key, root);
     }
 
-    private String value(int key, Node node) {
+    private Value value(int key, Node node) {
         if (node == null) {
             return null;
         }
-        if (node.key == key) {
+        if (node.key.compareTo(key) == 0) {
             return node.value;
-        } else if (node.key < key) {
+        } else if (node.key.compareTo(key) < 0) {
             return value(key, node.rightChild);
         } else {
             return value(key, node.leftChild);
@@ -270,7 +377,7 @@ public class AVLTree {
         if (node == null)
             return;
         inOrder(node.leftChild);
-        System.out.print(node.value + "\t");
+        System.out.print(node.key + "\t");
         inOrder(node.rightChild);
     }
 
@@ -283,7 +390,7 @@ public class AVLTree {
         q.add(node);
         while (!q.isEmpty()) {
             Node n = q.remove();
-            System.out.print(n.value + "\t");
+            System.out.print(n.key + "\t");
             if (n.leftChild != null)
                 q.add(n.leftChild);
 
@@ -295,10 +402,13 @@ public class AVLTree {
 
 
     public static void main(String[] args) {
+        int length = 100;
         AVLTree bst = new AVLTree();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < length; i++) {
+//            int key = (int) (Math.random() * 100);
             bst.insert(i, String.valueOf(i));
         }
+
 //        for (int i = 0; i < 6; i++) {
 //            System.out.println(bst.contain(i));
 //        }
@@ -310,9 +420,17 @@ public class AVLTree {
         System.out.println("is balance : " + bst.isBalanceTree());
         System.out.println("is BST : " + bst.isBST());
 
-        bst.levelOrder();
-        System.out.println();
-        bst.inOrder();
+
+        for (int i=0;i<length;i++){
+            bst.removeNode(i);
+            if (!bst.isBalanceTree() || !bst.isBST())
+                throw new RuntimeException("avl is not bst or balance tree");
+        }
+
+        System.out.println("complete!");
+//        bst.levelOrder();
+//        System.out.println();
+//        bst.inOrder();
 
     }
 }

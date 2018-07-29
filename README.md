@@ -135,7 +135,7 @@
 ##### avl树
 |  名称  | 描述 |
 |---|---|
-|  [AVL树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/avl/AVLTree.java) | 平衡树 |
+|  [AVL树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/avl/AVLTree.java) | 通过LL/RR/LR/RL 操作维护平衡因子，达到自平衡 |
 
 
 #### 并查集
