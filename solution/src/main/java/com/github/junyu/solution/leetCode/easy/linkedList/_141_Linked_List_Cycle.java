@@ -5,7 +5,7 @@ package com.github.junyu.solution.leetCode.easy.linkedList;
  * @author ShaoJunyu
  * @since 2018/7/30 08:34
  */
-public class _002_Linked_List_Cycle {
+public class _141_Linked_List_Cycle {
 
     /*Given a linked list, determine if it has a cycle in it.
 
@@ -35,7 +35,7 @@ public class _002_Linked_List_Cycle {
             return false;
 
         while (head != null) {
-            if (head == head.next)
+            if (head==head.next)
                 return true;
 
             ListNode temp = head.next;

@@ -5,7 +5,7 @@ package com.github.junyu.solution.leetCode.easy.linkedList;
  * @author ShaoJunyu
  * @since 2018/6/19 10:35
  */
-public class _001_DeleteNodeInALinkedList {
+public class _237_DeleteNodeInALinkedList {
 
   /*
     Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.

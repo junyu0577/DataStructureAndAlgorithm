@@ -71,8 +71,10 @@
 
 |  难度  | 问题 |
 |---|---|
-|  easy | [Delete Node In A Linked List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/linkedList/_001_DeleteNodeInALinkedList.java) |
-|  easy | [Linked List Cycle](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/linkedList/_002_Linked_List_Cycle.java) |
+|  easy | [Delete Node In A Linked List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/linkedList/_237_DeleteNodeInALinkedList.java) |
+|  easy | [Linked List Cycle](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/linkedList/_141_Linked_List_Cycle.java) |
+|  easy | [Reverse Linked List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/linkedList/_206_ReverseLinked_List.java) |
+|  easy | [Palindrome Linked List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/linkedList/_234_Palindrome_Linked_List.java) |
 
 #### tree
 
@@ -148,7 +150,7 @@
 ##### 线段树
 |  名称  | 描述 |
 |---|---|
-|  [AVL树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/segment_tree/SegmentTree.java) | 存放给定区间内对应的信息,针对区间内数据频繁变更 |
+|  [线段树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/binary_search_tree/segment_tree/SegmentTree.java) | 存放给定区间内对应的信息,针对区间内数据频繁变更 |
 
 
 #### 并查集
