@@ -5,7 +5,7 @@ package com.github.junyu.solution.leetCode.easy.math;
  * @version $Id$
  * @since 2018/7/25 22:39
  */
-public class _002_Power_of_Three {
+public class _362_Power_of_Three {
 
  /*   Given an integer, write a function to determine if it is a power of three.
 

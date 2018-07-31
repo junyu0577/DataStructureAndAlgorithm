@@ -97,8 +97,9 @@
 |  难度  | 问题 |
 |---|---|
 |  easy | [Count_Primes](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/math/_001_Count_Primes.java) |
-|  easy | [Power_of_Three](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/math/_002_Power_of_Three.java) |
+|  easy | [Power_of_Three](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/math/_362_Power_of_Three.java) |
 |  easy | [Fizz Buzz](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/math/_412_Fizz_Buzz.java) |
+|  easy | [Roman to Integer](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/math/_013_Roman_to_Integer.java) |
 
 #### others
 
