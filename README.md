@@ -109,6 +109,7 @@
 |  easy | [Missing Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/others/_268_Missing_Number.java) |
 |  easy | [Number of 1 Bits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/others/_191_Number_of_1_Bits.java) |
 |  easy | [Hamming Distance](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/others/_461_Hamming_Distance.java) |
+|  easy | [Reverse Bits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/others/_190_Reverse_Bits.java) |
 
 <br/>
 
