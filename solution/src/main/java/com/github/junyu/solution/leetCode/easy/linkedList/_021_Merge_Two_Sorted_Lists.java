@@ -4,7 +4,7 @@ package com.github.junyu.solution.leetCode.easy.linkedList;
  * @author ShaoJunyu
  * @since 2018/7/31 08:05
  */
-public class Merge_Two_Sorted_Lists {
+public class _021_Merge_Two_Sorted_Lists {
 
 
     /*Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
@@ -24,6 +24,18 @@ public class Merge_Two_Sorted_Lists {
         }
     }
 
+    /**
+     * 这种解法在时间效率上稍微差点，因为每次追加的时候我都是通过递归回溯往head增加新元素
+     * 总体思路就是首先判断下两个链表存在空的一方，存在一方空的情况就返回另一方。
+     * 不然就定一个头节点，里面存放两个链表中值较小的元素。
+     * while循环中会出现三种情况，两个当前链表都不空或者l1空以及l2空。
+     * 1.都不为空，就比较两个链表的val，然后往head追加较小的
+     * 2.l1空，追加l2的val
+     * 3.l2空，追加l1的val
+     * @param l1
+     * @param l2
+     * @return
+     */
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null)
             return l2;
