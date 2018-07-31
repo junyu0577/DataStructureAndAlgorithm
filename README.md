@@ -77,6 +77,7 @@
 |  easy | [Reverse Linked List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/linkedList/_206_ReverseLinked_List.java) |
 |  easy | [Palindrome Linked List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/linkedList/_234_Palindrome_Linked_List.java) |
 |  easy | [Merge Two Sorted Lists](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/linkedList/_021_Merge_Two_Sorted_Lists.java) |
+|  easy | [Remove Nth Node From End of List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/linkedList/_019_Remove_Nth_Node_From_End_of_List.java) |
 
 #### tree
 
