@@ -38,6 +38,12 @@ public class _412_Fizz_Buzz {
             "FizzBuzz"
             ]*/
 
+    /**
+     * 同时能被3和5整除用FizzBuzz替换，只能被3整除用Fizz替换，
+     * 只能被5整除用Buzz替换。
+     * @param n
+     * @return
+     */
     public static List<String> fizzBuzz(int n) {
         List<String> res = new ArrayList();
         for (int i = 1; i <= n; i++) {
