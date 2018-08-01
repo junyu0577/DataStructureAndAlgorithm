@@ -119,6 +119,7 @@
 |  难度  | 问题 |
 |---|---|
 |  easy | [Min Stack](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/design/_155_Min_Stack.java) |
+|  easy | [Shuffle an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/design/_384_Shuffle_an_Array.java) |
 
 <br/>
 
@@ -153,7 +154,11 @@
 ##### 数组
 |  名称  | 描述 |
 |---|---|
-|  [数组](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/linear/Array.java) |  |
+|  [数组](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/linear/Array.java) | 动态数组 |
+
+##### 栈
+|  名称  | 描述 |
+|---|---|
 |  [栈](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/linear/StackArray.java) | 基于数组的实现 |
 
 #### 堆
