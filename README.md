@@ -15,6 +15,9 @@
    * [排序](#排序)
        * [基础排序](#基础排序)
        * [高级排序](#高级排序)
+   * [线性](#线性)
+       * [数组](#数组)
+       * [栈](#栈)
    * [堆](#堆)
    * [树](#树)
         * [二分搜索树](#二分搜索树)
@@ -111,6 +114,12 @@
 |  easy | [Hamming Distance](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/others/_461_Hamming_Distance.java) |
 |  easy | [Reverse Bits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/others/_190_Reverse_Bits.java) |
 
+#### design
+
+|  难度  | 问题 |
+|---|---|
+|  easy | [Min Stack](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/design/_155_Min_Stack.java) |
+
 <br/>
 
 ### datastructure
@@ -138,6 +147,14 @@
 |  [堆排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/HeapSort.java) |  |
 |  [堆排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/HeapSort2.java) | 通过Heapify数组建堆代替原先的insert逐个插入 |
 |  [原地堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/sort/HeapSort3.java) | 没有开辟新的数组空间，直接在原来的数组上进行堆排 |
+
+
+#### 线性
+##### 数组
+|  名称  | 描述 |
+|---|---|
+|  [数组](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/linear/Array.java) |  |
+|  [栈](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/data_structure/linear/StackArray.java) | 基于数组的实现 |
 
 #### 堆
 |  名称  | 描述 |
