@@ -5,7 +5,7 @@ package com.github.junyu.solution.leetCode.easy.dp;
  * @version $Id$
  * @since 2018/8/1 20:47
  */
-public class _70_Climbing_Stairs {
+public class _070_Climbing_Stairs {
 
    /* You are climbing a stair case. It takes n steps to reach to the top.
 
@@ -89,7 +89,7 @@ public class _70_Climbing_Stairs {
     }
 
     public static void main(String[] args) {
-        _70_Climbing_Stairs climbing_stairs = new _70_Climbing_Stairs();
+        _070_Climbing_Stairs climbing_stairs = new _070_Climbing_Stairs();
         System.out.println(climbing_stairs.climbStairs(1));
         System.out.println(climbing_stairs.climbStairs(2));
         System.out.println(climbing_stairs.climbStairs(3));
