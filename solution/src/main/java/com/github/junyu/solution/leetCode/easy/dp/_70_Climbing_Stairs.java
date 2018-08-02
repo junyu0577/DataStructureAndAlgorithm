@@ -1,4 +1,4 @@
-package com.github.junyu.solution.leetCode.easy.dynamicProgramming;
+package com.github.junyu.solution.leetCode.easy.dp;
 
 /**
  * @author ShaoJunyu

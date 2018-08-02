@@ -113,6 +113,7 @@
 |  easy | [Number of 1 Bits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/others/_191_Number_of_1_Bits.java) |
 |  easy | [Hamming Distance](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/others/_461_Hamming_Distance.java) |
 |  easy | [Reverse Bits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/others/_190_Reverse_Bits.java) |
+|  easy | [Pascal's Triangle](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/others/_118_Pascal_Triangle.java) |
 
 #### design
 
@@ -120,6 +121,13 @@
 |---|---|
 |  easy | [Min Stack](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/design/_155_Min_Stack.java) |
 |  easy | [Shuffle an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/design/_384_Shuffle_an_Array.java) |
+
+#### dp
+
+|  难度  | 问题 |
+|---|---|
+|  easy | [Climbing Stairs](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/dp/_70_Climbing_Stairs.java) |
+
 
 <br/>
 
