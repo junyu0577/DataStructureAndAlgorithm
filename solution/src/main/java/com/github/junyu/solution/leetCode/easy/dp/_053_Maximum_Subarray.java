@@ -25,40 +25,35 @@ public class _053_Maximum_Subarray {
     private int[] memo;
 
     public int maxSubArray(int[] nums) {
-
         if (nums == null || nums.length == 0)
             return 0;
 
-        if (nums.length == 1)
-            return nums[0];
-
-
         memo = new int[nums.length];
-        max = nums[0];
-        memo[0] = max;
+        memo[0] = nums[0];
+        max = memo[0];
 
-        countMax(nums, 1, nums[1]);
+        countMax(nums, 1);
 
         return max;
-
     }
 
-    private void countMax(int[] nums, int index, int num) {
 
-        memo[index] = nums[index] + Math.max(memo[index - 1], 0);
-        max = Math.max(memo[index], max);
+    private void countMax(int[] nums, int index) {
 
-        if (index == nums.length - 1)
+        if (index >= nums.length)
             return;
 
-        countMax(nums, index + 1, num + nums[index + 1]);
+        memo[index] = Math.max(memo[index - 1], 0) + nums[index];
+        max = Math.max(memo[index], max);
 
+        countMax(nums, index + 1);
     }
 
 
-//    private int[] memo;
-//
 //    /**
+//     * 假设memo[i]为nums[0,i]的最大值，
+//     * 可以得出memo[i+1] = max(memo[i],memo[i+1])+nums[i+1]
+//     *
 //     * @param nums
 //     * @return
 //     */
@@ -66,16 +61,18 @@ public class _053_Maximum_Subarray {
 //        if (nums == null || nums.length == 0)
 //            return 0;
 //
-//        memo = new int[nums.length];
-//        int max = nums[0];
-//        memo[0] = max;
+//
+//        int[] memo = new int[nums.length];
+//        memo[0] = nums[0];
+//        int max = memo[0];
 //
 //        for (int i = 1; i < nums.length; i++) {
-//            memo[i] = nums[i] + Math.max(memo[i - 1], 0);
-//            max = Math.max(max, memo[i]);
+//            memo[i] = Math.max(memo[i - 1], 0) + nums[i];
+//            max = Math.max(memo[i], max);
 //        }
 //
 //        return max;
+//
 //    }
 
 
@@ -83,7 +80,8 @@ public class _053_Maximum_Subarray {
 //        int arr[] = {1, -2, 3};
 //        int arr[] = {1, 2, 3};
 //        int arr[] = {1, 2};
-        int arr[] = {-1};
+//        int arr[] = {-1};
+        int arr[] = {-2,1};
 //        int arr[] = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         _053_Maximum_Subarray maximum_subarray = new _053_Maximum_Subarray();
         System.out.println(maximum_subarray.maxSubArray(arr));
