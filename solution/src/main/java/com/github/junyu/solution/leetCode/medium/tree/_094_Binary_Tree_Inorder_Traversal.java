@@ -1,4 +1,4 @@
-package com.github.junyu.solution.leetCode.easy.tree;
+package com.github.junyu.solution.leetCode.medium.tree;
 
 import java.util.ArrayList;
 import java.util.List;
