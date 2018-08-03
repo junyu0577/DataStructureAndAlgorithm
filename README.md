@@ -10,6 +10,7 @@
   * [Tree](#tree)
   * [Math](#tree)
   * [Others](#others)
+  * [Backtracking](#backtracking)
 
 * [DataStructure](#datastructure)
    * [排序](#排序)
@@ -64,7 +65,6 @@
 |  easy | [Implement strStr](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/string/_008_Implement_strStr.java) |
 |  easy | [CountAndSay](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/string/_009_CountAndSay.java) |
 |  easy | [Valid Parentheses](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/string/_010_Valid_Parentheses.java) |
-|  medium | [Letter Combinations of a Phone Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/string/_017_Letter_Combinations_of_a_Phone_Number.java) |
 
 #### sort
 
@@ -133,6 +133,11 @@
 |  easy | [Maximum Subarray](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/dp/_053_Maximum_Subarray.java) |
 |  easy | [House Robber](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/easy/dp/_198_House_Robber.java) |
 
+#### backtracking
+
+|  难度  | 问题 |
+|---|---|
+|  medium | [Letter Combinations of a Phone Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/solution/src/main/java/com/github/junyu/solution/leetCode/medium/backtracking/_017_Letter_Combinations_of_a_Phone_Number.java) |
 
 <br/>
 
