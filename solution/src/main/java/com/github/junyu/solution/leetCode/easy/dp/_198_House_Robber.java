@@ -1,14 +1,14 @@
 package com.github.junyu.solution.leetCode.easy.dp;
 
-import com.github.junyu.solution.data_structure.linear.Array;
-
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author ShaoJunyu
  * @since 2018/8/3 08:11
  */
-public class _House_Robber {
+public class _198_House_Robber {
 
 
    /* You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed,
@@ -46,7 +46,7 @@ public class _House_Robber {
             return 0;
 
         memo = new int[nums.length];
-        Arrays.fill(memo,-1);
+        Arrays.fill(memo, -1);
 
         return tryToRob(nums, 0);
     }
@@ -60,17 +60,22 @@ public class _House_Robber {
 
         int res = 0;
         for (int i = index; i < nums.length; i++) {
-            res = Math.max(res, tryToRob(nums, i + 2) + nums[i]);
+            res = Math.max(res, nums[i] + tryToRob(nums, i + 2));
             memo[index] = res;
         }
         return res;
     }
 
     public static void main(String[] args) {
-//        int arr[] = {1,2,3,1};
-        int arr[] = {2, 7, 9, 3, 1};
-        _House_Robber house_robber = new _House_Robber();
-        System.out.println(house_robber.rob(arr));
+        List<int[]> list = new ArrayList<>();
+        list.add(new int[]{1, 2, 3, 1});
+        list.add(new int[]{2, 7, 9, 3, 1});
+        list.add(new int[]{2, 1, 1, 2});
+
+        _198_House_Robber house_robber = new _198_House_Robber();
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(house_robber.rob(list.get(i)));
+        }
     }
 
 }
