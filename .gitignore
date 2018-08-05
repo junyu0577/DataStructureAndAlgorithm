@@ -17,6 +17,10 @@
 # Log Files
 *.log
 
+# out
+/out
+out
+
 # Android Studio captures folder
 captures/
 

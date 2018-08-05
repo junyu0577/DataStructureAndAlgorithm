@@ -146,8 +146,8 @@ public class GraphTest {
 
     private static String gePath(String fileName) {
         String mainPath = Class.class.getClass().getResource("/").getPath();
-        mainPath = mainPath.substring(0, mainPath.indexOf("/build"));
-        mainPath = mainPath + "/src/main/java/com/github/junyu/solution/data_structure/graph/data/" + fileName;
+//        mainPath = mainPath.substring(0, mainPath.indexOf("/out"));
+        mainPath = mainPath + "com/github/junyu/solution/data_structure/graph/data/" + fileName;
         return mainPath;
     }
 
