@@ -20,6 +20,7 @@
    * [线性](#线性)
        * [数组](#数组)
        * [栈](#栈)
+       * [队列](#队列)
    * [堆](#堆)
    * [树](#树)
         * [二分搜索树](#二分搜索树)
@@ -180,6 +181,13 @@
 |  名称  | 描述 |
 |---|---|
 |  [栈](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/linear/StackArray.java) | 基于数组的实现 |
+
+##### 队列
+|  名称  | 描述 |
+|---|---|
+|  [队列](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/linear/QueueArray.java) |  |
+|  [循环队列](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/linear/LoopQueue.java) | 出队操作为O(1) |
+
 
 #### 堆
 |  名称  | 描述 |

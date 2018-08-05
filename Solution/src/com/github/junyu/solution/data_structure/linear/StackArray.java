@@ -9,7 +9,7 @@ public class StackArray<E extends Comparable> implements Stack<E> {
     private Array<E> data;
 
     public StackArray() {
-        this(10);
+        data = new Array<>();
     }
 
     public StackArray(int capacity) {
@@ -47,14 +47,4 @@ public class StackArray<E extends Comparable> implements Stack<E> {
         return data.getCapacity();
     }
 
-    public E getMin() {
-        if (data.isEmpty())
-            return null;
-        E res = data.get(0);
-        for (int i = 1; i < data.size(); i++) {
-            if (res.compareTo(data.get(i)) > 0)
-                res = data.get(i);
-        }
-        return res;
-    }
 }
