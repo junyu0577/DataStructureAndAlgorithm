@@ -1,6 +1,8 @@
 package com.github.junyu.solution.leetCode.easy.tree;
 
 
+import com.github.junyu.solution.leetCode.easy.tree.entity.TreeNode;
+
 import java.util.LinkedList;
 
 public class _404_Sum_of_Left_Leaves {
@@ -19,15 +21,6 @@ public class _404_Sum_of_Left_Leaves {
     There are two left leaves in the binary tree, with values 9 and 15 respectively. Return 24.
     */
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
 //    /**
 //     * 用层序遍历求解，在往队列中添加元素的时候判断左孩子时进行累加。

@@ -1,5 +1,7 @@
 package com.github.junyu.solution.leetCode.easy.tree;
 
+import com.github.junyu.solution.leetCode.easy.tree.entity.TreeNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -10,7 +12,7 @@ import java.util.Queue;
  * @version $Id$
  * @since 2018/7/24 19:45
  */
-public class _001_Binary_Tree_Level_Order_Traversal {
+public class _102_Binary_Tree_Level_Order_Traversal {
 
   /*  Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
 
@@ -31,15 +33,6 @@ public class _001_Binary_Tree_Level_Order_Traversal {
         [15,7]
         ]*/
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 二叉树的层序遍历 BFS

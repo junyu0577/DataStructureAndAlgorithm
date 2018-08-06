@@ -1,5 +1,7 @@
 package com.github.junyu.solution.leetCode.easy.linkedList;
 
+import com.github.junyu.solution.leetCode.easy.linkedList.entity.ListNode;
+
 public class _160_Intersection_of_Two_Linked_Lists {
 
 /*
@@ -25,15 +27,6 @@ public class _160_Intersection_of_Two_Linked_Lists {
     Your code should preferably run in O(n) time and use only O(1) memory.
 */
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 
     /**
      * 求两个链表的相交起始位置

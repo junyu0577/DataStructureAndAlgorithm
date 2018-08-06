@@ -1,6 +1,8 @@
 package com.github.junyu.solution.leetCode.easy.linkedList;
 
 
+import com.github.junyu.solution.leetCode.easy.linkedList.entity.ListNode;
+
 /**
  * @author ShaoJunyu
  * @since 2018/7/30 08:34
@@ -12,15 +14,6 @@ public class _141_Linked_List_Cycle {
     Follow up:
     Can you solve it without using extra space?*/
 
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 
     /**
      * 验证linkList是否是形成一个环

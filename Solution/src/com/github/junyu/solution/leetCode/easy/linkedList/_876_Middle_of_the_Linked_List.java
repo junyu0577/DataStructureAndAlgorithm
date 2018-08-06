@@ -1,5 +1,7 @@
 package com.github.junyu.solution.leetCode.easy.linkedList;
 
+import com.github.junyu.solution.leetCode.easy.linkedList.entity.ListNode;
+
 public class _876_Middle_of_the_Linked_List {
 
 /*
@@ -28,15 +30,6 @@ public class _876_Middle_of_the_Linked_List {
     The number of nodes in the given list will be between 1 and 100.
     */
 
-
-    private static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 设置快慢指针，fast每次走两步，slow每次走一步，

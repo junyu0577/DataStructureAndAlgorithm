@@ -1,6 +1,8 @@
 package com.github.junyu.solution.leetCode.easy.tree;
 
 
+import com.github.junyu.solution.leetCode.easy.tree.entity.TreeNode;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -34,15 +36,6 @@ public class _653_Two_Sum_IV_Input_is_a_BST {
 
     Output: False*/
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
 //    private boolean res;
 //

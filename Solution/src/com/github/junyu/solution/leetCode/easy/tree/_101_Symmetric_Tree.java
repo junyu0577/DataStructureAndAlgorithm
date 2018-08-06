@@ -1,5 +1,7 @@
 package com.github.junyu.solution.leetCode.easy.tree;
 
+import com.github.junyu.solution.leetCode.easy.tree.entity.TreeNode;
+
 /**
  * @author ShaoJunyu
  * @version $Id$
@@ -24,15 +26,6 @@ public class _101_Symmetric_Tree {
             3    3
         */
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 验证树的对称

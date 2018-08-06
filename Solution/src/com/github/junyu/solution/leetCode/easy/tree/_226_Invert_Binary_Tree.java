@@ -1,5 +1,7 @@
 package com.github.junyu.solution.leetCode.easy.tree;
 
+import com.github.junyu.solution.leetCode.easy.tree.entity.TreeNode;
+
 /**
  * @author ShaoJunyu
  * @version $Id$
@@ -29,15 +31,6 @@ public class _226_Invert_Binary_Tree {
     */
 
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 翻转二叉树 往底层递归前先交换左右孩子

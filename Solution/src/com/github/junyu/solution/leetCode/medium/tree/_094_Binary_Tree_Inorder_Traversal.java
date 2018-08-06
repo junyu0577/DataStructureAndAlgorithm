@@ -1,5 +1,7 @@
 package com.github.junyu.solution.leetCode.medium.tree;
 
+import com.github.junyu.solution.leetCode.easy.tree.entity.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,15 +27,6 @@ public class _094_Binary_Tree_Inorder_Traversal {
     */
 
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 中序遍历 返回以节点值组成的数组

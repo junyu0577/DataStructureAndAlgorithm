@@ -1,5 +1,7 @@
 package com.github.junyu.solution.leetCode.easy.linkedList;
 
+import com.github.junyu.solution.leetCode.easy.linkedList.entity.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,14 +25,6 @@ public class _234_Palindrome_Linked_List {
     Follow up:
     Could you do it in O(n) time and O(1) space?*/
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 判断是否是回文

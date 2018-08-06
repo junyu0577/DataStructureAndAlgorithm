@@ -1,11 +1,13 @@
 package com.github.junyu.solution.leetCode.easy.tree;
 
+import com.github.junyu.solution.leetCode.easy.tree.entity.TreeNode;
+
 /**
  * @author ShaoJunyu
  * @version $Id$
  * @since 2018/7/28 18:26
  */
-public class _004_Convert_Sorted_Array_to_Binary_Search_Tree {
+public class _108_Convert_Sorted_Array_to_Binary_Search_Tree {
 
  /*   Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
 
@@ -24,15 +26,6 @@ public class _004_Convert_Sorted_Array_to_Binary_Search_Tree {
             -10  5*/
 
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     public static TreeNode sortedArrayToBST(int[] nums) {
         return generateBst(nums, 0, nums.length - 1);

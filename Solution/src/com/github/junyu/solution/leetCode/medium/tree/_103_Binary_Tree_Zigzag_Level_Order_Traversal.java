@@ -1,5 +1,7 @@
 package com.github.junyu.solution.leetCode.medium.tree;
 
+import com.github.junyu.solution.leetCode.easy.tree.entity.TreeNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -29,15 +31,6 @@ public class _103_Binary_Tree_Zigzag_Level_Order_Traversal {
             ]
     */
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 这题就是之前层序遍历的基础之上，增加了正序和反序存储，

@@ -1,6 +1,8 @@
 package com.github.junyu.solution.leetCode.easy.linkedList;
 
 
+import com.github.junyu.solution.leetCode.easy.linkedList.entity.ListNode;
+
 /**
  * @author ShaoJunyu
  * @version $Id$
@@ -18,14 +20,6 @@ public class _206_ReverseLinked_List {
 
     A linked list can be reversed either iteratively or recursively. Could you implement both?*/
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 翻转链表

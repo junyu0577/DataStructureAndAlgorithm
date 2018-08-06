@@ -1,6 +1,8 @@
 package com.github.junyu.solution.leetCode.easy.linkedList;
 
 
+import com.github.junyu.solution.leetCode.easy.linkedList.entity.ListNode;
+
 /**
  * @author ShaoJunyu
  * @since 2018/6/19 10:35
@@ -33,14 +35,6 @@ public class _237_DeleteNodeInALinkedList {
     Do not return anything from your function.
     */
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 将node的下一个节点的值赋给当前node的值，node由原先指向的node.next变成了node.next.next

@@ -1,5 +1,7 @@
 package com.github.junyu.solution.leetCode.easy.tree;
 
+import com.github.junyu.solution.leetCode.easy.tree.entity.TreeNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -23,15 +25,6 @@ public class _637_Average_of_Levels_in_Binary_Tree {
     The range of node's value is in the range of 32-bit signed integer.
     */
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 求一层的平均值

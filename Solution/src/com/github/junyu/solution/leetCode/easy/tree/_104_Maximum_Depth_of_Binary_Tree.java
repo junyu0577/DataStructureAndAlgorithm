@@ -1,10 +1,12 @@
 package com.github.junyu.solution.leetCode.easy.tree;
 
+import com.github.junyu.solution.leetCode.easy.tree.entity.TreeNode;
+
 /**
  * @author ShaoJunyu
  * @since 2018/7/25 09:17
  */
-public class _002_Maximum_Depth_of_Binary_Tree {
+public class _104_Maximum_Depth_of_Binary_Tree {
 
   /*
     Given a binary tree, find its maximum depth.
@@ -27,15 +29,6 @@ public class _002_Maximum_Depth_of_Binary_Tree {
             return its depth = 3.
    */
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 采用递归 后序遍历 得出树深

@@ -1,5 +1,7 @@
 package com.github.junyu.solution.leetCode.easy.linkedList;
 
+import com.github.junyu.solution.leetCode.easy.linkedList.entity.ListNode;
+
 public class _083_Remove_Duplicates_from_Sorted_List {
 
 /*
@@ -15,14 +17,6 @@ public class _083_Remove_Duplicates_from_Sorted_List {
     Output: 1->2->3
     */
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
 //    /**
 //     * 在递归回溯的过程中进行值比较，比较当前节点的值与上一个节点的值，

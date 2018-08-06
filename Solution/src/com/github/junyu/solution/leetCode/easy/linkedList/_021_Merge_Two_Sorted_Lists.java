@@ -1,5 +1,7 @@
 package com.github.junyu.solution.leetCode.easy.linkedList;
 
+import com.github.junyu.solution.leetCode.easy.linkedList.entity.ListNode;
+
 /**
  * @author ShaoJunyu
  * @since 2018/7/31 08:05
@@ -15,14 +17,6 @@ public class _021_Merge_Two_Sorted_Lists {
     Output: 1->1->2->3->4->4*/
 
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 这种解法在时间效率上稍微差点，因为每次追加的时候我都是通过递归回溯往head增加新元素

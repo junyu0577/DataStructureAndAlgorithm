@@ -1,6 +1,8 @@
 package com.github.junyu.solution.leetCode.medium.tree;
 
 
+import com.github.junyu.solution.leetCode.easy.tree.entity.TreeNode;
+
 /**
  * @author ShaoJunyu
  * @since 2018/8/3 16:35
@@ -34,15 +36,6 @@ public class _230_Kth_Smallest_Element_in_a_BST {
     Output: 3
     */
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     private int count = 0;
 

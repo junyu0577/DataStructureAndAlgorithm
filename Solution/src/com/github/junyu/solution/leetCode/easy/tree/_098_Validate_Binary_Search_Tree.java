@@ -1,5 +1,7 @@
 package com.github.junyu.solution.leetCode.easy.tree;
 
+import com.github.junyu.solution.leetCode.easy.tree.entity.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
@@ -8,7 +10,7 @@ import java.util.Vector;
  * @author ShaoJunyu
  * @since 2018/7/25 09:51
  */
-public class _003_Validate_Binary_Search_Tree {
+public class _098_Validate_Binary_Search_Tree {
 
     /*Given a binary tree, determine if it is a valid binary search tree (BST).
 
@@ -36,15 +38,6 @@ public class _003_Validate_Binary_Search_Tree {
     is 5 but its right child's value is 4.*/
 
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     public static boolean isValidBST(TreeNode root) {
 

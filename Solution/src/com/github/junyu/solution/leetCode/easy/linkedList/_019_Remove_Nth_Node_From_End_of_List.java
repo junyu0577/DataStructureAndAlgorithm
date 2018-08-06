@@ -1,5 +1,7 @@
 package com.github.junyu.solution.leetCode.easy.linkedList;
 
+import com.github.junyu.solution.leetCode.easy.linkedList.entity.ListNode;
+
 /**
  * @author ShaoJunyu
  * @since 2018/7/31 09:36
@@ -23,14 +25,6 @@ public class _019_Remove_Nth_Node_From_End_of_List {
 
     */
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 定义一个count，通过遍历完整个链表获取链表的个数，
