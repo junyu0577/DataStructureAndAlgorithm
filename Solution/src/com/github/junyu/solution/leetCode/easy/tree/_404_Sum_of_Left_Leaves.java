@@ -55,7 +55,6 @@ public class _404_Sum_of_Left_Leaves {
 //
 //    }
 
-    private int res = 0;
 
     /**
      * 前序遍历，多传入一个参数标识是否为左孩子
@@ -66,21 +65,22 @@ public class _404_Sum_of_Left_Leaves {
     public int sumOfLeftLeaves(TreeNode root) {
         if (root == null)
             return 0;
-        sumOfLeftLeaves(root, false);
-        return res;
+
+        return sumOfLeftLeaves(root, false);
 
     }
 
-    private void sumOfLeftLeaves(TreeNode node, boolean isLeftChild) {
+    private int sumOfLeftLeaves(TreeNode node, boolean isLeftChild) {
+        int res = 0;
         if (node == null)
-            return;
+            return res;
 
 
         if (node.left == null && node.right == null && isLeftChild)//左边的叶子节点
             res += node.val;
 
-        sumOfLeftLeaves(node.left, true);
-        sumOfLeftLeaves(node.right, false);
+        return res + sumOfLeftLeaves(node.left, true) +
+                sumOfLeftLeaves(node.right, false);
     }
 
     public static void main(String[] args) {
