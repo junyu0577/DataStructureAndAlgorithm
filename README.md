@@ -102,6 +102,7 @@
 |  easy | [Invert Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_226_Invert_Binary_Tree.java) |
 |  easy | [Average of Levels in Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_637_Average_of_Levels_in_Binary_Tree.java) |
 |  easy | [Two Sum IV Input is a BST](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_653_Two_Sum_IV_Input_is_a_BST.java) |
+|  easy | [Sum of Left Leaves](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_404_Sum_of_Left_Leaves.java) |
 |  medium | [Range Sum Query - Mutable](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_307_Range_Sum_Query_Mutable.java) |
 |  medium | [Binary Tree Inorder Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_094_Binary_Tree_Inorder_Traversal.java) |
 |  medium | [Binary Tree Zigzag Level Order Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_103_Binary_Tree_Zigzag_Level_Order_Traversal.java) |
