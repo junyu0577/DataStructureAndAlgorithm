@@ -86,6 +86,8 @@
 |  easy | [Merge Two Sorted Lists](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/linkedList/_021_Merge_Two_Sorted_Lists.java) |
 |  easy | [Remove Nth Node From End of List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/linkedList/_019_Remove_Nth_Node_From_End_of_List.java) |
 |  easy | [Remove Linked List Elements](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/linkedList/_203_Remove_Linked_List_Elements.java) |
+|  easy | [Middle of the Linked List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/linkedList/_876_Middle_of_the_Linked_List.java) |
+|  easy | [083 Remove Duplicates from Sorted List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/linkedList/_083_Remove_Duplicates_from_Sorted_List.java) |
 
 #### tree
 
