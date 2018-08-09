@@ -2,17 +2,6 @@
 
 ### 目录
 
-* [LeetCode](#LeetCode)
-  * [Array](#array)
-  * [String](#string)
-  * [Sort](#sort)
-  * [LinkedList](#linkedlist)
-  * [Tree](#tree)
-  * [Math](#tree)
-  * [DP](#dp)
-  * [Others](#others)
-  * [Backtracking](#backtracking)
-
 * [DataStructure](#datastructure)
    * [排序](#排序)
        * [基础排序](#基础排序)
@@ -33,6 +22,133 @@
        * [最小生成树](#最小生成树)
        * [最短路径](#最短路径)
 
+* [LeetCode](#LeetCode)
+  * [Array](#array)
+  * [String](#string)
+  * [Sort](#sort)
+  * [LinkedList](#linkedlist)
+  * [Tree](#tree)
+  * [Math](#tree)
+  * [DP](#dp)
+  * [Others](#others)
+  * [Backtracking](#backtracking)
+
+
+
+### datastructure
+
+#### 排序
+##### 基础排序
+|  名称  | 描述 |
+|---|---|
+|  [选择排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/SelectionSort.java) |  |
+|  [冒泡排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/BubbleSort.java) |  |
+|  [插入排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/InsertionSort.java) |  |
+|  [插入排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/InsertionSort2.java) | 通过减少交换的操作,提升效率 |
+
+##### 高级排序
+|  名称  | 描述 |
+|---|---|
+|  [希尔排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/ShellSort.java) | 强化版的插入排序 |
+|  [归并排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/MergeSort.java) |  |
+|  [归并排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/MergeSort2.java) | 针对近乎有序的数组，通过减少merge操作以及当元素的数量少于等于16个时使用插入排序 |
+|  [归并排序BU](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/MergeSortBU.java) | 改递归为遍历，自底向上进行归并 |
+|  [快速排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/QuickSort.java) |  |
+|  [快速排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/QuickSort2.java) | 针对近乎有序的数组，防止时间复杂度退化到O(n^2) |
+|  [二路快速排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/QuickSort3.java) | 针对近乎有序的数组，提升效率 |
+|  [三路快速排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/QuickSort4.java) | 针对存在大量重复元素的数组，提升效率 |
+|  [堆排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/HeapSort.java) |  |
+|  [堆排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/HeapSort2.java) | 通过Heapify数组建堆代替原先的insert逐个插入 |
+|  [原地堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/HeapSort3.java) | 没有开辟新的数组空间，直接在原来的数组上进行堆排 |
+
+
+#### 线性
+##### 数组
+|  名称  | 描述 |
+|---|---|
+|  [数组](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/linear/Array.java) | 动态数组 |
+
+##### 栈
+|  名称  | 描述 |
+|---|---|
+|  [栈](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/linear/StackArray.java) | 基于数组的实现 |
+
+##### 队列
+|  名称  | 描述 |
+|---|---|
+|  [队列](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/linear/QueueArray.java) |  |
+|  [循环队列](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/linear/LoopQueue.java) | 出队操作为O(1) |
+
+
+#### 堆
+|  名称  | 描述 |
+|---|---|
+|  [最大堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/heap/MaxHeap.java) |  |
+|  [最小堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/heap/MinHeap.java) |  |
+|  [最大索引堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/heap/MaxIndexHeap.java) | 通过增加索引数组，避免直接对数据进行交换操作 |
+|  [最小索引堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/heap/MinIndexHeap.java) | 同上 |
+
+#### 树
+##### 二分搜索树
+|  名称  | 描述 |
+|---|---|
+|  [二分查找](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/Binary_Search.java) |  |
+|  [二分搜索树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/BST.java) |  |
+|  [二分搜索树遍历](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/BST_Order.java) | 深度优先（前中后序遍历）、广度优先(层序遍历) |
+|  [二分搜索树删除](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/BST_Delete.java) | Hibbard Deletion |
+
+
+##### avl树
+|  名称  | 描述 |
+|---|---|
+|  [AVL树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/avl/AVLTree.java) | 通过LL/RR/LR/RL 操作维护平衡因子，达到自平衡 |
+
+
+##### 线段树
+|  名称  | 描述 |
+|---|---|
+|  [线段树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/segment_tree/SegmentTree.java) | 存放给定区间内对应的信息,针对区间内数据频繁变更 |
+
+
+#### 并查集
+|  名称  | 描述 |
+|---|---|
+|  [并查集](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/union_find/UnionFind.java) | QUICK FIND，union和isConnected时间复杂度分别为O(n) 和 O(1) |
+|  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/union_find/UnionFind2.java) | QUICK UNION，提升union过程的效率 |
+|  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/union_find/UnionFind3.java) | 基于SIZE的优化 |
+|  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/union_find/UnionFind4.java) | 基于RANK的优化 |
+|  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/union_find/UnionFind5.java) | 路径压缩 (Path Compression) |
+|  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/union_find/UnionFind6.java) | 路径压缩 (Path Compression) 递归方式|
+
+#### 图
+##### 无权图
+|  名称  | 描述 |
+|---|---|
+|  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/DenseGraph.java) | 邻接矩阵 |
+|  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/SparseGraph.java) | 邻接表 |
+|  [图文件读取](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/ReadGraph.java) | 用于测试图 |
+|  [DFS求连通分量](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/Component.java) |  |
+
+##### 带权图
+|  名称  | 描述 |
+|---|---|
+|  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/DenseWeightGraph.java) | 邻接矩阵 |
+|  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/SparseWeightGraph.java) | 邻接表 |
+
+##### 最小生成树
+|  名称  | 描述 |
+|---|---|
+|  [Prim算法](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/LazyPrimMST.java) | (Lazy Prim) |
+|  [Prim算法优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/PrimMST.java) |  |
+|  [Kruskal算法](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/KruskalMST.java) |  |
+
+##### 最短路径
+|  名称  | 描述 |
+|---|---|
+|  [Dijkstra算法](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/Dijkstra.java) | 针对没有负权边的图 |
+|  [Bellman Ford算法](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/BellmanFord.java) | 针对有负权边而没有负权环的图 |
+
+<br/>
 
 ### LeetCode
 
@@ -161,117 +277,3 @@
 |  medium | [Subsets](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/backtracking/_078_Subsets.java) |
 |  medium | [Word Search](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/backtracking/_079_Word_Search.java) |
 
-<br/>
-
-### datastructure
-
-#### 排序
-##### 基础排序
-|  名称  | 描述 |
-|---|---|
-|  [选择排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/SelectionSort.java) |  |
-|  [冒泡排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/BubbleSort.java) |  |
-|  [插入排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/InsertionSort.java) |  |
-|  [插入排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/InsertionSort2.java) | 通过减少交换的操作,提升效率 |
-
-##### 高级排序
-|  名称  | 描述 |
-|---|---|
-|  [希尔排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/ShellSort.java) | 强化版的插入排序 |
-|  [归并排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/MergeSort.java) |  |
-|  [归并排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/MergeSort2.java) | 针对近乎有序的数组，通过减少merge操作以及当元素的数量少于等于16个时使用插入排序 |
-|  [归并排序BU](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/MergeSortBU.java) | 改递归为遍历，自底向上进行归并 |
-|  [快速排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/QuickSort.java) |  |
-|  [快速排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/QuickSort2.java) | 针对近乎有序的数组，防止时间复杂度退化到O(n^2) |
-|  [二路快速排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/QuickSort3.java) | 针对近乎有序的数组，提升效率 |
-|  [三路快速排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/QuickSort4.java) | 针对存在大量重复元素的数组，提升效率 |
-|  [堆排序](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/HeapSort.java) |  |
-|  [堆排序优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/HeapSort2.java) | 通过Heapify数组建堆代替原先的insert逐个插入 |
-|  [原地堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/sort/HeapSort3.java) | 没有开辟新的数组空间，直接在原来的数组上进行堆排 |
-
-
-#### 线性
-##### 数组
-|  名称  | 描述 |
-|---|---|
-|  [数组](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/linear/Array.java) | 动态数组 |
-
-##### 栈
-|  名称  | 描述 |
-|---|---|
-|  [栈](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/linear/StackArray.java) | 基于数组的实现 |
-
-##### 队列
-|  名称  | 描述 |
-|---|---|
-|  [队列](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/linear/QueueArray.java) |  |
-|  [循环队列](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/linear/LoopQueue.java) | 出队操作为O(1) |
-
-
-#### 堆
-|  名称  | 描述 |
-|---|---|
-|  [最大堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/heap/MaxHeap.java) |  |
-|  [最小堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/heap/MinHeap.java) |  |
-|  [最大索引堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/heap/MaxIndexHeap.java) | 通过增加索引数组，避免直接对数据进行交换操作 |
-|  [最小索引堆](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/heap/MinIndexHeap.java) | 同上 |
-
-#### 树
-##### 二分搜索树
-|  名称  | 描述 |
-|---|---|
-|  [二分查找](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/Binary_Search.java) |  |
-|  [二分搜索树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/BST.java) |  |
-|  [二分搜索树遍历](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/BST_Order.java) | 深度优先（前中后序遍历）、广度优先(层序遍历) |
-|  [二分搜索树删除](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/BST_Delete.java) | Hibbard Deletion |
-
-
-##### avl树
-|  名称  | 描述 |
-|---|---|
-|  [AVL树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/avl/AVLTree.java) | 通过LL/RR/LR/RL 操作维护平衡因子，达到自平衡 |
-
-
-##### 线段树
-|  名称  | 描述 |
-|---|---|
-|  [线段树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/segment_tree/SegmentTree.java) | 存放给定区间内对应的信息,针对区间内数据频繁变更 |
-
-
-#### 并查集
-|  名称  | 描述 |
-|---|---|
-|  [并查集](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/union_find/UnionFind.java) | QUICK FIND，union和isConnected时间复杂度分别为O(n) 和 O(1) |
-|  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/union_find/UnionFind2.java) | QUICK UNION，提升union过程的效率 |
-|  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/union_find/UnionFind3.java) | 基于SIZE的优化 |
-|  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/union_find/UnionFind4.java) | 基于RANK的优化 |
-|  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/union_find/UnionFind5.java) | 路径压缩 (Path Compression) |
-|  [并查集优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/union_find/UnionFind6.java) | 路径压缩 (Path Compression) 递归方式|
-
-#### 图
-##### 无权图
-|  名称  | 描述 |
-|---|---|
-|  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/DenseGraph.java) | 邻接矩阵 |
-|  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/SparseGraph.java) | 邻接表 |
-|  [图文件读取](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/ReadGraph.java) | 用于测试图 |
-|  [DFS求连通分量](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/Component.java) |  |
-
-##### 带权图
-|  名称  | 描述 |
-|---|---|
-|  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/DenseWeightGraph.java) | 邻接矩阵 |
-|  [图的表示](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/SparseWeightGraph.java) | 邻接表 |
-
-##### 最小生成树
-|  名称  | 描述 |
-|---|---|
-|  [Prim算法](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/LazyPrimMST.java) | (Lazy Prim) |
-|  [Prim算法优化](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/PrimMST.java) |  |
-|  [Kruskal算法](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/KruskalMST.java) |  |
-
-##### 最短路径
-|  名称  | 描述 |
-|---|---|
-|  [Dijkstra算法](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/Dijkstra.java) | 针对没有负权边的图 |
-|  [Bellman Ford算法](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/graph/weight/BellmanFord.java) | 针对有负权边而没有负权环的图 |
