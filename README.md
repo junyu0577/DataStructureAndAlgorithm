@@ -15,6 +15,7 @@
         * [二分搜索树](#二分搜索树)
         * [AVL树](#avl树)
         * [线段树](#线段树)
+        * [字典树/前缀树](#trie)
    * [并查集](#并查集)
    * [图](#图)
        * [无权图](#无权图)
@@ -108,6 +109,12 @@
 |  名称  | 描述 |
 |---|---|
 |  [线段树](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/segment_tree/SegmentTree.java) | 存放给定区间内对应的信息,针对区间内数据频繁变更 |
+
+##### trie
+|  名称  | 描述 |
+|---|---|
+|  [Trie](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/data_structure/binary_search_tree/trie/Trie.java) | 查询与添加操作的效率取决于元素的长度而非树中的数量 |
+
 
 
 #### 并查集
