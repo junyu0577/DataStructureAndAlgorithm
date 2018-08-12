@@ -241,6 +241,7 @@
 |  medium | [Binary Tree Zigzag Level Order Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_103_Binary_Tree_Zigzag_Level_Order_Traversal.java) |
 |  medium | [Kth Smallest Element in a BST](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_230_Kth_Smallest_Element_in_a_BST.java) |
 |  medium | [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java) |
+|  medium | [Implement Trie Prefix Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_208_Implement_Trie_Prefix_Tree.java) |
 
 #### math
 
