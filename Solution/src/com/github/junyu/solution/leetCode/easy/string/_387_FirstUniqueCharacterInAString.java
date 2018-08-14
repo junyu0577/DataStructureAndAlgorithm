@@ -5,7 +5,7 @@ package com.github.junyu.solution.leetCode.easy.string;
  * @author ShaoJunyu
  * @since 2018/6/13 15:45
  */
-public class _002_FirstUniqueCharacterInAString {
+public class _387_FirstUniqueCharacterInAString {
 
    /*
     Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.

@@ -29,7 +29,8 @@
   * [Sort](#sort)
   * [LinkedList](#linkedlist)
   * [Tree](#tree)
-  * [Math](#tree)
+  * [Math](#math)
+  * [HashTable](#hashtable)
   * [DP](#dp)
   * [Others](#others)
   * [Backtracking](#backtracking)
@@ -186,7 +187,7 @@
 |  难度  | 问题 |
 |---|---|
 |  easy | [Reverse String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_001_ReverseString.java) |
-|  easy | [First Unique Character In A String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_002_FirstUniqueCharacterInAString.java) |
+|  easy | [First Unique Character In A String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_387_FirstUniqueCharacterInAString.java) |
 |  easy | [Reverse Integer](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_003_ReverseInteger.java) |
 |  easy | [Valid Anagram](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_004_ValidAnagram.java) |
 |  easy | [Longest Common Prefix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_005_LongestCommonPrefix.java) |
@@ -257,6 +258,12 @@
 |  easy | [Power_of_Three](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_362_Power_of_Three.java) |
 |  easy | [Fizz Buzz](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_412_Fizz_Buzz.java) |
 |  easy | [Roman to Integer](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_013_Roman_to_Integer.java) |
+
+#### hashtable
+
+|  难度  | 问题 |
+|---|---|
+|  easy | [Jewels and Stones](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_771_Jewels_and_Stones.java) |
 
 #### others
 
