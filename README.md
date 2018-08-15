@@ -264,6 +264,7 @@
 |  难度  | 问题 |
 |---|---|
 |  easy | [Jewels and Stones](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_771_Jewels_and_Stones.java) |
+|  easy | [Uncommon Words from Two Sentences](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_884_Uncommon_Words_from_Two_Sentences.java) |
 
 #### others
 
