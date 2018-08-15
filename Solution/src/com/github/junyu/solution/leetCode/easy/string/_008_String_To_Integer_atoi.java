@@ -4,7 +4,7 @@ package com.github.junyu.solution.leetCode.easy.string;
  * @author ShaoJunyu
  * @since 2018/6/14 14:20
  */
-public class _007_StringToInteger_atoi {
+public class _008_String_To_Integer_atoi {
 
    /*
     Implement atoi which converts a string to an integer.

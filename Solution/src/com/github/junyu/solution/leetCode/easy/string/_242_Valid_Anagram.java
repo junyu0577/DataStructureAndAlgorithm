@@ -4,7 +4,7 @@ package com.github.junyu.solution.leetCode.easy.string;
  * @author ShaoJunyu
  * @since 2018/6/14 09:16
  */
-public class _004_ValidAnagram {
+public class _242_Valid_Anagram {
 
    /*
     Given two strings s and t , write a function to determine if t is an anagram of s.

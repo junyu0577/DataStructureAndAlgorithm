@@ -5,7 +5,7 @@ package com.github.junyu.solution.leetCode.easy.string;
  * @author ShaoJunyu
  * @since 2018/6/13 12:57
  */
-public class _001_ReverseString {
+public class _344_Reverse_String {
 
    /*
     Write a function that takes a string as input and returns the string reversed.

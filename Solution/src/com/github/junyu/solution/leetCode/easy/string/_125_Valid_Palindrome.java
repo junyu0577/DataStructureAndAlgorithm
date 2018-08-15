@@ -5,7 +5,7 @@ package com.github.junyu.solution.leetCode.easy.string;
  * @author ShaoJunyu
  * @since 2018/6/14 11:49
  */
-public class _006_ValidPalindrome {
+public class _125_Valid_Palindrome {
 
 
 

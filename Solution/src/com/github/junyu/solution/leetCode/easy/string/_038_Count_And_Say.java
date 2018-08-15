@@ -5,7 +5,7 @@ package com.github.junyu.solution.leetCode.easy.string;
  * @author ShaoJunyu
  * @since 2018/6/21 09:19
  */
-public class _009_CountAndSay {
+public class _038_Count_And_Say {
 
    /*
     The count-and-say sequence is the sequence of integers with the first five terms as following:

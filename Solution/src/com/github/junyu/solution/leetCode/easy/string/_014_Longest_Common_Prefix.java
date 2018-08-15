@@ -4,7 +4,7 @@ package com.github.junyu.solution.leetCode.easy.string;
  * @author ShaoJunyu
  * @since 2018/6/14 09:18
  */
-public class _005_LongestCommonPrefix {
+public class _014_Longest_Common_Prefix {
 
   /*
     Write a function to find the longest common prefix string amongst an array of strings.

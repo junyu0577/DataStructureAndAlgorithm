@@ -4,7 +4,7 @@ package com.github.junyu.solution.leetCode.easy.string;
  * @author ShaoJunyu
  * @since 2018/6/14 09:15
  */
-public class _003_ReverseInteger {
+public class _007_Reverse_Integer {
 
    /*
     Given a 32-bit signed integer, reverse digits of an integer.
