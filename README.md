@@ -276,6 +276,8 @@
 |  medium | [Map Sum Pairs](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_677_Map_Sum_Pairs.java) |
 |  medium | [Maximum Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_654_Maximum_Binary_Tree.java) |
 |  medium | [Binary Tree Pruning](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_814_Binary_Tree_Pruning.java) |
+|  medium | [Find Bottom Left Tree Value](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_513_Find_Bottom_Left_Tree_Value.java) |
+|  medium | [Find Largest Value in Each Tree Row](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_515_Find_Largest_Value_in_Each_Tree_Row.java) |
 
 #### Math
 
