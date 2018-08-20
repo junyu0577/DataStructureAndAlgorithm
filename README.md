@@ -274,6 +274,8 @@
 |  medium | [Implement Trie Prefix Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_208_Implement_Trie_Prefix_Tree.java) |
 |  medium | [Add and Search Word - Data structure design](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_211_Add_and_Search_Word_Data_structure_design.java) |
 |  medium | [Map Sum Pairs](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_677_Map_Sum_Pairs.java) |
+|  medium | [Maximum Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_654_Maximum_Binary_Tree.java) |
+|  medium | [Binary Tree Pruning](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_814_Binary_Tree_Pruning.java) |
 
 #### Math
 
