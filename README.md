@@ -231,6 +231,7 @@
 |---|---|
 |  easy | [Merge Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/sort/_088_Merge_Sorted_Array.java) |
 |  easy | [First Bad Version](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/sort/_002_FirstBadVersion.java) |
+|  medium | [Find First and Last Position of Element in Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/sort/_034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.java) |
 
 #### LinkedList
 
@@ -301,6 +302,7 @@
 |  easy | [Power_of_Three](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_362_Power_of_Three.java) |
 |  easy | [Fizz Buzz](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_412_Fizz_Buzz.java) |
 |  easy | [Roman to Integer](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_013_Roman_to_Integer.java) |
+|  easy | [Power of Two](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_231_Power_of_Two.java) |
 
 #### HashTable
 

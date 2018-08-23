@@ -1,4 +1,4 @@
-package com.github.junyu.solution.leetCode.easy.array;
+package com.github.junyu.solution.leetCode.easy.others;
 
 public class _287_Find_the_Duplicate_Number {
 
