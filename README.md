@@ -309,6 +309,7 @@
 |  easy | [Power of Two](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_231_Power_of_Two.java) |
 |  easy | [Self Dividing Numbers](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_728_Self_Dividing_Numbers.java) |
 |  easy | [Add Digits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_258_Add_Digits.java) |
+|  easy | [Add Strings](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_415_Add_Strings.java) |
 
 #### HashTable
 
