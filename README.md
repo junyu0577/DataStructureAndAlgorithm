@@ -239,6 +239,8 @@
 |  easy | [First Bad Version](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/sort/_002_FirstBadVersion.java) |
 |  medium | [Find First and Last Position of Element in Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/sort/_034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.java) |
 |  medium | [Sort Colors](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/sort/_075_Sort_Colors.java) |
+|  medium | [Kth Largest Element in an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/sort/_215_Kth_Largest_Element_in_an_Array.java) |
+|  medium | [Search in Rotated Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/sort/_033_Search_in_Rotated_Sorted_Array.java) |
 
 #### LinkedList
 
