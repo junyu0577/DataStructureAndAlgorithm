@@ -306,6 +306,7 @@
 |  medium | [Find Bottom Left Tree Value](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_513_Find_Bottom_Left_Tree_Value.java) |
 |  medium | [Find Largest Value in Each Tree Row](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_515_Find_Largest_Value_in_Each_Tree_Row.java) |
 |  medium | [Insert into a Binary Search Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_701_Insert_into_a_Binary_Search_Tree.java) |
+|  medium | [Binary Tree Preorder Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_144_Binary_Tree_Preorder_Traversal.java) |
 
 #### Math
 
