@@ -1,4 +1,4 @@
-package com.github.junyu.solution.leetCode.easy.math;
+package com.github.junyu.solution.leetCode.medium.math;
 
 public class _050_Pow_x_n {
 

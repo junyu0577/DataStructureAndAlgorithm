@@ -321,8 +321,10 @@
 |  easy | [Add Digits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_258_Add_Digits.java) |
 |  easy | [Add Strings](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_415_Add_Strings.java) |
 |  easy | [Power of Four](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_342_Power_of_Four.java) |
-|  easy | [Pow x n](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_050_Pow_x_n.java) |
 |  easy | [Factorial Trailing Zeroes](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_172_Factorial_Trailing_Zeroes.java) |
+|  easy | [Ugly Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_263_Ugly_Number.java) |
+|  medium | [Pow x n](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_050_Pow_x_n.java) |
+|  medium | [Ugly Number II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_264_Ugly_Number_II.java) |
 
 #### HashTable
 
