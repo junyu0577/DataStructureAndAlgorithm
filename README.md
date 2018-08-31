@@ -206,6 +206,7 @@
 |  medium | [Find Minimum in Rotated Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_153_Find_Minimum_in_Rotated_Sorted_Array.java) |
 |  medium | [Single Element in a Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_540_Single_Element_in_a_Sorted_Array.java) |
 |  medium | [Set Matrix Zeroes](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_073_Set_Matrix_Zeroes.java) |
+|  medium | [Kth Smallest Element in a Sorted Matrix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_378_Kth_Smallest_Element_in_a_Sorted_Matrix.java) |
 |  hard | [Find Minimum in Rotated Sorted Array II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/hard/array/_154_Find_Minimum_in_Rotated_Sorted_Array_II.java) |
 
 #### String

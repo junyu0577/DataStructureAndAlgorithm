@@ -101,6 +101,14 @@ public class MaxHeap {
 
     }
 
+    public int getMax(){
+        if (isEmpty()) {
+            throw new RuntimeException("heap is empty");
+        }
+
+        return  data[1];
+    }
+
     private void swap(int arr[], int left, int right) {
         int temp = arr[left];
         arr[left] = arr[right];
