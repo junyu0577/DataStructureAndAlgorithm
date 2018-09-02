@@ -1,9 +1,6 @@
-package com.github.junyu.solution.leetCode.medium.array;
+package com.github.junyu.solution.leetCode.medium.heap;
 
 import com.github.junyu.solution.data_structure.heap.MaxHeap;
-
-import java.util.Comparator;
-import java.util.PriorityQueue;
 
 public class _378_Kth_Smallest_Element_in_a_Sorted_Matrix {
 

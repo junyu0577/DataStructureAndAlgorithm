@@ -1,4 +1,4 @@
-package com.github.junyu.solution.leetCode.easy.array;
+package com.github.junyu.solution.leetCode.easy.heap;
 
 import java.util.PriorityQueue;
 
