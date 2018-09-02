@@ -35,6 +35,7 @@
   * [Others](#others)
   * [Backtracking](#backtracking)
   * [Heap](#heap)
+  * [Greedy](#greedy)
 
 
 
@@ -349,6 +350,13 @@
 |  medium | [Kth Smallest Element in a Sorted Matrix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/heap/_378_Kth_Smallest_Element_in_a_Sorted_Matrix.java) |
 |  medium | [Sort Characters By Frequency](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/heap/_451_Sort_Characters_By_Frequency.java) |
 |  medium | [Top K Frequent Words](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/heap/_692_Top_K_Frequent_Words.java) |
+
+
+#### Greedy
+
+|  难度  | 问题 |
+|---|---|
+|  easy | [Lemonade Change](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_860_Lemonade_Change.java) |
 
 
 #### Others
