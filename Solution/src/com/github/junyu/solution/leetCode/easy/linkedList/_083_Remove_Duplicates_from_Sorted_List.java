@@ -19,6 +19,7 @@ public class _083_Remove_Duplicates_from_Sorted_List {
 
 
 //    /**
+//     * solution1
 //     * 在递归回溯的过程中进行值比较，比较当前节点的值与上一个节点的值，
 //     * 如果一致就将node.next返回
 //     *
@@ -44,7 +45,27 @@ public class _083_Remove_Duplicates_from_Sorted_List {
 //        return node;
 //    }
 
+
+//    /**
+//     * solution3
+//     * @param head
+//     * @return
+//     */
+//    public ListNode deleteDuplicates(ListNode head) {
+//        if (head == null)
+//            return null;
+//
+//        head.next = deleteDuplicates(head.next);
+//
+//        if (head.next!=null && head.next.val == head.val){
+//            head.next = head.next.next;
+//        }
+//
+//        return head;
+//    }
+
     /**
+     * solution2
      * 如果两个相邻的节点值相等，就让下一个节点指向next的next
      * @param head
      * @return
