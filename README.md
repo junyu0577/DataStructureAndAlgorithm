@@ -241,6 +241,8 @@
 |  easy | [Shortest Distance to a Character](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_821_Shortest_Distance_to_a_Character.java) |
 |  easy | [Find the Difference](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_389_Find_the_Difference.java) |
 |  easy | [Goat Latin](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_824_Goat_Latin.java) |
+|  easy | [Ransom Note](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_383_Ransom_Note.java) |
+|  easy | [Most Common Word](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_819_Most_Common_Word.java) |
 |  medium | [Longest Substring Without Repeating Characters](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_003_Longest_Substring_Without_Repeating_Characters.java) |
 
 #### Sort
