@@ -205,6 +205,7 @@
 |  easy | [Reshape the Matrix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_566_Reshape_the_Matrix.java) |
 |  easy | [Find Pivot Index](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_724_Find_Pivot_Index.java) |
 |  easy | [Maximum Average Subarray I](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_643_Maximum_Average_Subarray_I.java) |
+|  easy | [Sort Array By Parity](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_905_Sort_Array_By_Parity.java) |
 |  medium | [Maximum Swap](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_670_Maximum_Swap.java) |
 |  medium | [3Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_015_3Sum.java) |
 |  medium | [Group Anagrams](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_049_Group_Anagrams.java) |
@@ -353,7 +354,7 @@
 |  easy | [Keyboard Row](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_500_Keyboard_Row.java) |
 |  easy | [Number of Lines To Write String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_806_Number_of_Lines_To_Write_String.java) |
 |  medium | [Daily Temperatures](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/hashTable/_739_Daily_Temperatures.java) |
-|  hard | [_Maximum Frequency Stack](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/hard/hashTable/_895_Maximum_Frequency_Stack.java) |
+|  hard | [Maximum Frequency Stack](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/hard/hashTable/_895_Maximum_Frequency_Stack.java) |
 
 
 #### Heap
