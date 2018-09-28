@@ -1,6 +1,7 @@
 package com.github.junyu.solution.leetCode.easy.array;
 
 import java.util.Arrays;
+import java.util.logging.Level;
 
 public class _905_Sort_Array_By_Parity {
 
@@ -49,10 +50,37 @@ public class _905_Sort_Array_By_Parity {
 //        return arr;
 //    }
 
+//    /**
+//     * solution2
+//     * 不需要开辟额外空间，遍历A数组的时，如果当前是奇数，那么需要交换begin和end的位置，交换后对end--，如果继续判断这个begin是否为奇数，如果是偶数
+//     * 则跳过对begin++。
+//     * @param A
+//     * @return
+//     */
+//    public int[] sortArrayByParity(int[] A) {
+//
+//        int begin = 0;
+//        int end = A.length - 1;
+//        while (begin < end) {
+//            if (A[begin] % 2 == 1) {
+//                int temp = A[end];
+//                A[end] = A[begin];
+//                A[begin] = temp;
+//                end--;
+//            } else {
+//                begin++;
+//            }
+//        }
+//
+//        return A;
+//    }
+
     /**
-     * solution2
-     * 不需要开辟额外空间，遍历A数组的时，如果当前是奇数，那么需要交换begin和end的位置，交换后对end--，如果继续判断这个begin是否为奇数，如果是偶数
+     * solution3
+     * 思路类似solution2,同样定义两个头尾指针，不同之处在于，不是在头指针遇到偶数就直接与尾指针的元素进行交换，而是当头
+     * 指针遇到偶数，尾指针遇到奇数时才进行交换,这样减少了交换的次数.
      * 则跳过对begin++。
+     *
      * @param A
      * @return
      */
@@ -61,14 +89,21 @@ public class _905_Sort_Array_By_Parity {
         int begin = 0;
         int end = A.length - 1;
         while (begin < end) {
-            if (A[begin] % 2 == 1) {
+
+            while (begin < end && (A[begin] & 1) == 0)
+                begin++;
+
+            while (begin < end && (A[end] & 1) == 1)
+                end--;
+
+            if (begin < end) {
                 int temp = A[end];
                 A[end] = A[begin];
                 A[begin] = temp;
-                end--;
-            } else {
                 begin++;
+                end--;
             }
+
         }
 
         return A;
@@ -78,7 +113,9 @@ public class _905_Sort_Array_By_Parity {
 //        int A[] = new int[]{3, 1, 2, 4};
 //        int A[] = new int[]{1, 3};
 //        int A[] = new int[]{0,1,2};
-        int A[] = new int[]{0,2,4,1,6};
+//        int A[] = new int[]{0,2,4,1,6};
+//        int A[] = new int[]{1,2,4,3};
+        int A[] = new int[]{2, 1, 3, 4};
         System.out.println(Arrays.toString(new _905_Sort_Array_By_Parity().sortArrayByParity(A)));
     }
 
