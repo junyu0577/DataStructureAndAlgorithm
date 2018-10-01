@@ -402,6 +402,7 @@
 |  easy | [Guess Number Higher or Lower](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/design/_374_Guess_Number_Higher_or_Lower.java) |
 |  easy | [Implement Queue using Stacks](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/design/_232_Implement_Queue_using_Stacks.java) |
 |  easy | [Implement Stack using Queues](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/design/_225_Implement_Stack_using_Queues.java) |
+|  medium | [Encode and Decode TinyURL](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_535_Encode_and_Decode_TinyURL.java) |
 
 #### DP
 
