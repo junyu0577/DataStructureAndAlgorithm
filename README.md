@@ -220,6 +220,7 @@
 |  medium | [Single Element in a Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_540_Single_Element_in_a_Sorted_Array.java) |
 |  medium | [Set Matrix Zeroes](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_073_Set_Matrix_Zeroes.java) |
 |  medium | [Next Greater Element II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_503_Next_Greater_Element_II.java) |
+|  medium | [Increasing Triplet Subsequence](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_334_Increasing_Triplet_Subsequence.java) |
 |  hard | [Find Minimum in Rotated Sorted Array II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/hard/array/_154_Find_Minimum_in_Rotated_Sorted_Array_II.java) |
 
 #### String
@@ -252,6 +253,7 @@
 |  easy | [Reverse Only Letters](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_917_Reverse_Only_Letters.java) |
 |  easy | [Long Pressed Name](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_925_Long_Pressed_Name.java) |
 |  medium | [Longest Substring Without Repeating Characters](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_003_Longest_Substring_Without_Repeating_Characters.java) |
+|  medium | [Longest Palindromic Substring](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_005_Longest_Palindromic_Substring.java) |
 
 #### Sort
 
