@@ -253,6 +253,7 @@
 |  easy | [Rotated Digits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_788_Rotated_Digits.java) |
 |  easy | [Reverse Only Letters](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_917_Reverse_Only_Letters.java) |
 |  easy | [Long Pressed Name](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_925_Long_Pressed_Name.java) |
+|  easy | [Groups of Special Equivalent Strings](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_893_Groups_of_Special_Equivalent_Strings.java) |
 |  medium | [Longest Substring Without Repeating Characters](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_003_Longest_Substring_Without_Repeating_Characters.java) |
 |  medium | [Longest Palindromic Substring](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_005_Longest_Palindromic_Substring.java) |
 
