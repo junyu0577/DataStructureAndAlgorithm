@@ -405,6 +405,7 @@
 |  easy | [Backspace String Compare](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_844_Backspace_String_Compare.java) |
 |  easy | [Baseball Game](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_682_Baseball_Game.java) |
 |  easy | [Nim Game](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_292_Nim_Game.java) |
+|  easy | [Number Complement](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_476_Number_Complement.java) |
 |  medium | [Evaluate Reverse Polish Notation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_150_Evaluate_Reverse_Polish_Notation.java) |
 
 #### Design
