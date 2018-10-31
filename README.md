@@ -409,7 +409,8 @@
 |  easy | [Baseball Game](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_682_Baseball_Game.java) |
 |  easy | [Nim Game](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_292_Nim_Game.java) |
 |  easy | [Number Complement](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_476_Number_Complement.java) |
-|  medium | [Evaluate Reverse Polish Notation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_150_Evaluate_Reverse_Polish_Notation.java) |
+|  medium | [Evaluate Reverse Polish Notation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_150_Evaluate_Reverse_Polish_Notation.java) |
+|  medium | [Score of Parentheses](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_856_Score_of_Parentheses.java) |
 
 #### Design
 
