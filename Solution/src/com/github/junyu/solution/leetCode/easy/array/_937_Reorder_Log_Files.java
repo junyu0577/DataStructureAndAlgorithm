@@ -1,8 +1,6 @@
 package com.github.junyu.solution.leetCode.easy.array;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class _937_Reorder_Log_Files {
 
@@ -55,28 +53,33 @@ public class _937_Reorder_Log_Files {
         List<String> letters = new ArrayList<>();
 
         for (int i = 0; i < logs.length; i++) {
-            String strs[] = logs[i].split(" ");
-            if (Character.isDigit(strs[1].charAt(0)))
+            String str = logs[i].split(" ",2)[1];
+            if (isDigit(str.charAt(0)))
                 nums.add(logs[i]);
             else
                 letters.add(logs[i]);
         }
 
-        for (int i = 0; i < letters.size(); i++) {
-            for (int j = i + 1; j < letters.size(); j++) {
-               String left =  letters.get(i).substring(letters.get(i).indexOf(" ")+1);
-               String right =  letters.get(j).substring(letters.get(j).indexOf(" ")+1);
-                if (left.compareTo(right)>0){
-                    String temp = letters.get(i);
-                    letters.set(i,letters.get(j));
-                    letters.set(j,temp);
-                }
+        Collections.sort(letters, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                String s1 =  o1.split(" ",2)[1];
+                String s2 =  o2.split(" ",2)[1];
+                return s1.compareTo(s2);
             }
-        }
+        });
+
 
         letters.addAll(nums);
 
         return letters.toArray(new String[letters.size()]);
+    }
+
+    private boolean isDigit(char c){
+        if (c >= '0' && c<='9')
+            return true;
+        else
+            return false;
     }
 
 
