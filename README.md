@@ -374,6 +374,7 @@
 |  easy | [Island Perimeter](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_463_Island_Perimeter.java) |
 |  easy | [Distribute Candies](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_575_Distribute_Candies.java) |
 |  easy | [Shortest Completing Word](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_748_Shortest_Completing_Word.java) |
+|  easy | [Employee Importance](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_690_Employee_Importance.java) |
 |  medium | [Daily Temperatures](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/hashTable/_739_Daily_Temperatures.java) |
 |  medium | [Battleships in a Board](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/hashTable/_419_Battleships_in_a_Board.java) |
 |  hard | [Maximum Frequency Stack](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/hard/hashTable/_895_Maximum_Frequency_Stack.java) |
