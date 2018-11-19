@@ -364,6 +364,7 @@
 |  easy | [Palindrome Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_009_Palindrome_Number.java) |
 |  easy | [Happy Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_202_Happy_Number.java) |
 |  easy | [Excel Sheet Column Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_171_Excel_Sheet_Column_Number.java) |
+|  easy | [DI String Match](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_942_DI_String_Match.java) |
 |  medium | [Pow x n](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_050_Pow_x_n.java) |
 |  medium | [Ugly Number II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_264_Ugly_Number_II.java) |
 
