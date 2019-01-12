@@ -37,31 +37,31 @@ public class _949_Largest_Time_for_Given_Digits {
      */
     public String largestTimeFromDigits(int[] A) {
 
-        boolean used[] = new boolean[4];
-
-        getResult(new StringBuilder(), used, A);
-        if (res == -1)
+        boolean [] used = new boolean[4];
+        getResult(new StringBuilder(),used,A);
+        if (res==-1)
             return "";
 
-        return String.format("%02d:%02d", res / 60, res % 60);
+        return String.format("%02d:%02d",res/60,res%60);
 
     }
 
     private void getResult(StringBuilder sb, boolean used[], int[] A) {
-        if (sb.length() == 4) {
-            int left = Integer.valueOf(sb.substring(0, 2));
-            int right = Integer.valueOf(sb.substring(2));
-            if (left > 23 || right > 59)
+        if (sb.length()==4){
+            int left = Integer.parseInt(sb.substring(0,2));
+            if (left>23)
                 return;
-
-            res = Math.max(res, left * 60 + right);
+            int right = Integer.parseInt(sb.substring(2));
+            if (right>59)
+                return;
+            res = Math.max(res,left*60+right);
             return;
         }
 
-        for (int i = 0; i < A.length; i++) {
-            if (!used[i]) {
+        for (int i=0;i<A.length;i++){
+            if (!used[i]){
                 used[i] = true;
-                getResult(new StringBuilder(sb).append(A[i]), used, A);
+                getResult(new StringBuilder(sb).append(A[i]),used,A);
                 used[i] = false;
             }
         }
@@ -70,10 +70,10 @@ public class _949_Largest_Time_for_Given_Digits {
 
     public static void main(String[] args) {
         _949_Largest_Time_for_Given_Digits largest_time_for_given_digits = new _949_Largest_Time_for_Given_Digits();
-//        System.out.println(largest_time_for_given_digits.largestTimeFromDigits(new int[]{1, 2, 3, 4}));
+        System.out.println(largest_time_for_given_digits.largestTimeFromDigits(new int[]{1, 2, 3, 4}));
 //        System.out.println(largest_time_for_given_digits.largestTimeFromDigits(new int[]{5, 5, 5, 5}));
 //        System.out.println(largest_time_for_given_digits.largestTimeFromDigits(new int[]{1, 2, 4, 5}));
-        System.out.println(largest_time_for_given_digits.largestTimeFromDigits(new int[]{0, 4, 0, 0}));
+//        System.out.println(largest_time_for_given_digits.largestTimeFromDigits(new int[]{0, 4, 0, 0}));
 //        System.out.println(largest_time_for_given_digits.largestTimeFromDigits(new int[]{0, 6, 2, 6}));
     }
 }
