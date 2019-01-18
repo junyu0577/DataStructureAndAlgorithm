@@ -390,6 +390,7 @@
 |  easy | [Employee Importance](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_690_Employee_Importance.java) |
 |  easy | [Verifying an Alien Dictionary](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_953_Verifying_an_Alien_Dictionary.java) |
 |  easy | [Longest Palindrome](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_409_Longest_Palindrome.java) |
+|  easy | [Minimum Index Sum of Two Lists](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_599_Minimum_Index_Sum_of_Two_Lists.java) |
 |  medium | [Daily Temperatures](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/hashTable/_739_Daily_Temperatures.java) |
 |  medium | [Battleships in a Board](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/hashTable/_419_Battleships_in_a_Board.java) |
 |  medium | [Find Duplicate File in System](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/hashTable/_609_Find_Duplicate_File_in_System.java) |
