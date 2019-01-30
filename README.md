@@ -395,6 +395,7 @@
 |  easy | [Minimum Index Sum of Two Lists](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_599_Minimum_Index_Sum_of_Two_Lists.java) |
 |  easy | [Longest Word in Dictionary](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_720_Longest_Word_in_Dictionary.java) |
 |  easy | [Longest Harmonious Subsequence](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_594_Longest_Harmonious_Subsequence.java) |
+|  easy | [Isomorphic Strings](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_594_Longest_Harmonious_Subsequence.java) |
 |  medium | [Daily Temperatures](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/hashTable/_739_Daily_Temperatures.java) |
 |  medium | [Battleships in a Board](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/hashTable/_419_Battleships_in_a_Board.java) |
 |  medium | [Find Duplicate File in System](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/hashTable/_609_Find_Duplicate_File_in_System.java) |
