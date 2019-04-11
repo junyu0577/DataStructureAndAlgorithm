@@ -447,6 +447,7 @@
 |  easy | [Number of Recent Calls](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_933_Number_of_Recent_Calls.java) |
 |  easy | [Complement of Base 10 Integer](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_1012_Complement_of_Base_10_Integer.java) |
 |  easy | [Remove Outermost Parentheses](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_1021_Remove_Outermost_Parentheses.java) |
+|  easy | [Prime Number of Set Bits in Binary Representation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_762_Prime_Number_of_Set_Bits_in_Binary_Representation.java) |
 |  medium | [Evaluate Reverse Polish Notation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_150_Evaluate_Reverse_Polish_Notation.java) |
 |  medium | [Score of Parentheses](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_856_Score_of_Parentheses.java) |
 |  medium | [Longest Word in Dictionary through Deleting](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_524_Longest_Word_in_Dictionary_through_Deleting.java) |
