@@ -427,6 +427,7 @@
 |  easy | [Lemonade Change](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_860_Lemonade_Change.java) |
 |  easy | [Assign Cookies](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_455_Assign_Cookies.java) |
 |  easy | [String Without AAA or BBB](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_984_String_Without_AAA_or_BBB.java) |
+|  easy | [Two City Scheduling](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1029_Two_City_Scheduling.java) |
 
 
 #### Others
