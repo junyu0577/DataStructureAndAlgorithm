@@ -69,27 +69,33 @@ public class _1047_Remove_All_Adjacent_Duplicates_In_String {
 
 
     /**
-     * 开辟一段空间用来保存当前循环到的字符，并设置一个变量用来记录这段空间的起始位置。
-     * 每次循环时，发现重复的元素，就将起始位置-1；如果没有发现重复的，就将当前元素保存到ans中，
-     * 并递增起始位置。如果整个字符串中都没有相同的元素，那么这个index就是字符串的长度。
+     * 定义ans数组用于保存当前出现的唯一的字符。
+     * 循环字符数组，判断当前元素是否和最后添加进ans中的元素相同。
+     * 如果相同，则将tail--，相同的元素需要被移除，唯一的元素只会在[0～tail-1]之间。
+     * 如果不相同，就将元素添进ans，递增tail。
+     *
      * 时间复杂度为O(n)
+     *
      * @param S
      * @return
      */
     public String removeDuplicates(String S) {
+
         char cs[] = S.toCharArray();
         int len = cs.length;
-        char ans [] = new char[len];
-        int index = 0;
+        char ans[] = new char[len];
+        int tail = 0;
         for (int i = 0; i < len; i++) {
-            if (index>0 && ans[index-1] == cs[i]){
-                index--;
-            }else {
-                ans[index] = cs[i];
-                index++;
+            if (tail > 0 && cs[i] == ans[tail-1])
+                tail--;
+            else {
+                ans[tail] = cs[i];
+                tail++;
             }
         }
-        return new String(ans,0,index);
+
+        return new String(ans, 0, tail);
+
     }
 
     public static void main(String[] args) {
