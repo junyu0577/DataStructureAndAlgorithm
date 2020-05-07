@@ -238,6 +238,7 @@
 |  medium | [Merge Intervals](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_056_Merge_Intervals.java) |
 |  medium | [Task Scheduler](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_621_Task_Scheduler.java) |
 |  medium | [Reveal Cards In Increasing Order](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_950_Reveal_Cards_In_Increasing_Order.java) |
+|  medium | [Check If All 1's Are at Least Length K Places Away](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_1437_Check_If_All_1s_Are_at_Least_Length_K_Places_Away.java) |
 |  hard | [Find Minimum in Rotated Sorted Array II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/hard/array/_154_Find_Minimum_in_Rotated_Sorted_Array_II.java) |
 
 #### String
