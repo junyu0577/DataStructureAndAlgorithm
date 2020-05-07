@@ -1,4 +1,4 @@
-package com.github.junyu.solution.leetCode.medium.array;
+package com.github.junyu.solution.leetCode.easy.array;
 
 public class _1437_Check_If_All_1s_Are_at_Least_Length_K_Places_Away {
 
