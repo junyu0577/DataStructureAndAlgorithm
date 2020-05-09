@@ -369,6 +369,7 @@
 |  medium | [Binary Tree Preorder Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_144_Binary_Tree_Preorder_Traversal.java) |
 |  medium | [Range Sum of BST](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_938_Range_Sum_of_BST.java) |
 |  medium | [Flip Equivalent Binary Trees](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_951_Flip_Equivalent_Binary_Trees.java) |
+|  medium | [Balance a Binary Search Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1382_Balance_a_Binary_Search_Tree.java) |
 
 #### Math
 
