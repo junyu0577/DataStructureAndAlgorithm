@@ -54,6 +54,12 @@ public class _1381_Design_a_Stack_With_Increment_Operation {
      * void push(int x)：如果栈还未增长到 maxSize ，就将 x 添加到栈顶。
      * int pop()：弹出栈顶元素，并返回栈顶的值，或栈为空时返回 -1 。
      * void inc(int k, int val)：栈底的 k 个元素的值都增加 val 。如果栈中元素总数小于 k ，则栈中的所有元素都增加 val
+     *
+     * 通过数组来实现，定义index来指向要插入的新元素的位置，由于默认我定义为-1，所以插入时要提前进行递增操作，pop时如果index不等于-1，说明里面
+     * 有元素，那么则直接返回index位置的元素即可，同时index进行递减。
+     * 而批量递增时，只要给定的k大于或者等于数组中元素的数量，我们就进行整个数组的循环进行增值操作。如果给定的k小于数组里的元素数量，那么只需要从0
+     * 遍历到k就可以。
+     *
      */
     public static class CustomStack {
 
@@ -74,7 +80,7 @@ public class _1381_Design_a_Stack_With_Increment_Operation {
         }
 
         public int pop() {
-            if (index==-1)
+            if (index == -1)
                 return -1;
 
             int value = data[index];
@@ -83,19 +89,27 @@ public class _1381_Design_a_Stack_With_Increment_Operation {
         }
 
         public void increment(int k, int val) {
-            for (int i = 0; i < data.length; i++) {
-                if (i + 1 <= k && data[i] != 0)
-                    data[i] = data[i] + val;
+            int end = k;
+            if (k >= index + 1) {
+                end = index + 1;
+            }
+
+            for (int i = 0; i < end; i++) {
+                data[i] += val;
             }
         }
     }
 
     public static void main(String[] args) {
         CustomStack customStack = new CustomStack(3);
-//        ["CustomStack","push","push","pop","push","push","push","increment","increment","pop","pop","pop","pop"]
         customStack.push(1);
+        customStack.push(2);
         customStack.pop();
+        customStack.push(2);
+        customStack.push(3);
+        customStack.push(4);
         customStack.increment(5, 100);
+        customStack.increment(2, 100);
         customStack.pop();
 
     }
