@@ -371,6 +371,7 @@
 |  medium | [Range Sum of BST](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_938_Range_Sum_of_BST.java) |
 |  medium | [Flip Equivalent Binary Trees](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_951_Flip_Equivalent_Binary_Trees.java) |
 |  medium | [Balance a Binary Search Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1382_Balance_a_Binary_Search_Tree.java) |
+|  medium | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1379_Find_a_Corresponding_Node_of_a_Binary_Tree_in_a_Clone_of_That_Tree.java) |
 
 #### Math
 
