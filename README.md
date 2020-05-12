@@ -227,6 +227,7 @@
 |  easy | [Find Lucky Integer in an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1394_Find_Lucky_Integer_in_an_Array.java) |
 |  easy | [Create Target Array in the Given Order](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1389_Create_Target_Array_in_the_Given_Order.java) |
 |  easy | [Lucky Numbers in a Matrix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1380_Lucky_Numbers_in_a_Matrix.java) |
+|  easy | [How Many Numbers Are Smaller Than the Current Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1365_How_Many_Numbers_Are_Smaller_Than_the_Current_Number.java) |
 |  medium | [Maximum Swap](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_670_Maximum_Swap.java) |
 |  medium | [3Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_015_3Sum.java) |
 |  medium | [Group Anagrams](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_049_Group_Anagrams.java) |
