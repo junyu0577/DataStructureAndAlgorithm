@@ -248,6 +248,7 @@
 |  medium | [Reveal Cards In Increasing Order](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_950_Reveal_Cards_In_Increasing_Order.java) |
 |  medium | [Check If All 1's Are at Least Length K Places Away](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_1437_Check_If_All_1s_Are_at_Least_Length_K_Places_Away.java) |
 |  medium | [Contains Duplicate III](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_220_Contains_Duplicate_III.java) |
+|  medium | [Minimum Size Subarray Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_209_Minimum_Size_Subarray_Sum.java) |
 |  hard | [Find Minimum in Rotated Sorted Array II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/hard/array/_154_Find_Minimum_in_Rotated_Sorted_Array_II.java) |
 
 #### String
