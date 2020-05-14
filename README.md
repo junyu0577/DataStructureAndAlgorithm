@@ -297,6 +297,7 @@
 |  medium | [Minimum Number of Frogs Croaking](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_1419_Minimum_Number_of_Frogs_Croaking.java) |
 |  medium | [HTML Entity Parser](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_1410_HTML_Entity_Parser.java) |
 |  medium | [Number of Substrings Containing All Three Characters](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_1358_Number_of_Substrings_Containing_All_Three_Characters.java) |
+|  medium | [Longest Repeating Character Replacement](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_424_Longest_Repeating_Character_Replacement.java) |
 
 #### Sort
 
