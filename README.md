@@ -479,6 +479,7 @@
 |  easy | [Complement of Base 10 Integer](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_1012_Complement_of_Base_10_Integer.java) |
 |  easy | [Remove Outermost Parentheses](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_1021_Remove_Outermost_Parentheses.java) |
 |  easy | [Prime Number of Set Bits in Binary Representation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_762_Prime_Number_of_Set_Bits_in_Binary_Representation.java) |
+|  easy | [Sort Integers by The Number of 1 Bits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_1356_Sort_Integers_by_The_Number_of_1_Bits.java) |
 |  medium | [Evaluate Reverse Polish Notation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_150_Evaluate_Reverse_Polish_Notation.java) |
 |  medium | [Score of Parentheses](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_856_Score_of_Parentheses.java) |
 |  medium | [Longest Word in Dictionary through Deleting](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_524_Longest_Word_in_Dictionary_through_Deleting.java) |
@@ -496,6 +497,7 @@
 |  easy | [Implement Stack using Queues](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/design/_225_Implement_Stack_using_Queues.java) |
 |  medium | [Encode and Decode TinyURL](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_535_Encode_and_Decode_TinyURL.java) |
 |  medium | [Design a Stack With Increment Operation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1381_Design_a_Stack_With_Increment_Operation.java) |
+|  medium | [Product of the Last K Numbers](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1352_Product_of_the_Last_K_Numbers.java) |
 
 #### DP
 
