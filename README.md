@@ -314,6 +314,7 @@
 |  medium | [Kth Largest Element in an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/sort/_215_Kth_Largest_Element_in_an_Array.java) |
 |  medium | [Search in Rotated Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/sort/_033_Search_in_Rotated_Sorted_Array.java) |
 |  medium | [Pancake Sorting](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/sort/_969_Pancake_Sorting.java) |
+|  medium | [Sort an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/sort/_912_Sort_an_Array.java) |
 
 #### LinkedList
 
