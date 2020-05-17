@@ -57,7 +57,7 @@ public class _1356_Sort_Integers_by_The_Number_of_1_Bits {
     }
 
     private void quickSort(int[] arr, int left, int right) {
-        if (left > right)
+        if (left >= right)
             return;
 
       int target = arr[left];
