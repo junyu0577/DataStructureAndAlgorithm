@@ -39,6 +39,12 @@ public class _1221_Split_a_String_in_Balanced_Strings {
     s[i] = 'L' or 'R'
     */
 
+    /**
+     * RL配对数量
+     * 思路:如果LR和数量相等就累加一次计数，因此只要count值等于0，就代表L和R的数量相等。
+     * @param s
+     * @return
+     */
     public int balancedStringSplit(String s) {
         int ans = 0;
         int len = s.length();
