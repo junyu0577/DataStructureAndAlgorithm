@@ -234,6 +234,7 @@
 |  easy | [The K Weakest Rows in a Matrix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1337_The_K_Weakest_Rows_in_a_Matrix.java) |
 |  easy | [Decompress Run-Length Encoded List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1313_Decompress_Run_Length_Encoded_List.java) |
 |  easy | [Number of Students Doing Homework at a Given Time](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1450_Number_of_Students_Doing_Homework_at_a_Given_Time.java) |
+|  easy | [Minimum Time Visiting All Points](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1266_Minimum_Time_Visiting_All_Points.java) |
 |  medium | [Maximum Swap](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_670_Maximum_Swap.java) |
 |  medium | [3Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_015_3Sum.java) |
 |  medium | [Group Anagrams](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_049_Group_Anagrams.java) |
