@@ -300,6 +300,7 @@
 |  easy | [Number of Days Between Two Dates](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1360_Number_of_Days_Between_Two_Dates.java) |
 |  easy | [Defanging an IP Address](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1108_Defanging_an_IP_Address.java) |
 |  easy | [Split a String in Balanced Strings](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1221_Split_a_String_in_Balanced_Strings.java) |
+|  easy | [Decrypt String from Alphabet to Integer Mapping](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1309_Decrypt_String_from_Alphabet_to_Integer_Mapping.java) |
 |  medium | [Longest Substring Without Repeating Characters](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_003_Longest_Substring_Without_Repeating_Characters.java) |
 |  medium | [Longest Palindromic Substring](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_005_Longest_Palindromic_Substring.java) |
 |  medium | [Partition Labels](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_763_Partition_Labels.java) |
