@@ -236,6 +236,8 @@
 |  easy | [Number of Students Doing Homework at a Given Time](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1450_Number_of_Students_Doing_Homework_at_a_Given_Time.java) |
 |  easy | [Minimum Time Visiting All Points](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1266_Minimum_Time_Visiting_All_Points.java) |
 |  easy | [Replace Elements with Greatest Element on Right Side](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1299_Replace_Elements_with_Greatest_Element_on_Right_Side.java) |
+|  easy | [Find N Unique Integers Sum up to Zero](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1304_Find_N_Unique_Integers_Sum_up_to_Zero.java) |
+|  easy | [Unique Number of Occurrences](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1207_Unique_Number_of_Occurrences.java) |
 |  medium | [Maximum Swap](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_670_Maximum_Swap.java) |
 |  medium | [3Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_015_3Sum.java) |
 |  medium | [Group Anagrams](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_049_Group_Anagrams.java) |
