@@ -410,6 +410,7 @@
 |  medium | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1379_Find_a_Corresponding_Node_of_a_Binary_Tree_in_a_Clone_of_That_Tree.java) |
 |  medium | [Longest ZigZag Path in a Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1372_Longest_ZigZag_Path_in_a_Binary_Tree.java) |
 |  medium | [Deepest Leaves Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1302_Deepest_Leaves_Sum.java) |
+|  medium | [Delete Leaves With a Given Value](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1325_Delete_Leaves_With_a_Given_Value.java) |
 
 #### Math
 
