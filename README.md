@@ -536,6 +536,7 @@
 |  medium | [Encode and Decode TinyURL](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_535_Encode_and_Decode_TinyURL.java) |
 |  medium | [Design a Stack With Increment Operation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1381_Design_a_Stack_With_Increment_Operation.java) |
 |  medium | [Product of the Last K Numbers](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1352_Product_of_the_Last_K_Numbers.java) |
+|  medium | [Design Browser History](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1472_Design_Browser_History.java) |
 
 #### DP
 
