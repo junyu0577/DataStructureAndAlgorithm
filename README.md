@@ -269,6 +269,7 @@
 |  medium | [Contains Duplicate III](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_220_Contains_Duplicate_III.java) |
 |  medium | [Minimum Size Subarray Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_209_Minimum_Size_Subarray_Sum.java) |
 |  medium | [Sort the Matrix Diagonally](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_1329_Sort_the_Matrix_Diagonally.java) |
+|  medium | [Remove Duplicates from Sorted Array II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_80_Remove_Duplicates_from_Sorted_Array_II.java) |
 |  hard | [Find Minimum in Rotated Sorted Array II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/hard/array/_154_Find_Minimum_in_Rotated_Sorted_Array_II.java) |
 
 #### String
@@ -443,6 +444,7 @@
 |  easy | [Maximum 69 Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1323_Maximum_69_Number.java) |
 |  easy | [Day of the Week](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1185_Day_of_the_Week.java) |
 |  easy | [Convert Integer to the Sum of Two No-Zero Integers](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1317_Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers.java) |
+|  easy | [Check If It Is a Straight Line](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1232_Check_If_It_Is_a_Straight_Line.java) |
 |  medium | [Pow x n](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_050_Pow_x_n.java) |
 |  medium | [Ugly Number II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_264_Ugly_Number_II.java) |
 
