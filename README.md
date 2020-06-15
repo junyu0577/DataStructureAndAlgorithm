@@ -161,7 +161,6 @@
 <br/>
 
 ### LeetCode
-========
 
 (备注: "🤔" 表示还不太满意当前解法，等有时间了再优化!) 
 #### Array
@@ -277,6 +276,7 @@
 |  medium | [Remove Duplicates from Sorted Array II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_80_Remove_Duplicates_from_Sorted_Array_II.java) |
 |  medium | [Product of Array Except Self](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_238_Product_of_Array_Except_Self.java) |
 |  medium | [Subrectangle Queries](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_1476_Subrectangle_Queries.java) |
+|  medium | [Max Increase to Keep City Skyline](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_807_Max_Increase_to_Keep_City_Skyline.java) |
 |  hard | [Find Minimum in Rotated Sorted Array II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/hard/array/_154_Find_Minimum_in_Rotated_Sorted_Array_II.java) |
 
 #### String
