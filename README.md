@@ -161,11 +161,13 @@
 <br/>
 
 ### LeetCode
+========
 
+(备注: "🤔" 表示还不太满意当前解法，等有时间了再优化!) 
 #### Array
 
-|  Difficulty  | Title | Review
-|---|---|---|
+|  Difficulty  | Title |
+|---|---|
 |  easy | [Two Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_001_TwoSum.java) |
 |  easy | [Two Sum II Input array is sorted](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_167_Two_Sum_II_Input_array_is_sorted.java) |
 |  easy | [Single Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_002_SingleNumber.java) |
@@ -250,6 +252,7 @@
 |  easy | [Make Two Arrays Equal by Reversing Sub-arrays](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1460_Make_Two_Arrays_Equal_by_Reversing_Sub_arrays.java) |
 |  easy | [Running Sum of 1d Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1480_Running_Sum_of_1d_Array.java) |
 |  easy | [Cells with Odd Values in a Matrix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1252_Cells_with_Odd_Values_in_a_Matrix.java) |
+|  easy | [Final Prices With a Special Discount in a Shop](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1475_Final_Prices_With_a_Special_Discount_in_a_Shop.java) |
 |  medium | [Maximum Swap](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_670_Maximum_Swap.java) |
 |  medium | [3Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_015_3Sum.java) |
 |  medium | [Group Anagrams](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_049_Group_Anagrams.java) |
@@ -273,12 +276,13 @@
 |  medium | [Sort the Matrix Diagonally](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_1329_Sort_the_Matrix_Diagonally.java) |
 |  medium | [Remove Duplicates from Sorted Array II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_80_Remove_Duplicates_from_Sorted_Array_II.java) |
 |  medium | [Product of Array Except Self](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_238_Product_of_Array_Except_Self.java) |
+|  medium | [Subrectangle Queries](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_1476_Subrectangle_Queries.java) |
 |  hard | [Find Minimum in Rotated Sorted Array II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/hard/array/_154_Find_Minimum_in_Rotated_Sorted_Array_II.java) |
 
 #### String
 
-|  Difficulty  | Title | Review |
-|---|---|---|
+|  Difficulty  | Title |
+|---|---|
 |  easy | [Reverse String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_344_Reverse_String.java) |
 |  easy | [First Unique Character In A String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_387_FirstUniqueCharacterInAString.java) |
 |  easy | [Reverse Integer](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_007_Reverse_Integer.java) |
@@ -334,8 +338,8 @@
 
 #### Sort
 
-|  Difficulty  | Title | Review |
-|---|---|---|
+|  Difficulty  | Title |
+|---|---|
 |  easy | [Merge Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/sort/_088_Merge_Sorted_Array.java) |
 |  easy | [First Bad Version](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/sort/_002_FirstBadVersion.java) |
 |  medium | [Find First and Last Position of Element in Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/sort/_034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.java) |
@@ -347,8 +351,8 @@
 
 #### LinkedList
 
-|  Difficulty  | Title | Review |
-|---|---|---|
+|  Difficulty  | Title |
+|---|---|
 |  easy | [Delete Node In A Linked List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/linkedList/_237_DeleteNodeInALinkedList.java) |
 |  easy | [Linked List Cycle](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/linkedList/_141_Linked_List_Cycle.java) |
 |  easy | [Reverse Linked List](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/linkedList/_206_ReverseLinked_List.java) |
@@ -363,8 +367,8 @@
 
 #### Tree
 
-|  Difficulty  | Title | Review |
-|---|---|---|
+|  Difficulty  | Title |
+|---|---|
 |  easy | [Binary Tree Level Order Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_102_Binary_Tree_Level_Order_Traversal.java) |
 |  easy | [Maximum_Depth_of_Binary_Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_104_Maximum_Depth_of_Binary_Tree.java) |
 |  easy | [Validate_Binary_Search_Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_098_Validate_Binary_Search_Tree.java) |
@@ -398,7 +402,7 @@
 |  easy | [Increasing Order Search Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_897_Increasing_Order_Search_Tree.java) |
 |  easy | [Univalued Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_965_Univalued_Binary_Tree.java) |
 |  easy | [Sum of Root To Leaf Binary Numbers](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_1022_Sum_of_Root_To_Leaf_Binary_Numbers.java) |
-|  easy | [Path Sum III](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_437_Path_Sum_III.java) |<center>🤔</center>|
+|  easy | [Path Sum III](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_437_Path_Sum_III.java) 🤔 |
 |  medium | [Range Sum Query - Mutable](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_307_Range_Sum_Query_Mutable.java) |
 |  medium | [Binary Tree Inorder Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_094_Binary_Tree_Inorder_Traversal.java) |
 |  medium | [Binary Tree Zigzag Level Order Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_103_Binary_Tree_Zigzag_Level_Order_Traversal.java) |
@@ -424,8 +428,8 @@
 
 #### Math
 
-|  Difficulty  | Title | Review |
-|---|---|---|
+|  Difficulty  | Title |
+|---|---|
 |  easy | [Count_Primes](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_001_Count_Primes.java) |
 |  easy | [Power_of_Three](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_362_Power_of_Three.java) |
 |  easy | [Fizz Buzz](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_412_Fizz_Buzz.java) |
@@ -455,8 +459,8 @@
 
 #### HashTable
 
-|  Difficulty  | Title | Review |
-|---|---|---|
+|  Difficulty  | Title |
+|---|---|
 |  easy | [Jewels and Stones](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_771_Jewels_and_Stones.java) |
 |  easy | [Uncommon Words from Two Sentences](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_884_Uncommon_Words_from_Two_Sentences.java) |
 |  easy | [Set Mismatch](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_645_Set_Mismatch.java) |
@@ -483,8 +487,8 @@
 
 #### Heap
 
-|  Difficulty  | Title | Review |
-|---|---|---|
+|  Difficulty  | Title |
+|---|---|
 |  easy | [Kth Largest Element in a Stream](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/heap/_703_Kth_Largest_Element_in_a_Stream.java) |
 |  medium | [Top K Frequent Elements](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/heap/_347_Top_K_Frequent_Elements.java) |
 |  medium | [Kth Smallest Element in a Sorted Matrix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/heap/_378_Kth_Smallest_Element_in_a_Sorted_Matrix.java) |
@@ -494,8 +498,8 @@
 
 #### Greedy
 
-|  Difficulty  | Title | Review |
-|---|---|---|
+|  Difficulty  | Title |
+|---|---|
 |  easy | [Lemonade Change](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_860_Lemonade_Change.java) |
 |  easy | [Assign Cookies](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_455_Assign_Cookies.java) |
 |  easy | [String Without AAA or BBB](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_984_String_Without_AAA_or_BBB.java) |
@@ -505,8 +509,8 @@
 
 #### Others
 
-|  Difficulty  | Title | Review |
-|---|---|---|
+|  Difficulty  | Title |
+|---|---|
 |  easy | [Missing Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_268_Missing_Number.java) |
 |  easy | [Number of 1 Bits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_191_Number_of_1_Bits.java) |
 |  easy | [Hamming Distance](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_461_Hamming_Distance.java) |
@@ -530,12 +534,12 @@
 |  medium | [Longest Word in Dictionary through Deleting](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_524_Longest_Word_in_Dictionary_through_Deleting.java) |
 |  medium | [Boats to Save People](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_881_Boats_to_Save_People.java) |
 |  medium | [Validate Stack Sequences](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_946_Validate_Stack_Sequences.java) |
-|  medium | [Counting Bits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_338_Counting_Bits.java) |<center>🤔</center>|
+|  medium | [Counting Bits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_338_Counting_Bits.java) 🤔|
 
 #### Design
 
-|  Difficulty  | Title | Review |
-|---|---|---|
+|  Difficulty  | Title |
+|---|---|
 |  easy | [Min Stack](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/design/_155_Min_Stack.java) |
 |  easy | [Shuffle an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/design/_384_Shuffle_an_Array.java) |
 |  easy | [Guess Number Higher or Lower](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/design/_374_Guess_Number_Higher_or_Lower.java) |
@@ -550,8 +554,8 @@
 
 #### DP
 
-|  Difficulty  | Title | Review |
-|---|---|---|
+|  Difficulty  | Title |
+|---|---|
 |  easy | [Climbing Stairs](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/dp/_70_Climbing_Stairs.java) |
 |  easy | [Best Time to Buy and Sell Stock](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/dp/_121_Best_Time_to_Buy_and_Sell_Stock.java) |
 |  easy | [Maximum Subarray](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/dp/_053_Maximum_Subarray.java) |
@@ -559,8 +563,8 @@
 
 #### Backtracking
 
-|  Difficulty  | Title | Review |
-|---|---|---|
+|  Difficulty  | Title |
+|---|---|
 |  medium | [Letter Combinations of a Phone Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/backtracking/_017_Letter_Combinations_of_a_Phone_Number.java) |
 |  medium | [Permutations](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/backtracking/_046_Permutations.java) |
 |  medium | [Combinations](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/backtracking/_077_Combinations.java) |
