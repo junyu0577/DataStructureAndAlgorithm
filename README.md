@@ -426,6 +426,8 @@
 |  medium | [Delete Leaves With a Given Value](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1325_Delete_Leaves_With_a_Given_Value.java) |
 |  medium | [Path Sum II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_113_Path_Sum_II.java) |
 |  medium | [Construct Binary Search Tree from Preorder Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1008_Construct_Binary_Search_Tree_from_Preorder_Traversal.java) |
+|  medium | [All Elements in Two Binary Search Trees](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1305_All_Elements_in_Two_Binary_Search_Trees.java) |
+|  medium | [Find Elements in a Contaminated Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1261_Find_Elements_in_a_Contaminated_Binary_Tree.java) |
 
 #### Math
 
