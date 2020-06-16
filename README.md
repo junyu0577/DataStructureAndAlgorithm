@@ -424,7 +424,8 @@
 |  medium | [Longest ZigZag Path in a Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1372_Longest_ZigZag_Path_in_a_Binary_Tree.java) |
 |  medium | [Deepest Leaves Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1302_Deepest_Leaves_Sum.java) |
 |  medium | [Delete Leaves With a Given Value](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1325_Delete_Leaves_With_a_Given_Value.java) |
-|  medium | [113. Path Sum II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_113_Path_Sum_II.java) |
+|  medium | [Path Sum II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_113_Path_Sum_II.java) |
+|  medium | [Construct Binary Search Tree from Preorder Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1008_Construct_Binary_Search_Tree_from_Preorder_Traversal.java) |
 
 #### Math
 
