@@ -253,6 +253,7 @@
 |  easy | [Cells with Odd Values in a Matrix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1252_Cells_with_Odd_Values_in_a_Matrix.java) |
 |  easy | [Final Prices With a Special Discount in a Shop](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1475_Final_Prices_With_a_Special_Discount_in_a_Shop.java) |
 |  easy | [Third Maximum Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_414_Third_Maximum_Number.java) |
+|  easy | [Minimum Value to Get Positive Step by Step Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1413_Minimum_Value_to_Get_Positive_Step_by_Step_Sum.java) |
 |  medium | [Maximum Swap](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_670_Maximum_Swap.java) |
 |  medium | [3Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_015_3Sum.java) |
 |  medium | [Group Anagrams](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_049_Group_Anagrams.java) |
@@ -338,7 +339,6 @@
 |  medium | [Find All Anagrams in a String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_438_Find_All_Anagrams_in_a_String.java) |
 |  medium | [Minimum Number of Steps to Make Two Strings Anagram](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram.java) |
 |  medium | [Minimum Add to Make Parentheses Valid](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_921_Minimum_Add_to_Make_Parentheses_Valid.java) |
-|  medium | [Maximum Level Sum of a Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_1161_Maximum_Level_Sum_of_a_Binary_Tree.java) |
 
 #### Sort
 
@@ -432,6 +432,8 @@
 |  medium | [Construct Binary Search Tree from Preorder Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1008_Construct_Binary_Search_Tree_from_Preorder_Traversal.java) |
 |  medium | [All Elements in Two Binary Search Trees](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1305_All_Elements_in_Two_Binary_Search_Trees.java) |
 |  medium | [Find Elements in a Contaminated Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1261_Find_Elements_in_a_Contaminated_Binary_Tree.java) |
+|  medium | [Count Good Nodes in Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1448_Count_Good_Nodes_in_Binary_Tree.java) |
+|  medium | [Maximum Level Sum of a Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1161_Maximum_Level_Sum_of_a_Binary_Tree.java) |
 
 #### Math
 
