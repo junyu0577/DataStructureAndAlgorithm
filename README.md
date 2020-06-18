@@ -254,6 +254,8 @@
 |  easy | [Final Prices With a Special Discount in a Shop](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1475_Final_Prices_With_a_Special_Discount_in_a_Shop.java) |
 |  easy | [Third Maximum Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_414_Third_Maximum_Number.java) |
 |  easy | [Minimum Value to Get Positive Step by Step Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1413_Minimum_Value_to_Get_Positive_Step_by_Step_Sum.java) |
+|  easy | [Find the Distance Value Between Two Arrays](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1385_Find_the_Distance_Value_Between_Two_Arrays.java) |
+|  easy | [Compare Strings by Frequency of the Smallest Character](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1170_Compare_Strings_by_Frequency_of_the_Smallest_Character.java) |
 |  medium | [Maximum Swap](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_670_Maximum_Swap.java) |
 |  medium | [3Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_015_3Sum.java) |
 |  medium | [Group Anagrams](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_049_Group_Anagrams.java) |
