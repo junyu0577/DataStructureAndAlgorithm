@@ -284,6 +284,7 @@
 |  medium | [Max Increase to Keep City Skyline](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_807_Max_Increase_to_Keep_City_Skyline.java) |
 |  medium | [Reduce Array Size to The Half](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_1338_Reduce_Array_Size_to_The_Half.java) |
 |  medium | [Count Number of Teams](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_1395_Count_Number_of_Teams.java) |
+|  medium | [Subarray Sums Divisible by K](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_974_Subarray_Sums_Divisible_by_K.java) 🤔|
 |  hard | [Find Minimum in Rotated Sorted Array II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/hard/array/_154_Find_Minimum_in_Rotated_Sorted_Array_II.java) |
 
 #### String
@@ -565,6 +566,7 @@
 |  medium | [Design a Stack With Increment Operation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1381_Design_a_Stack_With_Increment_Operation.java) |
 |  medium | [Product of the Last K Numbers](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1352_Product_of_the_Last_K_Numbers.java) |
 |  medium | [Design Browser History](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1472_Design_Browser_History.java) |
+|  medium | [Apply Discount Every n Orders](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1357_Apply_Discount_Every_n_Orders.java) |
 
 #### DP
 
