@@ -471,6 +471,7 @@
 |  easy | [Day of the Week](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1185_Day_of_the_Week.java) |
 |  easy | [Convert Integer to the Sum of Two No-Zero Integers](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1317_Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers.java) |
 |  easy | [Check If It Is a Straight Line](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1232_Check_If_It_Is_a_Straight_Line.java) |
+|  easy | [Find Positive Integer Solution for a Given Equation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1237_Find_Positive_Integer_Solution_for_a_Given_Equation.java) |
 |  medium | [Pow x n](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_050_Pow_x_n.java) |
 |  medium | [Ugly Number II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_264_Ugly_Number_II.java) |
 
@@ -522,6 +523,7 @@
 |  easy | [Assign Cookies](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_455_Assign_Cookies.java) |
 |  easy | [String Without AAA or BBB](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_984_String_Without_AAA_or_BBB.java) |
 |  easy | [Two City Scheduling](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1029_Two_City_Scheduling.java) |
+|  easy | [Delete Columns to Make Sorted](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_944_Delete_Columns_to_Make_Sorted.java) |
 |  medium | [Group the People Given the Group Size They Belong To](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1282_Group_the_People_Given_the_Group_Size_They_Belong_To.java) |
 
 
