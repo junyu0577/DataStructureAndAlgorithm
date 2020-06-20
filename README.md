@@ -550,12 +550,14 @@
 |  easy | [Prime Number of Set Bits in Binary Representation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_762_Prime_Number_of_Set_Bits_in_Binary_Representation.java) |
 |  easy | [Sort Integers by The Number of 1 Bits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_1356_Sort_Integers_by_The_Number_of_1_Bits.java) |
 |  easy | [Number of Steps to Reduce a Number to Zero](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_1342_Number_of_Steps_to_Reduce_a_Number_to_Zero.java) |
+|  easy | [Print in Order](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/others/_1114_Print_in_Order.java) |
 |  medium | [Evaluate Reverse Polish Notation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_150_Evaluate_Reverse_Polish_Notation.java) |
 |  medium | [Score of Parentheses](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_856_Score_of_Parentheses.java) |
 |  medium | [Longest Word in Dictionary through Deleting](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_524_Longest_Word_in_Dictionary_through_Deleting.java) |
 |  medium | [Boats to Save People](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_881_Boats_to_Save_People.java) |
 |  medium | [Validate Stack Sequences](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_946_Validate_Stack_Sequences.java) |
 |  medium | [Counting Bits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_338_Counting_Bits.java) 🤔|
+|  medium | [Print FooBar Alternately](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_1115_Print_FooBar_Alternately.java) |
 
 #### Design
 
