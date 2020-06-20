@@ -558,6 +558,8 @@
 |  medium | [Validate Stack Sequences](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_946_Validate_Stack_Sequences.java) |
 |  medium | [Counting Bits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_338_Counting_Bits.java) 🤔|
 |  medium | [Print FooBar Alternately](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_1115_Print_FooBar_Alternately.java) |
+|  medium | [Print Zero Even Odd](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_1116_Print_Zero_Even_Odd.java) |
+|  medium | [Building H2O](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/others/_1117_Building_H2O.java) |
 
 #### Design
 
