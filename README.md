@@ -350,6 +350,7 @@
 |  medium | [Find All Anagrams in a String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_438_Find_All_Anagrams_in_a_String.java) |
 |  medium | [Minimum Number of Steps to Make Two Strings Anagram](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram.java) |
 |  medium | [Minimum Add to Make Parentheses Valid](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_921_Minimum_Add_to_Make_Parentheses_Valid.java) |
+|  medium | [Search Suggestions System](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_1268_Search_Suggestions_System.java) |
 
 #### Sort
 
@@ -580,6 +581,7 @@
 |  medium | [Product of the Last K Numbers](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1352_Product_of_the_Last_K_Numbers.java) |
 |  medium | [Design Browser History](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1472_Design_Browser_History.java) |
 |  medium | [Apply Discount Every n Orders](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1357_Apply_Discount_Every_n_Orders.java) |
+|  medium | [Design Underground System](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1396_Design_Underground_System.java) |
 
 #### DP
 
