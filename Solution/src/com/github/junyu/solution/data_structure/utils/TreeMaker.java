@@ -8,10 +8,13 @@ public class TreeMaker {
 
     /**
      * 将数组转化为二叉树
+     *
      * @param arr
      * @return
      */
     public static TreeNode array2BinaryTree(Integer[] arr) {
+        if (arr == null || arr.length == 0)
+            return null;
         TreeNode treeNode = new TreeNode(arr[0]);
         LinkedList<TreeNode> linkedList = new LinkedList<>();
         linkedList.add(treeNode);

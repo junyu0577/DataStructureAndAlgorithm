@@ -529,6 +529,7 @@
 |  easy | [String Without AAA or BBB](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_984_String_Without_AAA_or_BBB.java) |
 |  easy | [Two City Scheduling](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1029_Two_City_Scheduling.java) |
 |  easy | [Delete Columns to Make Sorted](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_944_Delete_Columns_to_Make_Sorted.java) |
+|  easy | [Play with Chips](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1217_Play_with_Chips.java) |
 |  medium | [Group the People Given the Group Size They Belong To](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1282_Group_the_People_Given_the_Group_Size_They_Belong_To.java) |
 
 
@@ -582,6 +583,7 @@
 |  medium | [Design Browser History](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1472_Design_Browser_History.java) |
 |  medium | [Apply Discount Every n Orders](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1357_Apply_Discount_Every_n_Orders.java) |
 |  medium | [Design Underground System](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_1396_Design_Underground_System.java) |
+|  medium | [Serialize and Deserialize BST](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/design/_449_Serialize_and_Deserialize_BST.java) 🤔 |
 
 #### DP
 
