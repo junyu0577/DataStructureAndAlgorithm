@@ -19,8 +19,8 @@ public class TreeMaker {
         LinkedList<TreeNode> linkedList = new LinkedList<>();
         linkedList.add(treeNode);
         for (int i = 1; i < arr.length; i += 2) {
-            if (arr[i] ==null && arr[i+1] == null)
-                continue;
+//            if (arr[i] ==null && arr[i+1] == null)
+//                continue;
 
             TreeNode node = linkedList.removeFirst();
             if (arr[i] != null) {
