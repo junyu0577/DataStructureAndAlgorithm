@@ -351,6 +351,7 @@
 |  easy | [Add Binary](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_67_Add_Binary.java) |
 |  easy | [Greatest Common Divisor of Strings](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1071_Greatest_Common_Divisor_of_Strings.java) |
 |  easy | [Day of the Year](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1154_Day_of_the_Year.java) |
+|  easy | [Longest Uncommon Subsequence I](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_521_Longest_Uncommon_Subsequence_I.java) |
 |  medium | [Longest Substring Without Repeating Characters](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_003_Longest_Substring_Without_Repeating_Characters.java) |
 |  medium | [Longest Palindromic Substring](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_005_Longest_Palindromic_Substring.java) |
 |  medium | [Partition Labels](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_763_Partition_Labels.java) |
@@ -362,6 +363,7 @@
 |  medium | [Minimum Number of Steps to Make Two Strings Anagram](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram.java) |
 |  medium | [Minimum Add to Make Parentheses Valid](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_921_Minimum_Add_to_Make_Parentheses_Valid.java) |
 |  medium | [Search Suggestions System](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_1268_Search_Suggestions_System.java) |
+|  medium | [Custom Sort String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_791_Custom_Sort_String.java) |
 
 #### Sort
 
@@ -547,6 +549,7 @@
 |  easy | [Delete Columns to Make Sorted](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_944_Delete_Columns_to_Make_Sorted.java) |
 |  easy | [Play with Chips](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1217_Play_with_Chips.java) |
 |  easy | [Is Subsequence](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_392_Is_Subsequence.java) |
+|  easy | [Last Stone Weight](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1046_Last_Stone_Weight.java) |
 |  medium | [Group the People Given the Group Size They Belong To](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1282_Group_the_People_Given_the_Group_Size_They_Belong_To.java) |
 
 
