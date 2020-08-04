@@ -26,38 +26,61 @@ public class _415_Add_Strings {
      * @param num2
      * @return
      */
+//    public String addStrings(String num1, String num2) {
+//        char cs1[] = num1.toCharArray();
+//        char cs2[] = num2.toCharArray();
+//        int maxIndex = cs1.length > cs2.length ? cs1.length : cs2.length;
+//        char cs[] = new char[maxIndex];
+//        int p1 = cs1.length - 1;
+//        int p2 = cs2.length - 1;
+//        int remain = 0;
+//        while (p1 >= 0 || p2 >= 0) {
+//            int x = 0;
+//            int y = 0;
+//            if (p1 >= 0) {
+//                x = (cs1[p1] - '0');
+//            }
+//            if (p2 >= 0) {
+//                y = (cs2[p2] - '0');
+//            }
+//            int num = x + y + remain;
+//            cs[--maxIndex] = (char) ((num % 10) + '0');
+//            if (num > 9) {
+//                remain = 1;
+//            } else {
+//                remain = 0;
+//            }
+//            p1--;
+//            p2--;
+//        }
+//        String res = new String(cs);
+//        if (remain == 1) {
+//            res = "1" + res;
+//        }
+//        return res;
+//    }
+
+    /**
+     * 思路：思路同上一个方法，通过两个指针从末尾开始依次想前将两个当前字符两两相加。通过将结果添加到StringBuilder中最后再取反得到结果。
+     * @param num1
+     * @param num2
+     * @return
+     */
     public String addStrings(String num1, String num2) {
-        char cs1[] = num1.toCharArray();
-        char cs2[] = num2.toCharArray();
-        int maxIndex = cs1.length > cs2.length ? cs1.length : cs2.length;
-        char cs[] = new char[maxIndex];
-        int p1 = cs1.length - 1;
-        int p2 = cs2.length - 1;
-        int remain = 0;
-        while (p1 >= 0 || p2 >= 0) {
-            int x = 0;
-            int y = 0;
-            if (p1 >= 0) {
-                x = (cs1[p1] - '0');
-            }
-            if (p2 >= 0) {
-                y = (cs2[p2] - '0');
-            }
-            int num = x + y + remain;
-            cs[--maxIndex] = (char) ((num % 10) + '0');
-            if (num > 9) {
-                remain = 1;
-            } else {
-                remain = 0;
-            }
-            p1--;
-            p2--;
+        StringBuilder sb = new StringBuilder();
+        int i1 = num1.length()-1;
+        int i2 = num2.length()-1;
+        int extra = 0;
+        while (i1 >= 0 || i2 >= 0 || extra>0) {
+            int left =  i1>=0? num1.charAt(i1)-'0':0;
+            int right =  i2>=0? num2.charAt(i2)-'0':0;
+            int res = left+right+extra;
+            sb.append((res)%10);
+            extra = (res)/10;
+            i1--;
+            i2--;
         }
-        String res = new String(cs);
-        if (remain == 1) {
-            res = "1" + res;
-        }
-        return res;
+        return sb.reverse().toString();
     }
 
 
