@@ -476,6 +476,7 @@
 |  medium | [Find Elements in a Contaminated Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1261_Find_Elements_in_a_Contaminated_Binary_Tree.java) |
 |  medium | [Count Good Nodes in Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1448_Count_Good_Nodes_in_Binary_Tree.java) |
 |  medium | [Maximum Level Sum of a Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1161_Maximum_Level_Sum_of_a_Binary_Tree.java) |
+|  medium | [Sum of Nodes with Even Valued Grandparent](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1315_Sum_of_Nodes_with_Even_Valued_Grandparent.java) |
 
 #### Math
 
