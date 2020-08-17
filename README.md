@@ -276,6 +276,7 @@
 |  easy | [Count Odd Numbers in an Interval Range](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1523_Count_Odd_Numbers_in_an_Interval_Range.java) |
 |  easy | [Number of Good Ways to Split a String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1525_Number_of_Good_Ways_to_Split_a_String.java) |
 |  easy | [Count Good Triplets](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1534_Count_Good_Triplets.java) |
+|  easy | [Three Consecutive Odds](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1550_Three_Consecutive_Odds.java) |
 |  medium | [Maximum Swap](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_670_Maximum_Swap.java) |
 |  medium | [3Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_015_3Sum.java) |
 |  medium | [Group Anagrams](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_049_Group_Anagrams.java) |
@@ -309,6 +310,7 @@
 |  medium | [Least Number of Unique Integers after K Removals](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_1481_Least_Number_of_Unique_Integers_after_K_Removals.java) |
 |  medium | [Longest Subarray of 1's After Deleting One Element](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_1493_Longest_Subarray_of_1s_After_Deleting_One_Element.java) |
 |  medium | [Minimum Difference Between Largest and Smallest Value in Three Moves](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_1509_Minimum_Difference_Between_Largest_and_Smallest_Value_in_Three_Moves.java) |
+|  medium | [Minimum Operations to Make Array Equal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_1551_Minimum_Operations_to_Make_Array_Equal.java) |
 |  hard | [Find Minimum in Rotated Sorted Array II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/hard/array/_154_Find_Minimum_in_Rotated_Sorted_Array_II.java) |
 
 #### String
