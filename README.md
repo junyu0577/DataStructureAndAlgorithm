@@ -481,6 +481,7 @@
 |  medium | [Count Good Nodes in Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1448_Count_Good_Nodes_in_Binary_Tree.java) |
 |  medium | [Maximum Level Sum of a Binary Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1161_Maximum_Level_Sum_of_a_Binary_Tree.java) |
 |  medium | [Sum of Nodes with Even Valued Grandparent](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1315_Sum_of_Nodes_with_Even_Valued_Grandparent.java) |
+|  medium | [Even Odd Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/tree/_1609_Even_Odd_Tree.java) |
 
 #### Math
 
