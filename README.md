@@ -381,6 +381,8 @@
 |  easy | [Substrings of Size Three with Distinct Characters](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1876_Substrings_of_Size_Three_with_Distinct_Characters.java) |
 |  easy | [Replace All Digits with Characters](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1844_Replace_All_Digits_with_Characters.java) |
 |  easy | [Check if the Sentence Is Pangram](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1832_Check_if_the_Sentence_Is_Pangram.java) |
+|  easy | [Truncate Sentence](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1816_Truncate_Sentence.java) |
+|  easy | [Determine Color of a Chessboard Square](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1812_Determine_Color_of_a_Chessboard_Square.java) |
 |  medium | [Longest Substring Without Repeating Characters](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_003_Longest_Substring_Without_Repeating_Characters.java) |
 |  medium | [Longest Palindromic Substring](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_005_Longest_Palindromic_Substring.java) |
 |  medium | [Partition Labels](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_763_Partition_Labels.java) |
@@ -526,6 +528,7 @@
 |  easy | [Check If It Is a Straight Line](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1232_Check_If_It_Is_a_Straight_Line.java) |
 |  easy | [Find Positive Integer Solution for a Given Equation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1237_Find_Positive_Integer_Solution_for_a_Given_Equation.java) |
 |  easy | [Sum of Digits in Base K](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1837_Sum_of_Digits_in_Base_K.java) |
+|  easy | [Sign of the Product of an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1822_Sign_of_the_Product_of_an_Array.java) |
 |  medium | [Pow x n](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_050_Pow_x_n.java) |
 |  medium | [Ugly Number II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_264_Ugly_Number_II.java) |
 |  medium | [The kth Factor of n](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_1492_The_kth_Factor_of_n.java) |
@@ -583,6 +586,7 @@
 |  easy | [Is Subsequence](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_392_Is_Subsequence.java) |
 |  easy | [Last Stone Weight](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1046_Last_Stone_Weight.java) |
 |  easy | [Water Bottles](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1518_Water_Bottles.java) |
+|  easy | [Minimum Operations to Make the Array Increasing](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1827_Minimum_Operations_to_Make_the_Array_Increasing.java) |
 |  medium | [Group the People Given the Group Size They Belong To](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1282_Group_the_People_Given_the_Group_Size_They_Belong_To.java) |
 
 
