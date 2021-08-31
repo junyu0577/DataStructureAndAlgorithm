@@ -601,6 +601,7 @@
 |  easy | [Water Bottles](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1518_Water_Bottles.java) |
 |  easy | [Minimum Operations to Make the Array Increasing](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1827_Minimum_Operations_to_Make_the_Array_Increasing.java) |
 |  easy | [Minimum Changes To Make Alternating Binary String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1758_Minimum_Changes_To_Make_Alternating_Binary_String.java) |
+|  easy | [Minimum Time to Type Word Using Special Typewriter](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1974_Minimum_Time_to_Type_Word_Using_Special_Typewriter.java) |
 |  medium | [Group the People Given the Group Size They Belong To](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_1282_Group_the_People_Given_the_Group_Size_They_Belong_To.java) |
 
 
