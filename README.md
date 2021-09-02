@@ -1,5 +1,9 @@
 # DataStructureAndAlgorithm
 
+[![Travis](https://img.shields.io/badge/language-java-yellow)]()
+
+
+
 ### 目录
 
 * [DataStructure](#datastructure)
@@ -397,7 +401,9 @@
 |  easy | [Merge Strings Alternately](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1768_Merge_Strings_Alternately.java) |
 |  easy | [Longest Nice Substring](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1763_Longest_Nice_Substring.java) |
 |  easy | [Number of Strings That Appear as Substrings in Word](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1967_Number_of_Strings_That_Appear_as_Substrings_in_Word.java) |
-|  easy | [1961. Check If String Is a Prefix of Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1961_Check_If_String_Is_a_Prefix_of_Array.java) |
+|  easy | [Check If String Is a Prefix of Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1961_Check_If_String_Is_a_Prefix_of_Array.java) |
+|  easy | [Delete Characters to Make Fancy String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1957_Delete_Characters_to_Make_Fancy_String.java) |
+|  easy | [Sum of Digits of String After Convert](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1945_Sum_of_Digits_of_String_After_Convert.java) |
 |  medium | [Longest Substring Without Repeating Characters](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_003_Longest_Substring_Without_Repeating_Characters.java) |
 |  medium | [Longest Palindromic Substring](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_005_Longest_Palindromic_Substring.java) |
 |  medium | [Partition Labels](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_763_Partition_Labels.java) |
