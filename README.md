@@ -295,6 +295,7 @@
 |  easy | [Minimum Difference Between Highest and Lowest of K Scores](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1984_Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores.java) |
 |  easy | [Find Greatest Common Divisor of Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_1979_Find_Greatest_Common_Divisor_of_Array.java) |
 |  easy | [Convert 1D Array Into 2D Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2022_Convert_1D_Array_Into_2D_Array.java) |
+|  easy | [Smallest Index With Equal Value](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2057_Smallest_Index_With_Equal_Value.java) |
 |  medium | [Maximum Swap](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_670_Maximum_Swap.java) |
 |  medium | [3Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_015_3Sum.java) |
 |  medium | [Group Anagrams](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/array/_049_Group_Anagrams.java) |
@@ -405,6 +406,7 @@
 |  easy | [Check If String Is a Prefix of Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1961_Check_If_String_Is_a_Prefix_of_Array.java) |
 |  easy | [Delete Characters to Make Fancy String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1957_Delete_Characters_to_Make_Fancy_String.java) |
 |  easy | [Sum of Digits of String After Convert](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_1945_Sum_of_Digits_of_String_After_Convert.java) |
+|  easy | [Check if Numbers Are Ascending in a Sentence](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2042_Check_if_Numbers_Are_Ascending_in_a_Sentence.java) |
 |  medium | [Longest Substring Without Repeating Characters](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_003_Longest_Substring_Without_Repeating_Characters.java) |
 |  medium | [Longest Palindromic Substring](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_005_Longest_Palindromic_Substring.java) |
 |  medium | [Partition Labels](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/string/_763_Partition_Labels.java) |
@@ -551,6 +553,7 @@
 |  easy | [Find Positive Integer Solution for a Given Equation](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1237_Find_Positive_Integer_Solution_for_a_Given_Equation.java) |
 |  easy | [Sum of Digits in Base K](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1837_Sum_of_Digits_in_Base_K.java) |
 |  easy | [Sign of the Product of an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_1822_Sign_of_the_Product_of_an_Array.java) |
+|  easy | [Kth Distinct String in an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_2053_Kth_Distinct_String_in_an_Array.java) |
 |  medium | [Pow x n](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_050_Pow_x_n.java) |
 |  medium | [Ugly Number II](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_264_Ugly_Number_II.java) |
 |  medium | [The kth Factor of n](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/medium/math/_1492_The_kth_Factor_of_n.java) |
