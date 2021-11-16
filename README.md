@@ -172,6 +172,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [2073. Time Needed to Buy Tickets](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2073_Time_Needed_to_Buy_Tickets.java) |
 |  easy | [Two Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_001_TwoSum.java) |
 |  easy | [Two Sum II Input array is sorted](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_167_Two_Sum_II_Input_array_is_sorted.java) |
 |  easy | [Single Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_002_SingleNumber.java) |
@@ -337,6 +338,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Count Vowel Substrings of a String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2062_Count_Vowel_Substrings_of_a_String.java) |
 |  easy | [Reverse String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_344_Reverse_String.java) |
 |  easy | [First Unique Character In A String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_387_FirstUniqueCharacterInAString.java) |
 |  easy | [Reverse Integer](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_007_Reverse_Integer.java) |
@@ -562,6 +564,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [2068. Check Whether Two Strings are Almost Equivalent](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_2068_Check_Whether_Two_Strings_are_Almost_Equivalent.java) |
 |  easy | [Jewels and Stones](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_771_Jewels_and_Stones.java) |
 |  easy | [Uncommon Words from Two Sentences](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_884_Uncommon_Words_from_Two_Sentences.java) |
 |  easy | [Set Mismatch](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_645_Set_Mismatch.java) |
