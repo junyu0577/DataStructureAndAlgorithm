@@ -47,48 +47,75 @@ public class _2073_Time_Needed_to_Buy_Tickets {
 1 <= n <= 100
             1 <= tickets[i] <= 100
             0 <= k < n
+
 */
 
     /**
-     * 买票需要的时间
-     * 通过自定义对象，标记目标target。
-     * 每次循环time都需要增加1秒。取出队列的第一个对象，减去票数以后判断剩余的数量，如果恰好为0并且是目标对象，则直接返回time。
-     * 否则继续判断当前对象是否有余票，如果有则将其从队首移到队尾。
-     * 直到循环到目标的票数为0为止。
+     * 优化方案，不使用对象，不断的遍历数组，每次遍历同时减少票数，当票数大于0的时候需要累加time。然后再对减后的
+     * 当前元素进行判断，如刚好是第k个且票数为0则返回time。
      *
-     * Runtime: 6 ms, faster than 44.44% of Java online submissions for Time Needed to Buy Tickets.
-     * Memory Usage: 36.8 MB, less than 66.67% of Java online submissions for Time Needed to Buy Tickets.
+     * 执行用时：2 ms, 在所有 Java 提交中击败了44.23%的用户
+     * 内存消耗：35.9 MB, 在所有 Java 提交中击败了55.97%的用户
      * @param tickets
      * @param k
      * @return
      */
     public int timeRequiredToBuy(int[] tickets, int k) {
-        List<Target> list = new ArrayList<>();
-        for (int i=0;i<tickets.length;i++){
-            Target targetBean = new Target(false,tickets[i]);
-            list.add(targetBean);
-        }
-        list.get(k).isTarget = true;
 
         int time = 0;
-        while (true){
-            time++;
-            Target target = list.get(0);
-            target.tickets--;
-            if (target.isTarget && target.tickets==0)
-                return time;
-
-            if (target.tickets>0){
-                list.add(target);
+        while (true) {
+            for (int i = 0; i < tickets.length; i++) {
+                if (tickets[i] > 0) {
+                    tickets[i]--;
+                    time++;
+                }
+                if (tickets[k] == 0)
+                    return time;
             }
-            list.remove(0);
         }
 
     }
 
-    class Target{
-       public boolean isTarget;
-       public int tickets;
+//    /**
+//     * 买票需要的时间
+//     * 通过自定义对象，标记目标target。
+//     * 每次循环time都需要增加1秒。取出队列的第一个对象，减去票数以后判断剩余的数量，如果恰好为0并且是目标对象，则直接返回time。
+//     * 否则继续判断当前对象是否有余票，如果有则将其从队首移到队尾。
+//     * 直到循环到目标的票数为0为止。
+//     *
+//     * Runtime: 6 ms, faster than 44.44% of Java online submissions for Time Needed to Buy Tickets.
+//     * Memory Usage: 36.8 MB, less than 66.67% of Java online submissions for Time Needed to Buy Tickets.
+//     * @param tickets
+//     * @param k
+//     * @return
+//     */
+//    public int timeRequiredToBuy(int[] tickets, int k) {
+//        List<Target> list = new ArrayList<>();
+//        for (int i=0;i<tickets.length;i++){
+//            Target targetBean = new Target(false,tickets[i]);
+//            list.add(targetBean);
+//        }
+//        list.get(k).isTarget = true;
+//
+//        int time = 0;
+//        while (true){
+//            time++;
+//            Target target = list.get(0);
+//            target.tickets--;
+//            if (target.isTarget && target.tickets==0)
+//                return time;
+//
+//            if (target.tickets>0){
+//                list.add(target);
+//            }
+//            list.remove(0);
+//        }
+//
+//    }
+
+    class Target {
+        public boolean isTarget;
+        public int tickets;
 
         public Target(boolean isTarget, int tickets) {
             this.isTarget = isTarget;
@@ -96,10 +123,10 @@ public class _2073_Time_Needed_to_Buy_Tickets {
         }
     }
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         _2073_Time_Needed_to_Buy_Tickets test = new _2073_Time_Needed_to_Buy_Tickets();
-        System.out.println(test.timeRequiredToBuy(new int[]{2,3,2},2));
-        System.out.println(test.timeRequiredToBuy(new int[]{5,1,1,1},0));
+        System.out.println(test.timeRequiredToBuy(new int[]{2, 3, 2}, 2));
+        System.out.println(test.timeRequiredToBuy(new int[]{5, 1, 1, 1}, 0));
     }
 
 }

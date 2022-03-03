@@ -172,7 +172,8 @@
 
 |  Difficulty  | Title |
 |---|---|
-|  easy | [2073. Time Needed to Buy Tickets](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2073_Time_Needed_to_Buy_Tickets.java) |
+|  easy | [Count Equal and Divisible Pairs in an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2176_Count_Equal_and_Divisible_Pairs_in_an_Array.java) |
+|  easy | [Time Needed to Buy Tickets](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2073_Time_Needed_to_Buy_Tickets.java) |
 |  easy | [Two Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_001_TwoSum.java) |
 |  easy | [Two Sum II Input array is sorted](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_167_Two_Sum_II_Input_array_is_sorted.java) |
 |  easy | [Single Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_002_SingleNumber.java) |
@@ -338,6 +339,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Counting Words With a Given Prefix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2185_Counting_Words_With_a_Given_Prefix.java) |
 |  easy | [Count Vowel Substrings of a String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2062_Count_Vowel_Substrings_of_a_String.java) |
 |  easy | [Reverse String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_344_Reverse_String.java) |
 |  easy | [First Unique Character In A String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_387_FirstUniqueCharacterInAString.java) |
@@ -528,6 +530,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Count Integers With Even Digit Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_2180_Count_Integers_With_Even_Digit_Sum.java) |
 |  easy | [Count_Primes](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_001_Count_Primes.java) |
 |  easy | [Power_of_Three](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_362_Power_of_Three.java) |
 |  easy | [Fizz Buzz](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_412_Fizz_Buzz.java) |
