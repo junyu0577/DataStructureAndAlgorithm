@@ -40,7 +40,7 @@ public class _2169_Count_Operations_to_Obtain_Zero {
 
     /**
      * 得到 0 的操作数
-     * todo Time Limit Exceeded
+     * todo  Time Limit Exceeded
      *
      *
      * @param num1
