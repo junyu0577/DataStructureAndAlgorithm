@@ -39,9 +39,14 @@ public class _2169_Count_Operations_to_Obtain_Zero {
     */
 
     /**
-     * 得到 0 的操作数
-     * todo  Time Limit Exceeded
+     * 使得num1或者num2 等于 0 的操作数
      *
+     * 在模拟前可以提前排除掉一些情况以降低整体模拟的次数。
+     * 1.一开始就有等于0的情况
+     * 2.能够被整除的情况，操作数就等于大数/小数的值
+     *
+     * Runtime: 2 ms, faster than 73.92% of Java online submissions for Count Operations to Obtain Zero.
+     * Memory Usage: 41.2 MB, less than 45.39% of Java online submissions for Count Operations to Obtain Zero.
      *
      * @param num1
      * @param num2
@@ -49,24 +54,39 @@ public class _2169_Count_Operations_to_Obtain_Zero {
      */
     public int countOperations(int num1, int num2) {
         int ans = 0;
-        if (num1+num2==0)
+        if (num1 == 0 || num2 == 0)
             return 0;
 
-        while (num1-num2!=0){
+        if (num1 % num2 == 0)
+            return num1 / num2;
+
+        if (num2 % num1 == 0)
+            return num2 / num1;
+
+        while (num1 != 0 && num2 != 0) {
             ans++;
-            if (num1>num2)
-                num1 = num1-num2;
-            else if (num2>num1)
-                num2 = num2-num1;
+            if (num1 > num2)
+                num1 = num1 - num2;
+            else if (num2 > num1)
+                num2 = num2 - num1;
             else
                 break;
         }
-        return ans+1;
+        return ans;
     }
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         _2169_Count_Operations_to_Obtain_Zero test = new _2169_Count_Operations_to_Obtain_Zero();
-        System.out.println(test.countOperations(2,3));
-        System.out.println(test.countOperations(10,10));
+        System.out.println(test.countOperations(2, 3));
+        System.out.println(test.countOperations(10, 10));
+        System.out.println(test.countOperations(8, 8));
+        System.out.println(test.countOperations(8, 4));
+        System.out.println(test.countOperations(8, 7));
+        System.out.println(test.countOperations(8, 1));
+        System.out.println(test.countOperations(8, 2));
+        System.out.println(test.countOperations(11, 3));
+        System.out.println(test.countOperations(13, 3));
+        System.out.println(test.countOperations(14, 3));
+        System.out.println(test.countOperations(15, 0));
     }
 }
