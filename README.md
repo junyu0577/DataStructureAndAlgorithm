@@ -172,6 +172,8 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Count Elements With Strictly Smaller and Greater Elements](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2148_Count_Elements_With_Strictly_Smaller_and_Greater_Elements.java) |
+|  easy | [Most Frequent Number Following Key In an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2190_Most_Frequent_Number_Following_Key_In_an_Array.java) |
 |  easy | [Count Equal and Divisible Pairs in an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2176_Count_Equal_and_Divisible_Pairs_in_an_Array.java) |
 |  easy | [Time Needed to Buy Tickets](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2073_Time_Needed_to_Buy_Tickets.java) |
 |  easy | [Two Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_001_TwoSum.java) |
@@ -339,6 +341,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Cells in a Range on an Excel Sheet](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2194_Cells_in_a_Range_on_an_Excel_Sheet.java) |
 |  easy | [Counting Words With a Given Prefix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2185_Counting_Words_With_a_Given_Prefix.java) |
 |  easy | [Count Vowel Substrings of a String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2062_Count_Vowel_Substrings_of_a_String.java) |
 |  easy | [Reverse String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_344_Reverse_String.java) |
@@ -569,7 +572,8 @@
 
 |  Difficulty  | Title |
 |---|---|
-|  easy | [2068. Check Whether Two Strings are Almost Equivalent](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_2068_Check_Whether_Two_Strings_are_Almost_Equivalent.java) |
+|  easy | [Keep Multiplying Found Values by Two](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_2154_Keep_Multiplying_Found_Values_by_Two.java) |
+|  easy | [Check Whether Two Strings are Almost Equivalent](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_2068_Check_Whether_Two_Strings_are_Almost_Equivalent.java) |
 |  easy | [Jewels and Stones](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_771_Jewels_and_Stones.java) |
 |  easy | [Uncommon Words from Two Sentences](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_884_Uncommon_Words_from_Two_Sentences.java) |
 |  easy | [Set Mismatch](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/hashTable/_645_Set_Mismatch.java) |
@@ -610,6 +614,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Minimum Cost of Buying Candies With Discount](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_2144_Minimum_Cost_of_Buying_Candies_With_Discount.java) |
 |  easy | [Minimum Sum of Four Digit Number After Splitting Digits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_2160_Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits.java) |
 |  easy | [Lemonade Change](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_860_Lemonade_Change.java) |
 |  easy | [Assign Cookies](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_455_Assign_Cookies.java) |
