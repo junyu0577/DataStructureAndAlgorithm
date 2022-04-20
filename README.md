@@ -172,6 +172,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Find Closest Number to Zero](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2239_Find_Closest_Number_to_Zero.java) |
 |  easy | [Count Elements With Strictly Smaller and Greater Elements](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2148_Count_Elements_With_Strictly_Smaller_and_Greater_Elements.java) |
 |  easy | [Most Frequent Number Following Key In an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2190_Most_Frequent_Number_Following_Key_In_an_Array.java) |
 |  easy | [Count Equal and Divisible Pairs in an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2176_Count_Equal_and_Divisible_Pairs_in_an_Array.java) |
@@ -341,6 +342,8 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Divide a String Into Groups of Size k](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2138_Divide_a_String_Into_Groups_of_Size_k.java) |
+|  easy | [Calculate Digit Sum of a String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2243_Calculate_Digit_Sum_of_a_String.java) |
 |  easy | [Cells in a Range on an Excel Sheet](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2194_Cells_in_a_Range_on_an_Excel_Sheet.java) |
 |  easy | [Counting Words With a Given Prefix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2185_Counting_Words_With_a_Given_Prefix.java) |
 |  easy | [Count Vowel Substrings of a String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2062_Count_Vowel_Substrings_of_a_String.java) |
@@ -431,6 +434,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Largest Number After Digit Swaps by Parity](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/sort/_2231_Largest_Number_After_Digit_Swaps_by_Parity.java) |
 |  easy | [Sort Even and Odd Indices Independently](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/sort/_2164_Sort_Even_and_Odd_Indices_Independently.java) |
 |  easy | [Merge Sorted Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/sort/_088_Merge_Sorted_Array.java) |
 |  easy | [First Bad Version](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/sort/_002_FirstBadVersion.java) |
@@ -462,6 +466,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Root Equals Sum of Children](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_2236_Root_Equals_Sum_of_Children.java) |
 |  easy | [Binary Tree Level Order Traversal](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_102_Binary_Tree_Level_Order_Traversal.java) |
 |  easy | [Maximum_Depth_of_Binary_Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_104_Maximum_Depth_of_Binary_Tree.java) |
 |  easy | [Validate_Binary_Search_Tree](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/tree/_098_Validate_Binary_Search_Tree.java) |
@@ -534,6 +539,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Add Two Integers](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_2235_Add_Two_Integers.java) |
 |  easy | [Count Operations to Obtain Zero](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_2169_Count_Operations_to_Obtain_Zero.java) |
 |  easy | [Count Integers With Even Digit Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_2180_Count_Integers_With_Even_Digit_Sum.java) |
 |  easy | [Count_Primes](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_001_Count_Primes.java) |
