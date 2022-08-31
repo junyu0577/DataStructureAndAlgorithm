@@ -172,6 +172,8 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Longest Subsequence With Limited Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2389_Longest_Subsequence_With_Limited_Sum.java) |
+|  easy | [Minimum Amount of Time to Fill Cups](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2335_Minimum_Amount_of_Time_to_Fill_Cups.java) |
 |  easy | [Find Closest Number to Zero](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2239_Find_Closest_Number_to_Zero.java) |
 |  easy | [Count Elements With Strictly Smaller and Greater Elements](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2148_Count_Elements_With_Strictly_Smaller_and_Greater_Elements.java) |
 |  easy | [Most Frequent Number Following Key In an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2190_Most_Frequent_Number_Following_Key_In_an_Array.java) |
@@ -620,6 +622,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Minimum Hours of Training to Win a Competition](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_2383_Minimum_Hours_of_Training_to_Win_a_Competition.java) |
 |  easy | [Minimum Cost of Buying Candies With Discount](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_2144_Minimum_Cost_of_Buying_Candies_With_Discount.java) |
 |  easy | [Minimum Sum of Four Digit Number After Splitting Digits](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_2160_Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits.java) |
 |  easy | [Lemonade Change](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/greedy/_860_Lemonade_Change.java) |
