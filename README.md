@@ -172,6 +172,8 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Number of Arithmetic Triplets](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2367_Number_of_Arithmetic_Triplets.java) |
+|  easy | [Largest Local Values in a Matrix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2373_Largest_Local_Values_in_a_Matrix.java) |
 |  easy | [Longest Subsequence With Limited Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2389_Longest_Subsequence_With_Limited_Sum.java) |
 |  easy | [Minimum Amount of Time to Fill Cups](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2335_Minimum_Amount_of_Time_to_Fill_Cups.java) |
 |  easy | [Find Closest Number to Zero](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2239_Find_Closest_Number_to_Zero.java) |
@@ -344,6 +346,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Minimum Recolors to Get K Consecutive Black Blocks](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2379_Minimum_Recolors_to_Get_K_Consecutive_Black_Blocks.java) |
 |  easy | [Divide a String Into Groups of Size k](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2138_Divide_a_String_Into_Groups_of_Size_k.java) |
 |  easy | [Calculate Digit Sum of a String](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2243_Calculate_Digit_Sum_of_a_String.java) |
 |  easy | [Cells in a Range on an Excel Sheet](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/string/_2194_Cells_in_a_Range_on_an_Excel_Sheet.java) |
