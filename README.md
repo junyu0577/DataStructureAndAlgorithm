@@ -172,6 +172,15 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Count Pairs Of Similar Strings](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2506_Count_Pairs_Of_Similar_Strings.java) |
+|  easy | [Maximum Count of Positive Integer and Negative Integer](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2529_Maximum_Count_of_Positive_Integer_and_Negative_Integer.java) |
+|  easy | [Difference Between Element Sum and Digit Sum of an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2535_Difference_Between_Element_Sum_and_Digit_Sum_of_an_Array.java) |
+|  easy | [Minimum Common Value](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2540_Minimum_Common_Value.java) |
+|  easy | [Alternating Digit Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2544_Alternating_Digit_Sum.java) |
+|  easy | [Count Distinct Numbers on Board](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2549_Count_Distinct_Numbers_on_Board.java) |
+|  easy | [Separate the Digits in an Array](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2553_Separate_the_Digits_in_an_Array.java) |
+|  easy | [Take Gifts From the Richest Pile](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2558_Take_Gifts_From_the_Richest_Pile.java) |
+|  easy | [Find the Array Concatenation Value](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2562_Find_the_Array_Concatenation_Value.java) |
 |  easy | [Number of Arithmetic Triplets](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2367_Number_of_Arithmetic_Triplets.java) |
 |  easy | [Largest Local Values in a Matrix](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2373_Largest_Local_Values_in_a_Matrix.java) |
 |  easy | [Longest Subsequence With Limited Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/array/_2389_Longest_Subsequence_With_Limited_Sum.java) |
@@ -544,6 +553,7 @@
 
 |  Difficulty  | Title |
 |---|---|
+|  easy | [Count the Digits That Divide a Number](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_2520_Count_the_Digits_That_Divide_a_Number.java) |
 |  easy | [Add Two Integers](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_2235_Add_Two_Integers.java) |
 |  easy | [Count Operations to Obtain Zero](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_2169_Count_Operations_to_Obtain_Zero.java) |
 |  easy | [Count Integers With Even Digit Sum](https://github.com/junyu0577/DataStructureAndAlgorithm/blob/master/Solution/src/com/github/junyu/solution/leetCode/easy/math/_2180_Count_Integers_With_Even_Digit_Sum.java) |
